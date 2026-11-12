@@ -151,7 +151,10 @@ mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
 .apx-tip{font-size:11.5px;line-height:1.7;color:#6B6154;background:#F6F9FA;border:1px solid #DDE4EA;border-radius:8px;padding:8px 10px}
 .apx-row{padding:9px 0;border-top:1px dashed #E3D9C6;font-size:12.5px;line-height:1.72;color:#3C352C}
 .apx-row:first-of-type{border-top:none}
-.apx-row b{display:block;color:#B25A1E;font-size:13px;margin-bottom:2px}@media print{.sticky{position:static;box-shadow:none}
+.apx-row b{display:block;color:#B25A1E;font-size:13px;margin-bottom:2px}.apx-table{width:100%;border-collapse:collapse;font-size:11.5px;margin-top:8px}
+.apx-table th,.apx-table td{border:1px solid #E3D9C6;padding:6px 7px;text-align:left;vertical-align:top;line-height:1.6}
+.apx-table th{background:#F6F9FA;color:#27546D;font-weight:700}
+.apx-table td:first-child{white-space:nowrap;font-weight:700;color:#3C352C}@media print{.sticky{position:static;box-shadow:none}
  .card .dtwrap,.card .basis,.card .optline,.card .ln.std{display:block!important}
  .tg,.cp,#top,.toast,.chips,.modebar{display:none!important}
  .card{break-inside:avoid;page-break-inside:avoid}}
@@ -179,6 +182,19 @@ mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
     </div>
   </details>
 
+  <details class="apx">
+    <summary>压实度检测频率对照 · 土路基 / 基层 / 沥青面层（城镇与公路两套口径）</summary>
+    <div class="apx-bd">
+      <div class="apx-tip">城镇按 CJJ 1-2008，公路按 JTG F80/1-2017。同一验收批只能适用一套口径，不得混用；公路核子密度仪法需与钻芯法或灌砂法比对。</div>
+      <table class="apx-table">
+        <tr><th>层位</th><th>城镇（CJJ 1-2008）</th><th>公路（JTG F80/1-2017）</th></tr>
+        <tr><td>土路基</td><td>每 1000m² 每压实层 3 点</td><td>每 200m 每压实层 2 处</td></tr>
+        <tr><td>基层、底基层</td><td>每 1000m² 每压实层 1 点</td><td>每 200m 每车道 2 处</td></tr>
+        <tr><td>沥青混合料面层</td><td>每 1000m² 1 点（钻芯法）</td><td>每 200m 1 点（核子密度仪每 200m 1 处、每处 5 点）</td></tr>
+      </table>
+    </div>
+  </details>
+
   <div class="sticky">
     <div class="searchbox">
       <svg class="ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="M16.5 16.5L21 21"></path></svg>
@@ -201,7 +217,7 @@ mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
     <b>怎么用：</b>上方九个专项按钮平铺筛选；顶部可切换「工程验收 / 资质申请」，并可只看强制必检、条件必检或可选。点卡片展开可见逐条参数、触发条件、依据条款、方法标准与产品标准覆盖率。<br>
     <b>三源：</b>产品标准给出参数全集，验收规范给出必检子集，资质标准只作可选范围；三者不混用。<br>
     <b>口径：</b>取样组批为现行标准常规值，实际以设计文件、经批准的检测方案及当地主管部门要求为准；标准是否现行请再核国家标准信息公共服务平台。<br>
-    <b>版本：</b>标准版 v3.8 · 2026-11-12（取样数量逐条复核；补回地基基础等 32 条检验数量附录；1005 条参数全部配取样数量）。<br>
+    <b>版本：</b>标准版 v3.8 · 2026-11-12（取样数量逐条复核；补回地基基础等 32 条检验数量附录与压实度频率对照；1005 条参数全部配取样数量）。<br>
     <b>版权：</b>© 2026 刘世海 保留所有权利。未经书面许可，不得复制、镜像、商用或去除来源标记；引用请注明来源。详见 LICENSE。
   </footer>
 </div>
