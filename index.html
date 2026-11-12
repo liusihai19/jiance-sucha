@@ -124,7 +124,6 @@ footer b{color:#6B6154}
     <button class="fchip lv-cond" data-level="条件">条件必检</button>
     <button class="fchip lv-opt" data-level="可选">可选</button>
     <select class="fchip" id="stage"><option value="all">全部阶段</option></select>
-    <button class="fchip" id="covOnly">只看未配置覆盖</button>
   </div>
   <div class="zonebar" id="zones"></div>
 </div>
@@ -159,13 +158,13 @@ footer b{color:#6B6154}
   var STAGES = [];
   DATA.forEach(function(p){ p.params.forEach(function(x){ (x.stages||[]).forEach(function(s){ if(STAGES.indexOf(s)<0) STAGES.push(s); }); }); });
 
-  var view='build', zone=-1, level='all', stage='all', q='', covOnly=false;
+  var view='build', zone=-1, level='all', stage='all', q='';
 
   var elQ=document.getElementById('q'), elList=document.getElementById('list'),
       elEmpty=document.getElementById('empty'), elPc=document.getElementById('pc'),
       elKc=document.getElementById('kc'), elHint=document.getElementById('hint'),
       elZones=document.getElementById('zones'), elStage=document.getElementById('stage'),
-      elCov=document.getElementById('covOnly'), elLegend=document.getElementById('legend');
+      elLegend=document.getElementById('legend');
 
   function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
 
@@ -192,7 +191,6 @@ footer b{color:#6B6154}
   });
 
   elStage.addEventListener('change',function(){ stage=elStage.value; render(); });
-  elCov.addEventListener('click',function(){ covOnly=!covOnly; elCov.classList.toggle('on',covOnly); render(); });
 
   document.getElementById('tabs').addEventListener('click',function(e){
     var b=e.target.closest('[data-view]'); if(!b) return;
@@ -200,7 +198,6 @@ footer b{color:#6B6154}
     Array.prototype.forEach.call(document.querySelectorAll('[data-view]'),function(x){x.classList.toggle('on',x===b);});
     document.getElementById('filters').style.display = (view==='qual')?'none':'flex';
     elStage.style.display = (view==='qual')?'none':'';
-    elCov.style.display = (view==='qual')?'none':'';
     elLegend.style.display = (view==='qual')?'none':'';
     elHint.textContent = (view==='qual')?'资质口径：必备 / 可选检测参数':'点击卡片展开参数';
     elQ.placeholder = (view==='qual')?'搜项目、标准号、拼音，如 水泥 / GB 50204 / sn':'搜项目、参数、标准号、拼音，如 水泥 / 氯离子 / GB 50204 / sn';
@@ -300,7 +297,6 @@ footer b{color:#6B6154}
     var html='', pc=0, kc=0, covCfg=0;
     DATA.forEach(function(p){
       if(zone>=0 && ZONES[zone]!==p.zn) return;
-      if(covOnly && p.coverage) return;
       var vp = p.params;
       if(view==='qual'){
         if(q){ var hay=(p.name+' '+(p.py||'')+' '+p.zn+' '+(p.legacy.must||'')+' '+(p.legacy.opt||'')+' '+(p.legacy.std||'')).toLowerCase(); if(hay.indexOf(q)<0) return; }
@@ -317,7 +313,6 @@ footer b{color:#6B6154}
     elPc.textContent=pc; elKc.textContent=kc;
     elEmpty.style.display=pc?'none':'block';
     if(view==='qual') elHint.textContent='资质口径：必备 / 可选检测参数';
-    else if(covOnly) elHint.textContent='覆盖未配置 '+pc+' 项';
     else elHint.textContent='覆盖 '+covCfg+'/'+pc+' · 点击展开';
 
     // lazy bodies
