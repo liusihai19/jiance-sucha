@@ -1,0 +1,18997 @@
+﻿window.DATA_V3 = [
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "1",
+        "name":  "水泥",
+        "py":  "shuini sn",
+        "varieties":  [
+                          "水泥"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 175-2023",
+                          "name":  "GB 175-2023《通用硅酸盐水泥》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 12573-2008",
+                          "name":  "GB/T 12573-2008《水泥取样方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 1346-2024",
+                          "name":  "GB/T 1346-2024《水泥标准稠度用水量、凝结时间与安定性检验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 17671-2021",
+                          "name":  "GB/T 17671-2021《水泥胶砂强度检验方法（ISO法）》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 第7.2.1条",
+                          "clause":  "第7.2.1条"
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "凝结时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "安定性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "胶砂强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "所有品种，限量≤0.06%",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "保水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "仅砌筑水泥",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氧化镁含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有预防碱-骨料反应要求",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "三氧化硫含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "细度（比表面积/45μm筛余）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.3"
+                                         }
+                                     ],
+                           "method":  "GB/T 8074；GB/T 1345"
+                       },
+                       {
+                           "name":  "烧失量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "硅酸盐水泥、普通硅酸盐水泥",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         }
+                                     ],
+                           "method":  "GB/T 176"
+                       },
+                       {
+                           "name":  "不溶物",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "硅酸盐水泥",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         }
+                                     ],
+                           "method":  "GB/T 176"
+                       },
+                       {
+                           "name":  "压蒸安定性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "氧化镁＞5.0%或安定性有争议",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.2"
+                                         }
+                                     ],
+                           "method":  "GB/T 750-2024"
+                       },
+                       {
+                           "name":  "水溶性铬（Ⅵ）",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "型式检验、监督抽查",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         },
+                                         {
+                                             "std":  "GB 31893-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB 31893"
+                       },
+                       {
+                           "name":  "放射性核素限量",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "型式检验、监督抽查",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 6566-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB 6566"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "凝结时间、安定性、胶砂强度、氯离子含量",
+                       "opt":  "保水率、氧化镁含量、碱含量、三氧化硫含量",
+                       "freq":  "同厂家、同品种、同强度等级、同批号且连续进场：袋装≤200t、散装≤500t 为一批；每批取样≥1 次，从≥20 个部位取等量样混匀，总量≥12kg",
+                       "std":  "GB 175-2023《通用硅酸盐水泥》；GB/T 12573-2008《水泥取样方法》；GB/T 1346-2024《水泥标准稠度用水量、凝结时间与安定性检验方法》；GB/T 17671-2021《水泥胶砂强度检验方法（ISO法）》；GB 50204-2015《混凝土结构工程施工质量验收规范》 第7.2.1条"
+                   },
+        "coverage":  {
+                         "total":  12,
+                         "covered":  12,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "2",
+        "name":  "钢筋（含焊接与机械连接）",
+        "py":  "gangjinhanhanjieyujixielianjie gjhhjyjxlj",
+        "varieties":  [
+                          "热轧钢筋",
+                          "闪光对焊、气压焊接头",
+                          "电弧焊、电渣压力焊接头",
+                          "钢筋机械连接接头"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 1499.1-2024",
+                          "name":  "GB 1499.1-2024《钢筋混凝土用钢 第1部分：热轧光圆钢筋》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 1499.2-2024",
+                          "name":  "GB 1499.2-2024《钢筋混凝土用钢 第2部分：热轧带肋钢筋》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 228.1-2021",
+                          "name":  "GB/T 228.1-2021《金属材料 拉伸试验 第1部分：室温试验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 18-2012",
+                          "name":  "JGJ 18-2012《钢筋焊接及验收规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 107-2016",
+                          "name":  "JGJ 107-2016《钢筋机械连接技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "屈服强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断后伸长率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "最大力下总延伸率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "反向弯曲",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "重量偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "残余变形",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "仅机械连接接头",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯曲性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "非抗震钢筋仍应做弯曲试验",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "化学成分（C、Si、Mn、P、S、Ceq）",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "焊接结构、重要结构",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 1499.1-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 223 系列"
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表面质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "强屈比",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "抗震钢筋（牌号带E）",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.3"
+                                         }
+                                     ],
+                           "method":  "GB/T 228.1"
+                       },
+                       {
+                           "name":  "超强比",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "抗震钢筋（牌号带E）",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.3"
+                                         }
+                                     ],
+                           "method":  "GB/T 228.1"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "屈服强度、抗拉强度、断后伸长率、最大力下总延伸率、反向弯曲、重量偏差、残余变形",
+                       "opt":  "弯曲性能",
+                       "freq":  "同牌号、同炉罐号、同规格每 60t 为一批（不足按一批），每批取 2 拉 2 弯；焊接接头同类型每 300 个为一批；机械连接同规格每 500 个为一批，各取 3 个试件",
+                       "std":  "GB 1499.1-2024《钢筋混凝土用钢 第1部分：热轧光圆钢筋》；GB 1499.2-2024《钢筋混凝土用钢 第2部分：热轧带肋钢筋》；GB/T 228.1-2021《金属材料 拉伸试验 第1部分：室温试验方法》；JGJ 18-2012《钢筋焊接及验收规程》；JGJ 107-2016《钢筋机械连接技术规程》；GB 50204-2015《混凝土结构工程施工质量验收规范》"
+                   },
+        "coverage":  {
+                         "total":  11,
+                         "covered":  11,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "3",
+        "name":  "骨料、集料",
+        "py":  "guliaojiliao gljl",
+        "varieties":  [
+                          "建设用砂",
+                          "建设用卵石、碎石"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 14684-2022",
+                          "name":  "GB/T 14684-2022《建设用砂》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 14685-2022",
+                          "name":  "GB/T 14685-2022《建设用卵石、碎石》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 52-2006",
+                          "name":  "JGJ 52-2006《普通混凝土用砂、石质量及检验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 6003.1-2022",
+                          "name":  "GB/T 6003.1-2022《试验筛 技术要求和检验 第1部分：金属丝编织网试验筛》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "颗粒级配",
+                           "variety":  "细骨料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含泥量",
+                           "variety":  "细骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "泥块含量",
+                           "variety":  "细骨料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "亚甲蓝值与石粉含量",
+                           "variety":  "细骨料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "人工砂",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压碎指标",
+                           "variety":  "细骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "人工砂",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "细骨料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "颗粒级配",
+                           "variety":  "粗骨料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含泥量",
+                           "variety":  "粗骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "泥块含量",
+                           "variety":  "粗骨料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压碎值",
+                           "variety":  "粗骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "针片状",
+                           "variety":  "粗骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表观密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "坚固性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱活性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "长期潮湿环境的重要结构",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硫化物和硫酸盐含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "轻物质",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "有机物",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "贝壳含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "堆积密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "空隙率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "轻集料筒压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "细度模数",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "细骨料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "7.2.3"
+                                         },
+                                         {
+                                             "std":  "JGJ 52-2006",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 14684"
+                       },
+                       {
+                           "name":  "放射性核素限量",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "型式检验、监督抽查",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 6566-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB 6566"
+                       },
+                       {
+                           "name":  "筒压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "轻集料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17431.1",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "粒型系数",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "轻集料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17431.1",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "细骨料：颗粒级配、含泥量、泥块含量、亚甲蓝值与石粉含量、压碎指标、氯离子含量；粗骨料：颗粒级配、含泥量、泥块含量、压碎值、针片状",
+                       "opt":  "表观密度、吸水率、坚固性、碱活性、硫化物和硫酸盐含量、轻物质、有机物、贝壳含量、堆积密度、空隙率；轻集料筒压强度等",
+                       "freq":  "同产地、同规格、同类别按日产量组批：日产量≤4000t 时每 2000t 一批；\u003e4000t 时按每条生产线连续 8h 产量为一批；料堆 8 个部位取等量样，四分法缩分（常规砂约 20kg、石约 40kg）",
+                       "std":  "GB/T 14684-2022《建设用砂》；GB/T 14685-2022《建设用卵石、碎石》；JGJ 52-2006《普通混凝土用砂、石质量及检验方法标准》；GB/T 6003.1-2022《试验筛 技术要求和检验 第1部分：金属丝编织网试验筛》"
+                   },
+        "coverage":  {
+                         "total":  12,
+                         "covered":  12,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "4",
+        "name":  "砖、砌块、瓦、墙板",
+        "py":  "zhuanqikuaiwaqiangban zqkwqb",
+        "varieties":  [
+                          "烧结普通砖、多孔砖",
+                          "蒸压加气混凝土砌块"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 5101-2017",
+                          "name":  "GB/T 5101-2017《烧结普通砖》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 13544-2011",
+                          "name":  "GB/T 13544-2011《烧结多孔砖和多孔砌块》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 11968-2020",
+                          "name":  "GB/T 11968-2020《蒸压加气混凝土砌块》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 2542-2012",
+                          "name":  "GB/T 2542-2012《砌墙砖试验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50203-2011",
+                          "name":  "GB 50203-2011《砌体结构工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗折强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "仅瓦、墙板；砖不测抗折",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "干密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗渗性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗弯曲性能（或承载力）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐急冷急热性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冲击性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗弯破坏荷载",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吊挂力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冻性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5101-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11968-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5101-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11968-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "泛霜",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "烧结砖",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5101-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "石灰爆裂",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "烧结砖",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5101-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗风化性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "烧结砖",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5101-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "干燥收缩值",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "蒸压加气混凝土砌块",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 11968-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碳化系数",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "混凝土砌块",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 8239-2014",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "软化系数",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "混凝土砌块",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 8239-2014",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "放射性核素限量",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 6566-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB 6566"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗压强度、抗折强度",
+                       "opt":  "干密度、吸水率、抗渗性能、抗弯曲性能（或承载力）、耐急冷急热性、抗冲击性能、抗弯破坏荷载、吊挂力、抗冻性能",
+                       "freq":  "烧结砖同厂家同品种同强度等级每 15 万块为一批，取 15 块；蒸压加气混凝土砌块每 1 万块为一批，抗压取 3 组共 9 块；混凝土小型空心砌块每 1 万块为一批，取 5 块",
+                       "std":  "GB/T 5101-2017《烧结普通砖》；GB/T 13544-2011《烧结多孔砖和多孔砌块》；GB/T 11968-2020《蒸压加气混凝土砌块》；GB/T 2542-2012《砌墙砖试验方法》；GB 50203-2011《砌体结构工程施工质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "5",
+        "name":  "混凝土及拌合用水",
+        "py":  "hunningtujibanheyongshui hntjbhys",
+        "varieties":  [
+                          "混凝土抗压试件",
+                          "混凝土抗渗试件",
+                          "混凝土配合比"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 第7.4.1条",
+                          "clause":  "第7.4.1条"
+                      },
+                      {
+                          "std":  "GB/T 50080-2016",
+                          "name":  "GB/T 50080-2016《普通混凝土拌合物性能试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50081-2019",
+                          "name":  "GB/T 50081-2019《混凝土物理力学性能试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50107-2010",
+                          "name":  "GB/T 50107-2010《混凝土强度检验评定标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 55-2011",
+                          "name":  "JGJ 55-2011《普通混凝土配合比设计规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 63-2006",
+                          "name":  "JGJ 63-2006《混凝土用水标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗渗等级",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有抗渗要求",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "坍落度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "预拌混凝土交货检验",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "结构混凝土",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拌合用水氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "结构混凝土",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "限制膨胀率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冻性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有抗冻要求",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表观密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含气量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "凝结时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗折强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "劈裂抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弹性模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抑制碱-骨料反应有效性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "配合比设计",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拌合用水 pH 值",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "扩展度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "泵送混凝土、自密实混凝土",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50080"
+                       },
+                       {
+                           "name":  "维勃稠度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "干硬性混凝土",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50080"
+                       },
+                       {
+                           "name":  "泌水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "大流动度混凝土",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50080"
+                       },
+                       {
+                           "name":  "压力泌水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "泵送混凝土",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50080"
+                       },
+                       {
+                           "name":  "抗氯离子渗透性能（电通量/RCM）",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有耐久性要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50082-2009",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50082"
+                       },
+                       {
+                           "name":  "抗碳化性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有耐久性要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50082-2009",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50082"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗压强度、抗渗等级、坍落度、氯离子含量、拌合用水氯离子含量",
+                       "opt":  "限制膨胀率、抗冻性能、表观密度、含气量、凝结时间、抗折强度、劈裂抗拉强度、弹性模量、抑制碱-骨料反应有效性、碱含量、配合比设计、拌合用水 pH 值等",
+                       "freq":  "每拌制 100 盘且≤100m³ 同配合比混凝土取样≥1 次；每工作班不足 100 盘≥1 次；连续浇筑\u003e1000m³ 时每 200m³≥1 次；每层楼≥1 次。抗压 3 块/组，抗渗 6 块/组",
+                       "std":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 第7.4.1条；GB/T 50080-2016《普通混凝土拌合物性能试验方法标准》；GB/T 50081-2019《混凝土物理力学性能试验方法标准》；GB/T 50107-2010《混凝土强度检验评定标准》；JGJ 55-2011《普通混凝土配合比设计规程》；JGJ 63-2006《混凝土用水标准》"
+                   },
+        "coverage":  {
+                         "total":  10,
+                         "covered":  10,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "6",
+        "name":  "混凝土外加剂",
+        "py":  "hunningtuwaijiaji hntwjj",
+        "varieties":  [
+                          "混凝土外加剂"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 8076-2025",
+                          "name":  "GB/T 8076-2025《混凝土外加剂》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 8077-2023",
+                          "name":  "GB/T 8077-2023《混凝土外加剂匀质性试验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50119-2013",
+                          "name":  "GB 50119-2013《混凝土外加剂应用技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 23439-2017",
+                          "name":  "GB/T 23439-2017《混凝土膨胀剂》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "减水率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "pH 值",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密度（或细度）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗压强度比",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "凝结时间（差）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含气量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "固体含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "限制膨胀率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "泌水率比",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "相对耐久性指标",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含气量 1h 经时变化量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硫酸钠含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "收缩率比",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "总碱量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有预防碱骨料反应要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "粉状外加剂",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 8077-2023",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 8077"
+                       },
+                       {
+                           "name":  "甲醛含量",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "GB 18588 限量",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 18588-2001",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氨含量",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "GB 18588 限量",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 18588-2001",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "减水率、pH 值、密度（或细度）、抗压强度比、凝结时间（差）、含气量、固体含量、限制膨胀率、泌水率比、氯离子含量",
+                       "opt":  "相对耐久性指标、含气量 1h 经时变化量、硫酸钠含量、收缩率比、碱含量",
+                       "freq":  "组批与取样量按现行 GB/T 8076 及相应产品标准执行；「每 50t 一批、取样不少于 0.2t 水泥所需外加剂量」为旧版口径，引用前请复核现行条文",
+                       "std":  "GB/T 8076-2025《混凝土外加剂》；GB/T 8077-2023《混凝土外加剂匀质性试验方法》；GB 50119-2013《混凝土外加剂应用技术规范》；GB/T 23439-2017《混凝土膨胀剂》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "7",
+        "name":  "混凝土掺合料",
+        "py":  "hunningtuchanheliao hntchl",
+        "varieties":  [
+                          "粉煤灰",
+                          "矿渣粉"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 1596-2017",
+                          "name":  "GB/T 1596-2017《用于水泥和混凝土中的粉煤灰》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 18046-2017",
+                          "name":  "GB/T 18046-2017《用于水泥、砂浆和混凝土中的粒化高炉矿渣粉》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 27690-2023",
+                          "name":  "GB/T 27690-2023《砂浆和混凝土用硅灰》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "细度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "烧失量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "需水量比",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "比表面积",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "活性指数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "流动度比",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含水率",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "三氧化硫含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "放射性",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "游离氧化钙",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "粉煤灰",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 176"
+                       },
+                       {
+                           "name":  "安定性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "粉煤灰",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含水量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 18046-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "放射性核素限量",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 6566-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB 6566"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "细度、烧失量、需水量比、比表面积、活性指数、流动度比、氯离子含量",
+                       "opt":  "含水率、三氧化硫含量、放射性",
+                       "freq":  "粉煤灰同厂家同品种同等级每 200t 为一批（不足按一批）；矿渣粉每 500t 为一批；每批取样≥1 次",
+                       "std":  "GB/T 1596-2017《用于水泥和混凝土中的粉煤灰》；GB/T 18046-2017《用于水泥、砂浆和混凝土中的粒化高炉矿渣粉》；GB/T 27690-2023《砂浆和混凝土用硅灰》；GB 50204-2015《混凝土结构工程施工质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "8",
+        "name":  "砂浆",
+        "py":  "shajiang sj",
+        "varieties":  [
+                          "砌筑砂浆试件"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ/T 70-2009",
+                          "name":  "JGJ/T 70-2009《建筑砂浆基本性能试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ/T 98-2010",
+                          "name":  "JGJ/T 98-2010《砌筑砂浆配合比设计规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50203-2011",
+                          "name":  "GB 50203-2011《砌体结构工程施工质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50209-2010",
+                          "name":  "GB 50209-2010《建筑地面工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "稠度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "预拌砂浆进场检验",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "保水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "预拌砂浆进场检验",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸粘结强度（抹灰、砌筑）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "抹灰砂浆；砌筑砂浆不测",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "分层度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "配合比设计",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "凝结时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗渗性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "收缩率",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有抗裂要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 25181-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冻性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有抗冻要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 25181-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "放射性核素限量",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 6566-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB 6566"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗压强度、稠度、保水率、拉伸粘结强度（抹灰、砌筑）",
+                       "opt":  "分层度、配合比设计、凝结时间、抗渗性能",
+                       "freq":  "同一配合比、同种材料每 250m³ 砌体为一批（每台搅拌机≥1 次）；抗压试件 3 块/组（70.7mm 立方体）；地面砂浆每 1000m² 一批",
+                       "std":  "JGJ/T 70-2009《建筑砂浆基本性能试验方法标准》；JGJ/T 98-2010《砌筑砂浆配合比设计规程》；GB 50203-2011《砌体结构工程施工质量验收规范》；GB 50209-2010《建筑地面工程施工质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "9",
+        "name":  "土",
+        "py":  "tu t",
+        "varieties":  [
+                          "回填土"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 50123-2019",
+                          "name":  "GB/T 50123-2019《土工试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50202-2018",
+                          "name":  "GB 50202-2018《建筑地基基础工程施工质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "最大干密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "最优含水率",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压实系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50123"
+                       },
+                       {
+                           "name":  "颗粒分析",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50123"
+                       },
+                       {
+                           "name":  "界限含水率（液限、塑限）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50123"
+                       },
+                       {
+                           "name":  "承载比（CBR）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "路基填料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50123"
+                       },
+                       {
+                           "name":  "回弹模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "设计有要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50123"
+                       },
+                       {
+                           "name":  "压缩系数",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50123"
+                       },
+                       {
+                           "name":  "抗剪强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 50123"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "最大干密度、最优含水率、压实系数",
+                       "opt":  "—",
+                       "freq":  "回填土每层每 100~400m² 取 1 点、每层不少于 3 点（环刀法/灌砂法）；柱基回填每 20~50m 取 1 点",
+                       "std":  "GB/T 50123-2019《土工试验方法标准》；GB 50202-2018《建筑地基基础工程施工质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "10",
+        "name":  "防水材料及防水密封材料",
+        "py":  "fangshuicailiaojifangshuimifengcailiao fscljfsmfcl",
+        "varieties":  [
+                          "防水卷材",
+                          "防水涂料"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 18242-2025",
+                          "name":  "GB/T 18242-2025《弹性体/塑性体改性沥青防水卷材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 12952-2011",
+                          "name":  "GB 12952-2011《聚氯乙烯(PVC)防水卷材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 18173.1-2012",
+                          "name":  "GB/T 18173.1-2012《高分子防水材料 第1部分：片材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 19250-2013",
+                          "name":  "GB/T 19250-2013《聚氨酯防水涂料》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 23445-2025",
+                          "name":  "GB/T 23445-2025《聚合物水泥防水涂料》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50207-2012",
+                          "name":  "GB 50207-2012《屋面工程质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50208-2011",
+                          "name":  "GB 50208-2011《地下防水工程质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "可溶物含量",
+                           "variety":  "卷材",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉力",
+                           "variety":  "卷材",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "延伸率",
+                           "variety":  "卷材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "低温柔度",
+                           "variety":  "卷材",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "热老化后低温柔度",
+                           "variety":  "卷材",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "不透水性",
+                           "variety":  "卷材",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐热度",
+                           "variety":  "卷材",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "SBS/APP改性沥青类卷材",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断裂拉伸强度",
+                           "variety":  "卷材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断裂伸长率",
+                           "variety":  "卷材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "撕裂强度",
+                           "variety":  "卷材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "固体含量",
+                           "variety":  "涂料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸强度",
+                           "variety":  "涂料",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐热性",
+                           "variety":  "涂料",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "低温柔性",
+                           "variety":  "涂料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "不透水性",
+                           "variety":  "涂料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断裂伸长率",
+                           "variety":  "涂料",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "接缝剥离强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "搭接缝不透水性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "涂膜抗渗性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "浸水 168h 后拉伸强度与断裂伸长率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗渗性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "渗油性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "改性沥青卷材",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表干时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "防水涂料、密封材料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "实干时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "防水涂料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "挤出性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "密封材料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 14683-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弹性恢复率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "密封材料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 14683-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "定伸粘结性",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "密封材料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 14683-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "卷材：可溶物含量、拉力、延伸率、低温柔度、热老化后低温柔度、不透水性、耐热度、断裂拉伸强度、断裂伸长率、撕裂强度；涂料：固体含量、拉伸强度、耐热性、低温柔性、不透水性、断裂伸长率",
+                       "opt":  "接缝剥离强度、搭接缝不透水性、涂膜抗渗性、浸水 168h 后拉伸强度与断裂伸长率、粘结强度、抗渗性",
+                       "freq":  "卷材同厂家同品种同规格每 10000m² 为一批（不足按一批）；涂料每 10t 为一批（聚氨酯类每 15t）；每批抽 1 组",
+                       "std":  "GB/T 18242-2025《弹性体/塑性体改性沥青防水卷材》；GB 12952-2011《聚氯乙烯(PVC)防水卷材》；GB/T 18173.1-2012《高分子防水材料 第1部分：片材》；GB/T 19250-2013《聚氨酯防水涂料》；GB/T 23445-2025《聚合物水泥防水涂料》；GB 50207-2012《屋面工程质量验收规范》；GB 50208-2011《地下防水工程质量验收规范》"
+                   },
+        "coverage":  {
+                         "total":  10,
+                         "covered":  10,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "11",
+        "name":  "瓷砖及石材",
+        "py":  "cizhuanjishicai czjsc",
+        "varieties":  [
+                          "陶瓷砖"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 4100-2015",
+                          "name":  "GB/T 4100-2015《陶瓷砖》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 3810.1-2016",
+                          "name":  "GB/T 3810.1-2016《陶瓷砖试验方法 第1部分：抽样和接收条件》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 9966.1-2020",
+                          "name":  "GB/T 9966.1-2020《天然石材试验方法 第1部分：干燥、水饱和、冻融循环后压缩强度试验》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50210-2018",
+                          "name":  "GB 50210-2018《建筑装饰装修工程质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "吸水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯曲强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冻性（耐冻融性）",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "寒冷地区外墙饰面砖",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "放射性",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 4100-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表面质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 4100-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "破坏强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "陶瓷砖",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 4100-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 3810"
+                       },
+                       {
+                           "name":  "断裂模数",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "陶瓷砖",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 4100-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 3810"
+                       },
+                       {
+                           "name":  "抗热震性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 4100-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐污染性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 4100-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "防滑性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "地面砖",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 4100-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "体积密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "石材",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 9966.1-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 9966"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "吸水率、弯曲强度",
+                       "opt":  "抗冻性（耐冻融性）、放射性",
+                       "freq":  "同厂家同品种同规格同色号每 5000m² 为一批（不足按一批）；按 GB/T 3810.1 每项取规定数量（常规 10 块）",
+                       "std":  "GB/T 4100-2015《陶瓷砖》；GB/T 3810.1-2016《陶瓷砖试验方法 第1部分：抽样和接收条件》；GB/T 9966.1-2020《天然石材试验方法 第1部分：干燥、水饱和、冻融循环后压缩强度试验》；GB 50210-2018《建筑装饰装修工程质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "12",
+        "name":  "塑料及金属管材＊",
+        "py":  "suliaojijinshuguancai sljjsgc",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 5836.1-2018",
+                          "name":  "GB/T 5836.1-2018《建筑排水用硬聚氯乙烯(PVC-U)管材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 10002.1-2023",
+                          "name":  "GB/T 10002.1-2023《给水用硬聚氯乙烯(PVC-U)管材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 18742.2-2017",
+                          "name":  "GB/T 18742.2-2017《冷热水用聚丙烯管道系统 第2部分：管材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 13663.2-2018",
+                          "name":  "GB/T 13663.2-2018《给水用聚乙烯(PE)管道系统 第2部分：管材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 3091-2015",
+                          "name":  "GB/T 3091-2015《低压流体输送用焊接钢管》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "静液压强度",
+                           "variety":  "塑料管材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "落锤冲击试验",
+                           "variety":  "塑料管材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "塑料管材",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "截面尺寸",
+                           "variety":  "塑料管材",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "纵向回缩率",
+                           "variety":  "塑料管材",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "交联度",
+                           "variety":  "塑料管材",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "熔融温度",
+                           "variety":  "塑料管材",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "简支梁冲击",
+                           "variety":  "塑料管材",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "炭黑分散度",
+                           "variety":  "塑料管材",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "炭黑含量",
+                           "variety":  "塑料管材",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸屈服应力",
+                           "variety":  "塑料管材",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密度",
+                           "variety":  "塑料管材",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "爆破压力",
+                           "variety":  "塑料管材",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "管环剥离力",
+                           "variety":  "塑料管材",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "熔体质量流动速率",
+                           "variety":  "塑料管材",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氧化诱导时间",
+                           "variety":  "塑料管材",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "维卡软化温度",
+                           "variety":  "塑料管材",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "热变形温度",
+                           "variety":  "塑料管材",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸断裂伸长率",
+                           "variety":  "塑料管材",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸弹性模量",
+                           "variety":  "塑料管材",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸强度",
+                           "variety":  "塑料管材",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "灰分",
+                           "variety":  "塑料管材",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "烘箱试验",
+                           "variety":  "塑料管材",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "坠落试验",
+                           "variety":  "塑料管材",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "屈服强度",
+                           "variety":  "金属管材",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗拉强度",
+                           "variety":  "金属管材",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "伸长率",
+                           "variety":  "金属管材",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "厚度偏差",
+                           "variety":  "金属管材",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "截面尺寸",
+                           "variety":  "金属管材",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "卫生性能",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "生活饮用水用管材",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17219-1998",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 17219"
+                       },
+                       {
+                           "name":  "阻燃性能",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "建筑用塑料管材、设计有要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 2408-2021",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "壁厚",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 10002.1-2023",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "环刚度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "埋地排水管",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 9647-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "—",
+                       "opt":  "塑料管材：静液压强度、落锤冲击试验、外观质量、截面尺寸、纵向回缩率、交联度、熔融温度、简支梁冲击、炭黑分散度、炭黑含量、拉伸屈服应力、密度、爆破压力、管环剥离力、熔体质量流动速率、氧化诱导时间、维卡软化温度、热变形温度、拉伸断裂伸长率、拉伸弹性模量、拉伸强度、灰分、烘箱试验、坠落试验；金属管材：屈服强度、抗拉强度、伸长率、厚度偏差、截面尺寸",
+                       "freq":  "同原料、同配方、同规格连续生产为一批（一般≤50t）；每批随机抽 3 根/3 件，按产品标准截取试样",
+                       "std":  "GB/T 5836.1-2018《建筑排水用硬聚氯乙烯(PVC-U)管材》；GB/T 10002.1-2023《给水用硬聚氯乙烯(PVC-U)管材》；GB/T 18742.2-2017《冷热水用聚丙烯管道系统 第2部分：管材》；GB/T 13663.2-2018《给水用聚乙烯(PE)管道系统 第2部分：管材》；GB/T 3091-2015《低压流体输送用焊接钢管》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "13",
+        "name":  "预制混凝土构件＊",
+        "py":  "yuzhihunningtugoujian yzhntgj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 第9章",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 51231-2016",
+                          "name":  "GB/T 51231-2016《装配式混凝土建筑技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 1-2014",
+                          "name":  "JGJ 1-2014《装配式混凝土结构技术规程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "承载力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "挠度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "裂缝宽度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗裂检验",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "构件尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "保护层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "预埋件位置",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "第9章"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "预留孔位置",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "第9章"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "粗糙面",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "装配式构件结合面",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 51231-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "键槽",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "装配式构件结合面",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 51231-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "承载力、挠度、裂缝宽度、抗裂检验、外观质量、构件尺寸、保护层厚度",
+                       "opt":  "—",
+                       "freq":  "同类型构件每 1000 件为一批（不足按一批），每批抽 1 件做结构性能检验；成批生产前做 1 件",
+                       "std":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 第9章；GB/T 51231-2016《装配式混凝土建筑技术标准》；JGJ 1-2014《装配式混凝土结构技术规程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "14",
+        "name":  "预应力钢绞线＊",
+        "py":  "yuyingligangjiaoxian yylgjx",
+        "varieties":  [
+                          "预应力钢绞线"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 5224-2023",
+                          "name":  "GB/T 5224-2023《预应力混凝土用钢绞线》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 21839-2019",
+                          "name":  "GB/T 21839-2019《预应力混凝土用钢材试验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "整根钢绞线最大力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "最大力总伸长率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "0.2% 屈服力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弹性模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "松弛率",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5224-2023",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表面质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5224-2023",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "重量偏差",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5224-2023",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "整根钢绞线最大力、最大力总伸长率、抗拉强度、0.2% 屈服力、弹性模量",
+                       "opt":  "松弛率",
+                       "freq":  "同牌号、同规格、同一生产工艺每 60t 为一批（不足按一批）；每批任取 3 盘，每盘取 1 根",
+                       "std":  "GB/T 5224-2023《预应力混凝土用钢绞线》；GB/T 21839-2019《预应力混凝土用钢材试验方法》；GB 50204-2015《混凝土结构工程施工质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "15",
+        "name":  "预应力混凝土用锚具夹具及连接器＊",
+        "py":  "yuyinglihunningtuyongmaojujiajujilianjieqi yylhntymjjjjljq",
+        "varieties":  [
+                          "预应力锚具、夹具、连接器"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 14370-2015",
+                          "name":  "GB/T 14370-2015《预应力筋用锚具、夹具和连接器》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 85-2010",
+                          "name":  "JGJ 85-2010《预应力筋用锚具、夹具和连接器应用技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "静载锚固性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "疲劳荷载性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硬度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "周期荷载性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 14370-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "—",
+                       "opt":  "外观质量、尺寸、静载锚固性能、疲劳荷载性能、硬度",
+                       "freq":  "同种类、同规格、同工艺每 1000 套为一批（不足按一批），每批抽 3 套做静载锚固性能",
+                       "std":  "GB/T 14370-2015《预应力筋用锚具、夹具和连接器》；JGJ 85-2010《预应力筋用锚具、夹具和连接器应用技术规程》；GB 50204-2015《混凝土结构工程施工质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "16",
+        "name":  "预应力混凝土用波纹管＊",
+        "py":  "yuyinglihunningtuyongbowenguan yylhntybwg",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JG/T 225-2020",
+                          "name":  "JG/T 225-2020《预应力混凝土用金属波纹管》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JT/T 529-2016",
+                          "name":  "JT/T 529-2016《预应力混凝土桥梁用塑料波纹管》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 85-2010",
+                          "name":  "JGJ 85-2010《预应力筋用锚具、夹具和连接器应用技术规程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "外观质量",
+                           "variety":  "金属波纹管",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸",
+                           "variety":  "金属波纹管",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "局部横向荷载",
+                           "variety":  "金属波纹管",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯曲后抗渗漏性能",
+                           "variety":  "金属波纹管",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "环刚度",
+                           "variety":  "塑料波纹管",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "局部横向载荷",
+                           "variety":  "塑料波纹管",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "纵向载荷",
+                           "variety":  "塑料波纹管",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "柔韧性",
+                           "variety":  "塑料波纹管",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冲击性能",
+                           "variety":  "塑料波纹管",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸性能",
+                           "variety":  "塑料波纹管",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉拔力",
+                           "variety":  "塑料波纹管",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密封性",
+                           "variety":  "塑料波纹管",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "均布荷载",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "金属波纹管",
+                           "basis":  [
+                                         {
+                                             "std":  "JG/T 225-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "—",
+                       "opt":  "金属波纹管：外观质量、尺寸、局部横向荷载、弯曲后抗渗漏性能；塑料波纹管：环刚度、局部横向载荷、纵向载荷、柔韧性、抗冲击性能、拉伸性能、拉拔力、密封性",
+                       "freq":  "同厂家同规格每 50000m 为一批（不足按一批），每批抽 3 件",
+                       "std":  "JG/T 225-2020《预应力混凝土用金属波纹管》；JT/T 529-2016《预应力混凝土桥梁用塑料波纹管》；JGJ 85-2010《预应力筋用锚具、夹具和连接器应用技术规程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "17",
+        "name":  "材料中有害物质＊",
+        "py":  "cailiaozhongyouhaiwuzhi clzyhwz",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 6566-2010",
+                          "name":  "GB 6566-2010《建筑材料放射性核素限量》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50325-2020",
+                          "name":  "GB 50325-2020《民用建筑工程室内环境污染控制标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 18580-2025",
+                          "name":  "GB 18580-2025《室内装饰装修材料 人造板及其制品中甲醛释放限量》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 30981.1-2025",
+                          "name":  "GB 30981.1-2025《涂料中有害物质限量 第1部分：建筑涂料》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 18584-2024",
+                          "name":  "GB 18584-2024《室内装饰装修材料 木家具中有害物质限量》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 6566-2010",
+                          "name":  "GB 6566-2010《建筑材料放射性核素限量》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "放射性",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "游离甲醛",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "VOC",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "苯",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "甲苯",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "二甲苯",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "乙苯",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "游离甲苯二异氰酸酯（TDI）",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氨",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "重金属（铅、镉、铬、汞、砷）",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "涂料、胶粘剂、板材",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 18582-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 18583-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "邻苯二甲酸酯",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "塑料制品",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 22048-2022",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "甲醇",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "胶粘剂",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 18583-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "苯酚",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "胶粘剂",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 18583-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "卤代烃",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "胶粘剂",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 18583-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "石棉",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "板材、保温材料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 23263-2009",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "放射性、游离甲醛、VOC、苯、甲苯、二甲苯、乙苯、游离甲苯二异氰酸酯（TDI）、氨",
+                       "opt":  "—",
+                       "freq":  "同厂家同品种同规格每批抽 1 组；板材、涂料、胶粘剂按 GB 50325-2020 及产品标准规定的批量",
+                       "std":  "GB 6566-2010《建筑材料放射性核素限量》；GB 50325-2020《民用建筑工程室内环境污染控制标准》；GB 18580-2025《室内装饰装修材料 人造板及其制品中甲醛释放限量》；GB 30981.1-2025《涂料中有害物质限量 第1部分：建筑涂料》；GB 18584-2024《室内装饰装修材料 木家具中有害物质限量》；GB 6566-2010《建筑材料放射性核素限量》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "18",
+        "name":  "建筑消能减震装置＊",
+        "py":  "jianzhuxiaonengjianzhenzhuangzhi jzxnjzzz",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ 297-2013",
+                          "name":  "JGJ 297-2013《建筑消能减震技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 51408-2021",
+                          "name":  "GB/T 51408-2021《建筑隔震设计标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JG/T 209-2012",
+                          "name":  "JG/T 209-2012《建筑消能阻尼器》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "屈服承载力",
+                           "variety":  "位移相关型阻尼器",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弹性刚度",
+                           "variety":  "位移相关型阻尼器",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "设计承载力",
+                           "variety":  "位移相关型阻尼器",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "延性系数",
+                           "variety":  "位移相关型阻尼器",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "滞回曲线面积",
+                           "variety":  "位移相关型阻尼器",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "极限位移",
+                           "variety":  "位移相关型阻尼器",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "极限承载力",
+                           "variety":  "位移相关型阻尼器",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "最大阻尼力",
+                           "variety":  "速度相关型阻尼器",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "阻尼力与速度相关规律",
+                           "variety":  "速度相关型阻尼器",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "滞回曲线",
+                           "variety":  "速度相关型阻尼器",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "极限位移",
+                           "variety":  "速度相关型阻尼器",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 297-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 297-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐久性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 297-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "防火性能",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 297-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "—",
+                       "opt":  "位移相关型阻尼器：屈服承载力、弹性刚度、设计承载力、延性系数、滞回曲线面积、极限位移、极限承载力；速度相关型阻尼器：最大阻尼力、阻尼力与速度相关规律、滞回曲线、极限位移",
+                       "freq":  "同型号同规格划分检验批，每批抽样不少于 1 件做性能检验；进场 100% 外观、尺寸检查",
+                       "std":  "JGJ 297-2013《建筑消能减震技术规程》；GB/T 51408-2021《建筑隔震设计标准》；JG/T 209-2012《建筑消能阻尼器》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "19",
+        "name":  "建筑隔震装置＊",
+        "py":  "jianzhugezhenzhuangzhi jzgzzz",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 51408-2021",
+                          "name":  "GB/T 51408-2021《建筑隔震设计标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 360-2015",
+                          "name":  "JGJ 360-2015《建筑隔震工程施工及验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 20688.3-2006",
+                          "name":  "GB 20688.3-2006《橡胶支座 第3部分：建筑隔震橡胶支座》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "竖向压缩刚度",
+                           "variety":  "叠层橡胶隔震支座",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "竖向变形性能",
+                           "variety":  "叠层橡胶隔震支座",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "竖向极限压应力",
+                           "variety":  "叠层橡胶隔震支座",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水平等效刚度",
+                           "variety":  "叠层橡胶隔震支座",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "屈服后水平刚度",
+                           "variety":  "叠层橡胶隔震支座",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "等效阻尼比",
+                           "variety":  "叠层橡胶隔震支座",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "屈服力",
+                           "variety":  "叠层橡胶隔震支座",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水平极限变形能力",
+                           "variety":  "叠层橡胶隔震支座",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "竖向压缩变形",
+                           "variety":  "摩擦摆隔震支座",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "竖向承载力",
+                           "variety":  "摩擦摆隔震支座",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "静摩擦系数",
+                           "variety":  "摩擦摆隔震支座",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "动摩擦系数",
+                           "variety":  "摩擦摆隔震支座",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "屈服后刚度",
+                           "variety":  "摩擦摆隔震支座",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "极限剪切变形",
+                           "variety":  "摩擦摆隔震支座",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 360-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 20688.3-2006",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 360-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "老化性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 20688.3-2006",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "徐变",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 20688.3-2006",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "—",
+                       "opt":  "叠层橡胶隔震支座：竖向压缩刚度、竖向变形性能、竖向极限压应力、水平等效刚度、屈服后水平刚度、等效阻尼比、屈服力、水平极限变形能力；摩擦摆隔震支座：竖向压缩变形、竖向承载力、静摩擦系数、动摩擦系数、屈服后刚度、极限剪切变形",
+                       "freq":  "同型号同规格分批检验，每批抽样不少于 1 件；支座进场 100% 外观与尺寸检查，力学性能按批抽检",
+                       "std":  "GB/T 51408-2021《建筑隔震设计标准》；JGJ 360-2015《建筑隔震工程施工及验收规范》；GB 20688.3-2006《橡胶支座 第3部分：建筑隔震橡胶支座》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "20",
+        "name":  "铝塑复合板＊",
+        "py":  "lvsufuheban lsfhb",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 17748-2016",
+                          "name":  "GB/T 17748-2016《建筑幕墙用铝塑复合板》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50210-2018",
+                          "name":  "GB 50210-2018《建筑装饰装修工程质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "剥离强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯曲强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "贯穿阻力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "剪切强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐冲击性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐温差性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐沸水性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐候性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 17748-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "—",
+                       "opt":  "剥离强度",
+                       "freq":  "同厂家同品种同规格每 5000m² 为一批（不足按一批），每批抽 3 张",
+                       "std":  "GB/T 17748-2016《建筑幕墙用铝塑复合板》；GB 50210-2018《建筑装饰装修工程质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "21",
+        "name":  "木材料及构配件＊",
+        "py":  "mucailiaojigoupeijian mcljgpj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 50329-2012",
+                          "name":  "GB/T 50329-2012《木结构试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50005-2017",
+                          "name":  "GB 50005-2017《木结构设计标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 1927.1-2021",
+                          "name":  "GB/T 1927.1-2021《木材物理力学性质试验方法 第1部分：试样采集和一般要求》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 1931-2009",
+                          "name":  "GB/T 1931-2009《木材含水率测定方法》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "含水率",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弹性模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "静曲强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钉抗弯强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "缺陷（节子、斜纹、裂纹、腐朽）",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50206-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "顺纹抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1927.1-2021",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "顺纹抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1927.1-2021",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "顺纹抗剪强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1927.1-2021",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "防腐处理",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "设计有防腐要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50206-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "阻燃处理",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "设计有防火要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50206-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "—",
+                       "opt":  "含水率、弹性模量、静曲强度、钉抗弯强度",
+                       "freq":  "同树种、同强度等级、同规格每 50m³ 为一批（不足按一批），每批抽 3 根",
+                       "std":  "GB/T 50329-2012《木结构试验方法标准》；GB 50005-2017《木结构设计标准》；GB/T 1927.1-2021《木材物理力学性质试验方法 第1部分：试样采集和一般要求》；GB/T 1931-2009《木材含水率测定方法》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "22",
+        "name":  "加固材料＊",
+        "py":  "jiagucailiao jgcl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50367-2013",
+                          "name":  "GB 50367-2013《混凝土结构加固设计规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50550-2010",
+                          "name":  "GB 50550-2010《建筑结构加固工程施工质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50728-2011",
+                          "name":  "GB/T 50728-2011《工程结构加固材料安全性鉴定技术规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗剪强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "正拉粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "纤维复合材抗拉强度标准值与弹性模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "极限伸长率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "结构胶粘剂不挥发物含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "结构胶粘剂耐湿热老化性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "纤维织物单位面积质量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "预成型板纤维体积含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碳纤维织物K数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢-钢拉伸抗剪强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "结构胶粘剂",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50550-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐冻融性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50550-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐久性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50550-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗拉强度、抗剪强度、正拉粘结强度、纤维复合材抗拉强度标准值与弹性模量、极限伸长率、结构胶粘剂不挥发物含量",
+                       "opt":  "结构胶粘剂耐湿热老化性能、纤维织物单位面积质量、预成型板纤维体积含量、碳纤维织物K数",
+                       "freq":  "同厂家、同品种、同规格进场批次划分检验批，每批抽 1 组；结构胶按配套基材做正拉粘结",
+                       "std":  "GB 50367-2013《混凝土结构加固设计规范》；GB 50550-2010《建筑结构加固工程施工质量验收规范》；GB/T 50728-2011《工程结构加固材料安全性鉴定技术规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  0,
+        "zn":  "建筑材料及构配件",
+        "no":  "23",
+        "name":  "焊接材料＊",
+        "py":  "hanjiecailiao hjcl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 5117-2012",
+                          "name":  "GB/T 5117-2012《非合金钢及细晶粒钢焊条》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 5118-2012",
+                          "name":  "GB/T 5118-2012《热强钢焊条》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 8110-2020",
+                          "name":  "GB/T 8110-2020《熔化极气体保护电弧焊用非合金钢及细晶粒钢实心焊丝》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 5293-2018",
+                          "name":  "GB/T 5293-2018《埋弧焊用非合金钢及细晶粒钢实心焊丝、药芯焊丝和焊丝-焊剂组合分类要求》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50205-2020",
+                          "name":  "GB 50205-2020《钢结构工程施工质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "屈服强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断后伸长率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "化学成分",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "冲击韧性",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 229"
+                       },
+                       {
+                           "name":  "扩散氢",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "低氢焊条",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 5117-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "—",
+                       "opt":  "抗拉强度、屈服强度、断后伸长率、化学成分",
+                       "freq":  "同厂家同型号同批号每 20t 为一批（不足按一批），每批抽 1 组",
+                       "std":  "GB/T 5117-2012《非合金钢及细晶粒钢焊条》；GB/T 5118-2012《热强钢焊条》；GB/T 8110-2020《熔化极气体保护电弧焊用非合金钢及细晶粒钢实心焊丝》；GB/T 5293-2018《埋弧焊用非合金钢及细晶粒钢实心焊丝、药芯焊丝和焊丝-焊剂组合分类要求》；GB 50205-2020《钢结构工程施工质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "1",
+        "name":  "混凝土结构构件强度、砌体结构构件强度",
+        "py":  "hunningtujiegougoujianqiangduqitijiegougoujianqiangdu hntjggjqdqtjggjqd",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 50784-2013",
+                          "name":  "GB/T 50784-2013《混凝土结构现场检测技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 第10章",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ/T 23-2011",
+                          "name":  "JGJ/T 23-2011《回弹法检测混凝土抗压强度技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ/T 384-2016",
+                          "name":  "JGJ/T 384-2016《钻芯法检测混凝土强度技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50315-2011",
+                          "name":  "GB/T 50315-2011《砌体工程现场检测技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50344-2019",
+                          "name":  "GB/T 50344-2019《建筑结构检测技术标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "混凝土强度（回弹法/钻芯法/回弹-钻芯综合法/超声回弹综合法）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "砂浆强度（推出法/筒压法/砂浆片剪切法/回弹法/点荷法/贯入法）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "砖强度（回弹法）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "砌体抗压强度（原位轴压法/扁顶法）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "砌体抗剪强度（原位单剪法/原位单砖双剪法）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "混凝土强度（回弹法/钻芯法/回弹-钻芯综合法/超声回弹综合法）；砂浆强度（推出法/筒压法/砂浆片剪切法/回弹法/点荷法/贯入法）；砖强度（回弹法）",
+                       "opt":  "砌体抗压强度（原位轴压法/扁顶法）、砌体抗剪强度（原位单剪法/原位单砖双剪法）",
+                       "freq":  "同条件养护试件同一强度等级≥3 组、每层≥1 组；回弹-取芯法每层按批抽取构件（常规≥5 个构件、芯样≥6 个）；砌体每检验批≥6 个测区",
+                       "std":  "GB/T 50784-2013《混凝土结构现场检测技术标准》；GB 50204-2015《混凝土结构工程施工质量验收规范》 第10章；JGJ/T 23-2011《回弹法检测混凝土抗压强度技术规程》；JGJ/T 384-2016《钻芯法检测混凝土强度技术规程》；GB/T 50315-2011《砌体工程现场检测技术标准》；GB/T 50344-2019《建筑结构检测技术标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "2",
+        "name":  "钢筋及保护层厚度",
+        "py":  "gangjinjibaohucenghoudu gjjbhchd",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 附录E",
+                          "clause":  "附录E"
+                      },
+                      {
+                          "std":  "JGJ/T 152-2019",
+                          "name":  "JGJ/T 152-2019《混凝土中钢筋检测技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50784-2013",
+                          "name":  "GB/T 50784-2013《混凝土结构现场检测技术标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "钢筋保护层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋数量",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "间距",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "直径",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "锈蚀状况",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋力学性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "结构复核、无合格证明",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50784-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "现场取样"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "钢筋保护层厚度",
+                       "opt":  "钢筋数量、间距、直径、锈蚀状况",
+                       "freq":  "梁类、板类构件各抽取构件数量的 2% 且不少于 5 个；有悬挑构件时，悬挑梁类、板类所占比例不宜小于 50%（GB 50204-2015 附录 E）",
+                       "std":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 附录E；JGJ/T 152-2019《混凝土中钢筋检测技术标准》；GB/T 50784-2013《混凝土结构现场检测技术标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "3",
+        "name":  "植筋锚固力",
+        "py":  "zhijinmaoguli zjmgl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ 145-2013",
+                          "name":  "JGJ 145-2013《混凝土结构后锚固技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50550-2010",
+                          "name":  "GB 50550-2010《建筑结构加固工程施工质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50367-2013",
+                          "name":  "GB 50367-2013《混凝土结构加固设计规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "锚固承载力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "胶体性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "植筋胶",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50550-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "锚固承载力",
+                       "opt":  "—",
+                       "freq":  "同规格、同型号、同基材、基本相同部位为一批，每批抽 3 件（重要结构 5 件），做现场抗拔检验",
+                       "std":  "JGJ 145-2013《混凝土结构后锚固技术规程》；GB 50550-2010《建筑结构加固工程施工质量验收规范》；GB 50367-2013《混凝土结构加固设计规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "4",
+        "name":  "构件位置和尺寸＊（涵盖砌体、混凝土、木结构）",
+        "py":  "goujianweizhihechicunhangaiqitihunningtumujiegou gjwzhcchgqthntmjg",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50203-2011",
+                          "name":  "GB 50203-2011《砌体结构工程施工质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50210-2018",
+                          "name":  "GB 50210-2018《建筑装饰装修工程质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "轴线位置",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "标高",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "截面尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "预埋件位置",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "预留插筋位置及外露长度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "垂直度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "平整度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "构件挠度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "平面外变形",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "层高",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "10.1.1"
+                                         }
+                                     ],
+                           "method":  "附录F"
+                       },
+                       {
+                           "name":  "预埋件中心线位置",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "附录F"
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "轴线位置、标高、截面尺寸、预埋件位置、预留插筋位置及外露长度、垂直度、平整度、构件挠度、平面外变形",
+                       "opt":  "—",
+                       "freq":  "按检验批抽检，每检验批不少于 3 处（件）；预制构件按同一类型抽检 10% 且不少于 3 件",
+                       "std":  "GB 50204-2015《混凝土结构工程施工质量验收规范》；GB 50203-2011《砌体结构工程施工质量验收规范》；GB 50210-2018《建筑装饰装修工程质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "5",
+        "name":  "外观质量及内部缺陷＊",
+        "py":  "waiguanzhiliangjineibuquexian wgzljnbqx",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50784-2013",
+                          "name":  "GB/T 50784-2013《混凝土结构现场检测技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "T/CECS 21-2024《超声法检测混凝土缺陷技术规程》",
+                          "name":  "T/CECS 21-2024《超声法检测混凝土缺陷技术规程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "内部缺陷",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "裂缝",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "8.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "蜂窝",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "8.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "麻面",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "8.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "露筋",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "8.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "孔洞",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "8.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "夹渣",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "8.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "疏松",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "8.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "外观质量、内部缺陷",
+                       "opt":  "—",
+                       "freq":  "外观质量全数检查；内部缺陷（超声法）按构件数抽检，每批不少于 3 个构件",
+                       "std":  "GB 50204-2015《混凝土结构工程施工质量验收规范》；GB/T 50784-2013《混凝土结构现场检测技术标准》；T/CECS 21-2024《超声法检测混凝土缺陷技术规程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "6",
+        "name":  "装配式混凝土结构节点＊",
+        "py":  "zhuangpeishihunningtujiegoujiedian zpshntjgjd",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ 355-2015",
+                          "name":  "JGJ 355-2015《钢筋套筒灌浆连接应用技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 51231-2016",
+                          "name":  "GB/T 51231-2016《装配式混凝土建筑技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 1-2014",
+                          "name":  "JGJ 1-2014《装配式混凝土结构技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "钢筋套筒灌浆连接灌浆饱满性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋浆锚搭接连接灌浆饱满性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外墙板接缝防水性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "灌浆料强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 355-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "套筒外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 355-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "套筒尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 355-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "接缝宽度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 51231-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "钢筋套筒灌浆连接灌浆饱满性、钢筋浆锚搭接连接灌浆饱满性、外墙板接缝防水性能",
+                       "opt":  "—",
+                       "freq":  "同类型节点每 100 个为一批（不足按一批），每批抽 3 个；灌浆饱满性可用预埋传感器法、冲击回波法或钻芯法",
+                       "std":  "JGJ 355-2015《钢筋套筒灌浆连接应用技术规程》；GB/T 51231-2016《装配式混凝土建筑技术标准》；JGJ 1-2014《装配式混凝土结构技术规程》；GB 50204-2015《混凝土结构工程施工质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "7",
+        "name":  "结构构件性能＊（涵盖砌体、混凝土、木结构）",
+        "py":  "jiegougoujianxingnenghangaiqitihunningtumujiegou jggjxnhgqthntmjg",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 50152-2012",
+                          "name":  "GB/T 50152-2012《混凝土结构试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》 第9章",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "静载试验",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "动力测试",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "承载力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "挠度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "裂缝宽度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "静载试验、动力测试",
+                       "opt":  "—",
+                       "freq":  "按设计文件与 GB/T 50152-2012 确定，同类型构件抽检不少于 1 件",
+                       "std":  "GB/T 50152-2012《混凝土结构试验方法标准》；GB 50204-2015《混凝土结构工程施工质量验收规范》 第9章"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "8",
+        "name":  "装饰装修工程＊",
+        "py":  "zhuangshizhuangxiugongcheng zszxgc",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50210-2018",
+                          "name":  "GB 50210-2018《建筑装饰装修工程质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ/T 110-2017",
+                          "name":  "JGJ/T 110-2017《建筑工程饰面砖粘结强度检验标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 145-2013",
+                          "name":  "JGJ 145-2013《混凝土结构后锚固技术规程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "后置埋件现场拉拔力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "饰面砖粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抹灰砂浆拉伸粘接强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "结构实体检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "空鼓",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50210-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "平整度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50210-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "垂直度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50210-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "后置埋件现场拉拔力、饰面砖粘结强度、抹灰砂浆拉伸粘接强度",
+                       "opt":  "—",
+                       "freq":  "饰面砖每 300m² 同类墙体为一批（不足按一批），每批取 3 个试样；后置埋件抗拔按 JGJ 145 及设计文件确定（常规每 500 件抽 3 件）",
+                       "std":  "GB 50210-2018《建筑装饰装修工程质量验收标准》；JGJ/T 110-2017《建筑工程饰面砖粘结强度检验标准》；JGJ 145-2013《混凝土结构后锚固技术规程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  1,
+        "zn":  "主体结构及装饰装修",
+        "no":  "9",
+        "name":  "室内环境污染物＊",
+        "py":  "shineihuanjingwuranwu snhjwrw",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50325-2020",
+                          "name":  "GB 50325-2020《民用建筑工程室内环境污染控制标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 18883-2022",
+                          "name":  "GB/T 18883-2022《室内空气质量标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 18204.1-2013",
+                          "name":  "GB/T 18204.1-2013《公共场所卫生检验方法 第1部分：物理因素》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 18204.2-2014",
+                          "name":  "GB/T 18204.2-2014《公共场所卫生检验方法 第2部分：化学污染物》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "甲醛",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氨",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "TVOC",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "苯",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氡",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "甲苯",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "二甲苯",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "土壤中的氡",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "甲醛、氨、TVOC、苯、氡、甲苯、二甲苯、土壤中的氡",
+                       "opt":  "—",
+                       "freq":  "抽检房间数不少于房间总数的 5% 且不少于 3 间；房间总数少于 20 间时抽 3 间；每间设 1 个检测点",
+                       "std":  "GB 50325-2020《民用建筑工程室内环境污染控制标准》；GB/T 18883-2022《室内空气质量标准》；GB/T 18204.1-2013《公共场所卫生检验方法 第1部分：物理因素》；GB/T 18204.2-2014《公共场所卫生检验方法 第2部分：化学污染物》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  2,
+        "zn":  "钢结构",
+        "no":  "1",
+        "name":  "钢材及焊接材料",
+        "py":  "gangcaijihanjiecailiao gcjhjcl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50205-2020",
+                          "name":  "GB 50205-2020《钢结构工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 700-2006",
+                          "name":  "GB/T 700-2006《碳素结构钢》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 1591-2018",
+                          "name":  "GB/T 1591-2018《低合金高强度结构钢》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 228.1-2021",
+                          "name":  "GB/T 228.1-2021《金属材料 拉伸试验 第1部分：室温试验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 232-2024",
+                          "name":  "GB/T 232-2024《金属材料 弯曲试验方法》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "屈服强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "伸长率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "厚度偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断面收缩率",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硬度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "冲击韧性",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "需验算疲劳的承重结构",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "冷弯性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "焊接承重结构、弯曲成型构件",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢材元素含量（C、S、P）",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  "4.2.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表面质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  "4.2.1"
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "化学成分",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "焊接结构保证P、S、C（CEV）",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  "附录A"
+                                         }
+                                     ],
+                           "method":  "GB/T 223 系列"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "屈服强度、抗拉强度、伸长率、厚度偏差",
+                       "opt":  "断面收缩率、硬度、冲击韧性、冷弯性能、钢材元素含量（C、S、P）",
+                       "freq":  "同牌号、同炉罐号、同规格每 60t 为一批（不足按一批），每批取 1 拉 1 弯；厚度偏差逐张抽检",
+                       "std":  "GB 50205-2020《钢结构工程施工质量验收标准》；GB/T 700-2006《碳素结构钢》；GB/T 1591-2018《低合金高强度结构钢》；GB/T 228.1-2021《金属材料 拉伸试验 第1部分：室温试验方法》；GB/T 232-2024《金属材料 弯曲试验方法》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  2,
+        "zn":  "钢结构",
+        "no":  "2",
+        "name":  "焊缝",
+        "py":  "hanfeng hf",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50205-2020",
+                          "name":  "GB 50205-2020《钢结构工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 11345-2023",
+                          "name":  "GB/T 11345-2023《焊缝无损检测 超声检测 技术、检测等级和评定》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 3323.1-2019",
+                          "name":  "GB/T 3323.1-2019《焊缝无损检测 射线检测 第1部分：X和伽玛射线的胶片技术》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50661-2011",
+                          "name":  "GB 50661-2011《钢结构焊接规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "内部缺陷探伤（超声法/射线法）",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表面缺陷（磁粉/渗透）",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "表面裂纹敏感构件",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 26951；GB/T 18851"
+                       },
+                       {
+                           "name":  "焊缝金属力学性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "重要焊缝",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "外观质量、内部缺陷探伤（超声法/射线法）",
+                       "opt":  "尺寸",
+                       "freq":  "一级焊缝 100% 探伤；二级焊缝抽检 20%（GB 50205-2020 第5.2.4条）；三级焊缝外观全数检查",
+                       "std":  "GB 50205-2020《钢结构工程施工质量验收标准》；GB/T 11345-2023《焊缝无损检测 超声检测 技术、检测等级和评定》；GB/T 3323.1-2019《焊缝无损检测 射线检测 第1部分：X和伽玛射线的胶片技术》；GB 50661-2011《钢结构焊接规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  2,
+        "zn":  "钢结构",
+        "no":  "3",
+        "name":  "钢结构防腐及防火涂装",
+        "py":  "gangjiegoufangfujifanghuotuzhuang gjgffjfhtz",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50205-2020",
+                          "name":  "GB 50205-2020《钢结构工程施工质量验收标准》 第13章",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 14907-2018",
+                          "name":  "GB 14907-2018《钢结构防火涂料》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 9286-2021",
+                          "name":  "GB/T 9286-2021《色漆和清漆 划格试验》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "涂层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "涂料粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "防火涂料",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "涂料抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "防火涂料",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "涂层附着力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐火极限",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "防火涂料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 14907-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "干燥时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "防火涂料",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 14907-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "涂层外观",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  "第13章"
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "涂层厚度",
+                       "opt":  "涂料粘结强度、涂料抗压强度、涂层附着力",
+                       "freq":  "按构件数抽检 10% 且不少于 3 件，每件测 5 处；防火涂层厚度按同类构件抽检 10%",
+                       "std":  "GB 50205-2020《钢结构工程施工质量验收标准》 第13章；GB 14907-2018《钢结构防火涂料》；GB/T 9286-2021《色漆和清漆 划格试验》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  2,
+        "zn":  "钢结构",
+        "no":  "4",
+        "name":  "高强度螺栓及普通紧固件",
+        "py":  "gaoqiangduluoshuanjiputongjingujian gqdlsjptjgj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50205-2020",
+                          "name":  "GB 50205-2020《钢结构工程施工质量验收标准》 第6章",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 3632-2008",
+                          "name":  "GB/T 3632-2008《钢结构用扭剪型高强度螺栓连接副》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 1231-2024",
+                          "name":  "GB/T 1231-2024《钢结构用高强度大六角头螺栓连接副》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 3098.1-2010",
+                          "name":  "GB/T 3098.1-2010《紧固件机械性能 螺栓、螺钉和螺柱》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗滑移系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "摩擦面批次",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硬度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "紧固轴力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "扭剪型高强度螺栓",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "扭矩系数",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "大六角头高强度螺栓",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "最小拉力载荷（普通紧固件）",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "楔负载",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "高强度螺栓",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 3098.1-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "螺母保证载荷",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "高强度螺栓",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 3098.1-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "垫圈硬度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "高强度螺栓",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1231-2024",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "镀层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "热浸镀锌螺栓",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗滑移系数、硬度",
+                       "opt":  "紧固轴力、扭矩系数、最小拉力载荷（普通紧固件）",
+                       "freq":  "抗滑移系数每 2000t 钢结构（或每批次）抽 3 组试件；高强度螺栓同批号每 3000 套抽 8 套做扭矩系数或紧固轴力",
+                       "std":  "GB 50205-2020《钢结构工程施工质量验收标准》 第6章；GB/T 3632-2008《钢结构用扭剪型高强度螺栓连接副》；GB/T 1231-2024《钢结构用高强度大六角头螺栓连接副》；GB/T 3098.1-2010《紧固件机械性能 螺栓、螺钉和螺柱》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  2,
+        "zn":  "钢结构",
+        "no":  "5",
+        "name":  "构件位置与尺寸＊",
+        "py":  "goujianweizhiyuchicun gjwzycc",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50205-2020",
+                          "name":  "GB 50205-2020《钢结构工程施工质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "垂直度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯曲矢高",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "侧向弯曲",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "结构挠度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "轴线位置",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "标高",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "截面尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "垂直度、弯曲矢高、侧向弯曲、结构挠度、轴线位置、标高、截面尺寸",
+                       "opt":  "—",
+                       "freq":  "按 GB 50205-2020 第10章，每检验批抽检 10% 且不少于 3 件",
+                       "std":  "GB 50205-2020《钢结构工程施工质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  2,
+        "zn":  "钢结构",
+        "no":  "6",
+        "name":  "结构构件性能＊",
+        "py":  "jiegougoujianxingneng jggjxn",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50205-2020",
+                          "name":  "GB 50205-2020《钢结构工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50755-2012",
+                          "name":  "GB 50755-2012《钢结构工程施工规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50152-2012",
+                          "name":  "GB/T 50152-2012《混凝土结构试验方法标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "静载试验",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "动力测试",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "静载试验、动力测试",
+                       "opt":  "—",
+                       "freq":  "按设计文件确定，同类型构件抽检不少于 1 件",
+                       "std":  "GB 50205-2020《钢结构工程施工质量验收标准》；GB 50755-2012《钢结构工程施工规范》；GB/T 50152-2012《混凝土结构试验方法标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  2,
+        "zn":  "钢结构",
+        "no":  "7",
+        "name":  "金属屋面＊",
+        "py":  "jinshuwumian jswm",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50205-2020",
+                          "name":  "GB 50205-2020《钢结构工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50896-2013",
+                          "name":  "GB 50896-2013《压型金属板工程应用技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 31543-2015",
+                          "name":  "GB/T 31543-2015《单层卷材屋面系统抗风揭试验方法》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "静态压力抗风掀",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "动态压力抗风掀",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水密性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "气密性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "设计有要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗风压性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "设计有要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50205-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "静态压力抗风掀、动态压力抗风掀",
+                       "opt":  "—",
+                       "freq":  "同类型屋面每 1000m² 为一批（不足按一批），每批抽 1 组（3 个试件）",
+                       "std":  "GB 50205-2020《钢结构工程施工质量验收标准》；GB 50896-2013《压型金属板工程应用技术规范》；GB/T 31543-2015《单层卷材屋面系统抗风揭试验方法》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  3,
+        "zn":  "地基基础",
+        "no":  "1",
+        "name":  "地基及复合地基",
+        "py":  "dijijifuhediji djjfhdj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50202-2018",
+                          "name":  "GB 50202-2018《建筑地基基础工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 79-2012",
+                          "name":  "JGJ 79-2012《建筑地基处理技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 340-2015",
+                          "name":  "JGJ 340-2015《建筑地基检测技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50007-2011",
+                          "name":  "GB 50007-2011《建筑地基基础设计规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "承载力（静载试验/动力触探试验等）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压实系数（环刀法/灌砂法）",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "换填垫层、土方回填",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "地基土强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密实度（动力触探/标准贯入）",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "变形模量（原位测试）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "增强体强度（钻芯法）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "褥垫层压实度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "复合地基有褥垫层",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50202-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "增强体长度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "复合地基",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 79-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "增强体桩径",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "复合地基",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 79-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "承载力（静载试验/动力触探试验等）",
+                       "opt":  "压实系数（环刀法/灌砂法）、地基土强度、密实度（动力触探/标准贯入）、变形模量（原位测试）、增强体强度（钻芯法）",
+                       "freq":  "单位工程检测数量不少于 3 点；复杂场地、重要工程按设计要求增加",
+                       "std":  "GB 50202-2018《建筑地基基础工程施工质量验收标准》；JGJ 79-2012《建筑地基处理技术规范》；JGJ 340-2015《建筑地基检测技术规范》；GB 50007-2011《建筑地基基础设计规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  3,
+        "zn":  "地基基础",
+        "no":  "2",
+        "name":  "桩的承载力",
+        "py":  "zhuangdechengzaili zdczl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ 106-2014",
+                          "name":  "JGJ 106-2014《建筑基桩检测技术规范》 第3.3节",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50202-2018",
+                          "name":  "GB 50202-2018《建筑地基基础工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 94-2008",
+                          "name":  "JGJ 94-2008《建筑桩基技术规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "水平承载力（静载试验）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "设计有水平荷载",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "竖向抗压承载力（静载试验/自平衡/高应变法）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "竖向抗拔承载力（抗拔静载试验）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "设计有抗拔要求",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "水平承载力（静载试验）、竖向抗压承载力（静载试验/自平衡/高应变法）、竖向抗拔承载力（抗拔静载试验）",
+                       "opt":  "—",
+                       "freq":  "竖向抗压静载（验收）：不应少于同一条件下桩基分项工程总桩数的 1%，且不少于 3 根；总桩数小于 50 根时不少于 2 根（JGJ 106-2014 第3.3.5条）。抗拔、水平静载：各不应少于总桩数的 1%，且不少于 3 根（第3.3.8条）。高应变法用于承载力验收时：不宜少于总桩数的 5% 且不得少于 5 根（第3.3.6条）",
+                       "std":  "JGJ 106-2014《建筑基桩检测技术规范》 第3.3节；GB 50202-2018《建筑地基基础工程施工质量验收标准》；JGJ 94-2008《建筑桩基技术规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  3,
+        "zn":  "地基基础",
+        "no":  "3",
+        "name":  "桩身完整性",
+        "py":  "zhuangshenwanzhengxing zswzx",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ 106-2014",
+                          "name":  "JGJ 106-2014《建筑基桩检测技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50202-2018",
+                          "name":  "GB 50202-2018《建筑地基基础工程施工质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "桩身完整性（低应变法/声波透射法/钻芯法等）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "桩身完整性（低应变法/声波透射法/钻芯法等）",
+                       "opt":  "—",
+                       "freq":  "设计等级甲级，或地基条件复杂、成桩质量可靠性较低的灌注桩：不少于总桩数的 30% 且不少于 20 根；其他桩基工程：不少于总桩数的 20% 且不少于 10 根；另每个柱下承台检测桩数不少于 1 根（JGJ 106-2014 第3.3.3条）",
+                       "std":  "JGJ 106-2014《建筑基桩检测技术规范》；GB 50202-2018《建筑地基基础工程施工质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  3,
+        "zn":  "地基基础",
+        "no":  "4",
+        "name":  "锚杆抗拔承载力",
+        "py":  "maogankangbachengzaili mgkbczl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50086-2015",
+                          "name":  "GB 50086-2015《岩土锚杆与喷射混凝土支护工程技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 120-2012",
+                          "name":  "JGJ 120-2012《建筑基坑支护技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50202-2018",
+                          "name":  "GB 50202-2018《建筑地基基础工程施工质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "拉拔试验",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "锚杆长度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50086-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "注浆密实度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50086-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "拉拔试验",
+                       "opt":  "—",
+                       "freq":  "验收试验常规不少于锚杆总数的 5% 且不少于 3 根，具体数量按 GB 50086-2015 及设计文件确定；永久性锚杆、基坑支护按设计文件加严",
+                       "std":  "GB 50086-2015《岩土锚杆与喷射混凝土支护工程技术规范》；JGJ 120-2012《建筑基坑支护技术规程》；GB 50202-2018《建筑地基基础工程施工质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  3,
+        "zn":  "地基基础",
+        "no":  "5",
+        "name":  "地下连续墙＊",
+        "py":  "dixialianxuqiang dxlxq",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ 120-2012",
+                          "name":  "JGJ 120-2012《建筑基坑支护技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50202-2018",
+                          "name":  "GB 50202-2018《建筑地基基础工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 106-2014",
+                          "name":  "JGJ 106-2014《建筑基桩检测技术规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "墙身完整性（声波透射法/钻芯法等）",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "墙身混凝土强度（钻芯法）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "墙身垂直度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 120-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "槽深",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 120-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "接头质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 120-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "墙身完整性（声波透射法/钻芯法等）、墙身混凝土强度（钻芯法）",
+                       "opt":  "—",
+                       "freq":  "按槽段数抽检；标准未统一规定比例与点数，按设计文件及经批准的检测方案确定",
+                       "std":  "JGJ 120-2012《建筑基坑支护技术规程》；GB 50202-2018《建筑地基基础工程施工质量验收标准》；JGJ 106-2014《建筑基桩检测技术规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "1",
+        "name":  "保温、绝热材料",
+        "py":  "baowenjuerecailiao bwjrcl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》 第4.2.2条",
+                          "clause":  "第4.2.2条"
+                      },
+                      {
+                          "std":  "GB/T 10294-2008",
+                          "name":  "GB/T 10294-2008《绝热材料稳态热阻及有关特性的测定 防护热板法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 10295-2008",
+                          "name":  "GB/T 10295-2008《绝热材料稳态热阻及有关特性的测定 热流计法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 29906-2013",
+                          "name":  "GB/T 29906-2013《模塑聚苯板薄抹灰外墙外保温系统材料》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 8624-2012",
+                          "name":  "GB 8624-2012《建筑材料及制品燃烧性能分级》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "导热系数或热阻",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压缩强度或抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "垂直于板面方向的抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "传热系数及热阻",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "复合保温板等定型产品",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "单位面积质量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "复合保温板等定型产品",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "复合保温板等定型产品",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "燃烧性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "不燃材料除外",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸稳定性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "板材",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 29906-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水蒸气透过系数",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 29906-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "陈化时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "EPS/XPS板",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 29906-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "导热系数或热阻、密度、压缩强度或抗压强度、垂直于板面方向的抗拉强度、吸水率、传热系数及热阻、单位面积质量、拉伸粘结强度",
+                       "opt":  "燃烧性能",
+                       "freq":  "同厂家同品种同规格：按扣除门窗洞口后的保温墙面面积计，5000m² 以内各抽不少于 1 次，每增加 5000m² 各增加不少于 1 次（燃烧性能每增加 10000m² 增加不少于 1 次，增加面积不足时也应增加 1 次）；同一工程同一施工单位同期施工的群体建筑可合并计算（GB 50411-2019 第4.2.2条）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》 第4.2.2条；GB/T 10294-2008《绝热材料稳态热阻及有关特性的测定 防护热板法》；GB/T 10295-2008《绝热材料稳态热阻及有关特性的测定 热流计法》；GB/T 29906-2013《模塑聚苯板薄抹灰外墙外保温系统材料》；GB 8624-2012《建筑材料及制品燃烧性能分级》"
+                   },
+        "coverage":  {
+                         "total":  10,
+                         "covered":  10,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "2",
+        "name":  "粘接材料",
+        "py":  "nianjiecailiao njcl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 144-2019",
+                          "name":  "JGJ 144-2019《外墙外保温工程技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 29906-2013",
+                          "name":  "GB/T 29906-2013《模塑聚苯板薄抹灰外墙外保温系统材料》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "拉伸粘接强度（与水泥砂浆、与保温板）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "拉伸粘接强度（与水泥砂浆、与保温板）",
+                       "opt":  "—",
+                       "freq":  "同厂家同品种同规格按扣除门窗洞口后的保温墙面面积计，每 5000m² 不少于 1 次（GB 50411-2019）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》；JGJ 144-2019《外墙外保温工程技术标准》；GB/T 29906-2013《模塑聚苯板薄抹灰外墙外保温系统材料》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "3",
+        "name":  "增强加固材料",
+        "py":  "zengqiangjiagucailiao zqjgcl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 144-2019",
+                          "name":  "JGJ 144-2019《外墙外保温工程技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 29906-2013",
+                          "name":  "GB/T 29906-2013《模塑聚苯板薄抹灰外墙外保温系统材料》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "力学性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗腐蚀性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "网孔中心距偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢丝网丝径",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "单位面积质量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断裂伸长率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "力学性能、抗腐蚀性能",
+                       "opt":  "网孔中心距偏差、钢丝网丝径、单位面积质量、断裂伸长率",
+                       "freq":  "同厂家同品种同规格按扣除门窗洞口后的保温墙面面积计，每 5000m² 不少于 1 次（GB 50411-2019）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》；JGJ 144-2019《外墙外保温工程技术标准》；GB/T 29906-2013《模塑聚苯板薄抹灰外墙外保温系统材料》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "4",
+        "name":  "保温砂浆",
+        "py":  "baowenshajiang bwsj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 20473-2021",
+                          "name":  "GB/T 20473-2021《建筑保温砂浆》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ/T 253-2011",
+                          "name":  "JGJ/T 253-2011《无机轻集料砂浆保温系统技术规程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "干密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "导热系数",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "剪切强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "线性收缩率",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 20473-2021",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "软化系数",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 20473-2021",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "燃烧性能",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "不燃材料除外",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 8624-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗压强度、干密度、导热系数",
+                       "opt":  "剪切强度、拉伸粘结强度",
+                       "freq":  "同厂家同品种同规格按扣除门窗洞口后的保温墙面面积计，每 5000m² 不少于 1 次（GB 50411-2019）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》；GB/T 20473-2021《建筑保温砂浆》；JGJ/T 253-2011《无机轻集料砂浆保温系统技术规程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "5",
+        "name":  "抹面材料",
+        "py":  "momiancailiao mmcl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 144-2019",
+                          "name":  "JGJ 144-2019《外墙外保温工程技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 29906-2013",
+                          "name":  "GB/T 29906-2013《模塑聚苯板薄抹灰外墙外保温系统材料》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "拉伸粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压折比（或柔韧性）",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冲击性",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 144-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐冻融",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "寒冷地区",
+                           "basis":  [
+                                         {
+                                             "std":  "JGJ 144-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "拉伸粘结强度、压折比（或柔韧性）",
+                       "opt":  "—",
+                       "freq":  "同厂家同品种同规格按扣除门窗洞口后的保温墙面面积计，每 5000m² 不少于 1 次（GB 50411-2019）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》；JGJ 144-2019《外墙外保温工程技术标准》；GB/T 29906-2013《模塑聚苯板薄抹灰外墙外保温系统材料》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "6",
+        "name":  "隔热型材",
+        "py":  "gerexingcai grxc",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 5237.6-2017",
+                          "name":  "GB/T 5237.6-2017《铝合金建筑型材 第6部分：隔热型材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 8478-2020",
+                          "name":  "GB/T 8478-2020《铝合金门窗》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗剪强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗拉强度、抗剪强度",
+                       "opt":  "—",
+                       "freq":  "同厂家同品种同规格每批抽 1 组（3 件）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》；GB/T 5237.6-2017《铝合金建筑型材 第6部分：隔热型材》；GB/T 8478-2020《铝合金门窗》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "7",
+        "name":  "建筑外窗",
+        "py":  "jianzhuwaichuang jzwc",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 7106-2019",
+                          "name":  "GB/T 7106-2019《建筑外门窗气密、水密、抗风压性能分级及检测方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 8484-2020",
+                          "name":  "GB/T 8484-2020《建筑外门窗保温性能检测方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 8478-2020",
+                          "name":  "GB/T 8478-2020《铝合金门窗》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "气密性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水密性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗风压性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "传热系数",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "严寒/寒冷地区、夏热冬冷地区",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "玻璃的太阳得热系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "夏热冬冷、夏热冬暖地区",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "可见光透射比",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "夏热冬冷、夏热冬暖地区",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "中空玻璃密封性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "采用中空玻璃",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "采光性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 11976-2015",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "隔声性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 8485-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "气密性能、水密性能、抗风压性能",
+                       "opt":  "传热系数、玻璃的太阳得热系数、可见光透射比、中空玻璃密封性能",
+                       "freq":  "同厂家同品种同类型每单位工程抽 1 组（3 樘）；同一工程项目同类型窗抽检不少于 1 组",
+                       "std":  "GB/T 7106-2019《建筑外门窗气密、水密、抗风压性能分级及检测方法》；GB/T 8484-2020《建筑外门窗保温性能检测方法》；GB 50411-2019《建筑节能工程施工质量验收标准》；GB/T 8478-2020《铝合金门窗》"
+                   },
+        "coverage":  {
+                         "total":  8,
+                         "covered":  8,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "8",
+        "name":  "节能工程",
+        "py":  "jienenggongcheng jngc",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》 第4.2.7条",
+                          "clause":  "第4.2.7条"
+                      },
+                      {
+                          "std":  "JGJ 144-2019",
+                          "name":  "JGJ 144-2019《外墙外保温工程技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50243-2016",
+                          "name":  "GB 50243-2016《通风与空调工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "外墙节能构造及保温层厚度（钻芯法）",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "保温板与基层的拉伸粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "锚固件的锚固力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外窗气密性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "室内平均温度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "风口风量",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "系统总风量",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "风道单位风量耗功率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "冷热水循环流量",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "管网水力平衡度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "照度与照明功率密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外墙传热系数或热阻",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "外墙节能构造及保温层厚度（钻芯法）、保温板与基层的拉伸粘结强度、锚固件的锚固力、外窗气密性能",
+                       "opt":  "室内平均温度、风口风量、系统总风量、风道单位风量耗功率、冷热水循环流量、管网水力平衡度、照度与照明功率密度、外墙传热系数或热阻",
+                       "freq":  "外墙节能构造钻芯每单位工程不少于 3 处；保温板拉拔、锚固力每 5000m² 抽 1 组（3 处）；外窗气密性抽检 3 樘",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》 第4.2.7条；JGJ 144-2019《外墙外保温工程技术标准》；GB 50243-2016《通风与空调工程施工质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "9",
+        "name":  "电线电缆",
+        "py":  "dianxiandianlan dxdl",
+        "varieties":  [
+                          "电线电缆"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 3048.4-2007",
+                          "name":  "GB/T 3048.4-2007《电线电缆电性能试验方法 第4部分：导体直流电阻试验》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 5023.1-2008",
+                          "name":  "GB/T 5023.1-2008《额定电压450/750V及以下聚氯乙烯绝缘电缆 第1部分：一般要求》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 12706.1-2020",
+                          "name":  "GB/T 12706.1-2020《额定电压1kV(Um=1.2kV)到35kV(Um=40.5kV)挤包绝缘电力电缆及附件 第1部分：额定电压1kV(Um=1.2kV)和3kV(Um=3.6kV)电缆》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "导体电阻值",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "燃烧性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "绝缘电阻",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "绝缘厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐压试验",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "导体电阻值",
+                       "opt":  "燃烧性能、绝缘电阻、绝缘厚度、耐压试验",
+                       "freq":  "同厂家同品种同规格按进场批次抽 1 组（常规每 5000m 一批）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》；GB/T 3048.4-2007《电线电缆电性能试验方法 第4部分：导体直流电阻试验》；GB/T 5023.1-2008《额定电压450/750V及以下聚氯乙烯绝缘电缆 第1部分：一般要求》；GB/T 12706.1-2020《额定电压1kV(Um=1.2kV)到35kV(Um=40.5kV)挤包绝缘电力电缆及附件 第1部分：额定电压1kV(Um=1.2kV)和3kV(Um=3.6kV)电缆》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "10",
+        "name":  "反射隔热材料＊",
+        "py":  "fanshegerecailiao fsgrcl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 25261-2018",
+                          "name":  "GB/T 25261-2018《建筑用反射隔热涂料》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JG/T 235-2014",
+                          "name":  "JG/T 235-2014《建筑反射隔热涂料》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "半球发射率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "太阳光反射比",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "半球发射率、太阳光反射比",
+                       "opt":  "—",
+                       "freq":  "同厂家同品种同规格每 5000m² 为一批，抽 1 组",
+                       "std":  "GB/T 25261-2018《建筑用反射隔热涂料》；JG/T 235-2014《建筑反射隔热涂料》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "11",
+        "name":  "供暖通风空调节能工程用材料、构件和设备＊",
+        "py":  "gongnuantongfengkongtiaojienenggongchengyongcailiaogoujianheshebei gntfktjngcyclgjhsb",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 19232-2019",
+                          "name":  "GB/T 19232-2019《风机盘管机组》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 13754-2017",
+                          "name":  "GB/T 13754-2017《采暖散热器散热量测定方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50243-2016",
+                          "name":  "GB 50243-2016《通风与空调工程施工质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "供冷量",
+                           "variety":  "风机盘管机组",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "供热量",
+                           "variety":  "风机盘管机组",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "风量",
+                           "variety":  "风机盘管机组",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水阻力",
+                           "variety":  "风机盘管机组",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "噪声及输入功率",
+                           "variety":  "风机盘管机组",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "单位散热量",
+                           "variety":  "采暖散热器",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "金属热强度",
+                           "variety":  "采暖散热器",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "导热系数或热阻",
+                           "variety":  "绝热材料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密度",
+                           "variety":  "绝热材料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸水率",
+                           "variety":  "绝热材料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "出口静压",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "风机盘管机组",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50411-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 19232-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 19232"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "风机盘管机组：供冷量、供热量、风量、水阻力、噪声及输入功率；采暖散热器：单位散热量、金属热强度；绝热材料：导热系数或热阻、密度、吸水率",
+                       "opt":  "—",
+                       "freq":  "同厂家同规格按进场批次抽检，风机盘管抽 1 组（2 台），散热器抽 1 组（3 件）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》；GB/T 19232-2019《风机盘管机组》；GB/T 13754-2017《采暖散热器散热量测定方法》；GB 50243-2016《通风与空调工程施工质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "12",
+        "name":  "配电与照明节能工程用材料、构件和设备＊",
+        "py":  "peidianyuzhaomingjienenggongchengyongcailiaogoujianheshebei pdyzmjngcyclgjhsb",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50034-2013",
+                          "name":  "GB 50034-2013《建筑照明设计标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 17896-2022",
+                          "name":  "GB 17896-2022《普通照明用气体放电灯用镇流器能效限定值及能效等级》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "照明光源初始光效",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "镇流器能效值",
+                           "variety":  "照明灯具",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "效率或能效",
+                           "variety":  "照明灯具",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "功率",
+                           "variety":  "照明设备",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "功率因数",
+                           "variety":  "照明设备",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "谐波含量值",
+                           "variety":  "照明设备",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "照明光源初始光效；照明灯具：镇流器能效值、效率或能效；照明设备：功率、功率因数、谐波含量值",
+                       "opt":  "—",
+                       "freq":  "同厂家同规格按进场批次抽检，每批抽 1 组（3 件）",
+                       "std":  "GB 50411-2019《建筑节能工程施工质量验收标准》；GB 50034-2013《建筑照明设计标准》；GB 17896-2022《普通照明用气体放电灯用镇流器能效限定值及能效等级》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  4,
+        "zn":  "建筑节能",
+        "no":  "13",
+        "name":  "可再生能源应用系统＊",
+        "py":  "kezaishengnengyuanyingyongxitong kzsnyyyxt",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50495-2019",
+                          "name":  "GB 50495-2019《太阳能供热采暖工程技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 51368-2019",
+                          "name":  "GB 51368-2019《建筑光伏系统应用技术标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 4271-2021",
+                          "name":  "GB/T 4271-2021《太阳能集热器性能试验方法》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "安全性能",
+                           "variety":  "太阳能集热器",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "热性能",
+                           "variety":  "太阳能集热器",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "得热量",
+                           "variety":  "太阳能集热系统",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "集热效率",
+                           "variety":  "太阳能集热系统",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "太阳能保证率",
+                           "variety":  "太阳能集热系统",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "发电功率",
+                           "variety":  "光伏组件",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "发电效率",
+                           "variety":  "光伏组件",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "年发电量",
+                           "variety":  "光伏发电系统",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "组件背板最高工作温度",
+                           "variety":  "光伏发电系统",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "节能验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "太阳能集热器：安全性能、热性能；太阳能集热系统：得热量、集热效率、太阳能保证率；光伏组件：发电功率、发电效率；光伏发电系统：年发电量、组件背板最高工作温度",
+                       "opt":  "—",
+                       "freq":  "同厂家同规格按进场批次抽检，集热器抽 1 组（2 台），光伏组件抽 1 组（3 块）",
+                       "std":  "GB 50495-2019《太阳能供热采暖工程技术标准》；GB 51368-2019《建筑光伏系统应用技术标准》；GB/T 4271-2021《太阳能集热器性能试验方法》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  5,
+        "zn":  "建筑幕墙",
+        "no":  "1",
+        "name":  "密封胶",
+        "py":  "mifengjiao mfj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 16776-2025",
+                          "name":  "GB 16776-2025《建筑用硅酮结构密封胶》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 14683-2017",
+                          "name":  "GB/T 14683-2017《硅酮和改性硅酮建筑密封胶》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 531.1-2008",
+                          "name":  "GB/T 531.1-2008《硫化橡胶或热塑性橡胶 压入硬度试验方法 第1部分：邵氏硬度计法（邵尔硬度）》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50210-2018",
+                          "name":  "GB 50210-2018《建筑装饰装修工程质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 102-2003",
+                          "name":  "JGJ 102-2003《玻璃幕墙工程技术规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "邵氏硬度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "结构胶标准条件下的拉伸粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "相容性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "剥离粘结性",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "石材用密封胶的污染性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐候胶标准状态下的拉伸模量",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "石材用密封胶的拉伸模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 16776-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "挤出性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 16776-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "适用期",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 16776-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表干时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 16776-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "邵氏硬度、结构胶标准条件下的拉伸粘结强度、相容性、剥离粘结性、石材用密封胶的污染性",
+                       "opt":  "耐候胶标准状态下的拉伸模量、石材用密封胶的拉伸模量",
+                       "freq":  "同厂家同品种同批号每 5t 为一批（不足按一批）；结构胶每批抽 1 组，相容性与剥离粘结性按工程配套基材制作",
+                       "std":  "GB 16776-2025《建筑用硅酮结构密封胶》；GB/T 14683-2017《硅酮和改性硅酮建筑密封胶》；GB/T 531.1-2008《硫化橡胶或热塑性橡胶 压入硬度试验方法 第1部分：邵氏硬度计法（邵尔硬度）》；GB 50210-2018《建筑装饰装修工程质量验收标准》；JGJ 102-2003《玻璃幕墙工程技术规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  5,
+        "zn":  "建筑幕墙",
+        "no":  "2",
+        "name":  "幕墙玻璃",
+        "py":  "muqiangboli mqbl",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 2680-2021",
+                          "name":  "GB/T 2680-2021《建筑玻璃 可见光透射比、太阳光直接透射比、太阳能总透射比、紫外线透射比及有关窗玻璃参数的测定》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 11944-2012",
+                          "name":  "GB/T 11944-2012《中空玻璃》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50411-2019",
+                          "name":  "GB 50411-2019《建筑节能工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 102-2003",
+                          "name":  "JGJ 102-2003《玻璃幕墙工程技术规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "传热系数",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "可见光透射比",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "太阳得热系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "中空玻璃的密封性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢化玻璃均质处理",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "有自爆控制要求的幕墙",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 15763.2-2005",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "露点",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "中空玻璃",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 11944-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "传热系数、可见光透射比、太阳得热系数、中空玻璃的密封性能",
+                       "opt":  "—",
+                       "freq":  "同厂家同品种同规格每批抽 1 组（3 块）；中空玻璃按 GB/T 11944 抽检",
+                       "std":  "GB/T 2680-2021《建筑玻璃 可见光透射比、太阳光直接透射比、太阳能总透射比、紫外线透射比及有关窗玻璃参数的测定》；GB/T 11944-2012《中空玻璃》；GB 50411-2019《建筑节能工程施工质量验收标准》；JGJ 102-2003《玻璃幕墙工程技术规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  5,
+        "zn":  "建筑幕墙",
+        "no":  "3",
+        "name":  "幕墙",
+        "py":  "muqiang mq",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 21086-2007",
+                          "name":  "GB/T 21086-2007《建筑幕墙》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 15227-2019",
+                          "name":  "GB/T 15227-2019《建筑幕墙气密、水密、抗风压性能检测方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 18250-2015",
+                          "name":  "GB/T 18250-2015《建筑幕墙层间变形性能分级及检测方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 102-2003",
+                          "name":  "JGJ 102-2003《玻璃幕墙工程技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 133-2001",
+                          "name":  "JGJ 133-2001《金属与石材幕墙工程技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50210-2018",
+                          "name":  "GB 50210-2018《建筑装饰装修工程质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "气密性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水密性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗风压性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "层间变形性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "设计有要求、超高层幕墙",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "后置埋件抗拔承载力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "采用后置埋件",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "保温隔热性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "隔声性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "采光性能",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐撞击性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "防火性能",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "现场淋水试验",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50210-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 21086 附录"
+                       },
+                       {
+                           "name":  "防火封堵",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "有防火要求",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50210-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "防雷连接",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50210-2018",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "气密性能、水密性能、抗风压性能、层间变形性能、后置埋件抗拔承载力",
+                       "opt":  "保温隔热性能、隔声性能、采光性能、耐撞击性能、防火性能",
+                       "freq":  "同一工程、同一类型幕墙每项性能抽 1 组（3 个试件）；后置埋件抗拔按 JGJ 145 及设计文件确定（常规每 500 件抽 3 件）",
+                       "std":  "GB/T 21086-2007《建筑幕墙》；GB/T 15227-2019《建筑幕墙气密、水密、抗风压性能检测方法》；GB/T 18250-2015《建筑幕墙层间变形性能分级及检测方法》；JGJ 102-2003《玻璃幕墙工程技术规范》；JGJ 133-2001《金属与石材幕墙工程技术规范》；GB 50210-2018《建筑装饰装修工程质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "1",
+        "name":  "土、无机结合稳定材料",
+        "py":  "tuwujijiehewendingcailiao twjjhwdcl",
+        "varieties":  [
+                          "回填土"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JTG 3430-2020",
+                          "name":  "JTG 3430-2020《公路土工试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3441-2024",
+                          "name":  "JTG 3441-2024《公路工程无机结合料稳定材料试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50123-2019",
+                          "name":  "GB/T 50123-2019《土工试验方法标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "含水率",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "液限",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "塑限",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "击实",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "粗粒土和巨粒土最大干密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "承载比（CBR）试验",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "无侧限抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水泥或石灰剂量",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "塑性指数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "不均匀系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "0.6mm 以下颗粒含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "颗粒分析",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "有机质含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "易溶盐含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "含水率、液限、塑限、击实、粗粒土和巨粒土最大干密度、承载比（CBR）试验、无侧限抗压强度、水泥或石灰剂量",
+                       "opt":  "塑性指数、不均匀系数、0.6mm 以下颗粒含量、颗粒分析、有机质含量、易溶盐含量",
+                       "freq":  "同料源、同配合比每 2000m² 或每批次抽 1 组；无机结合料稳定材料每 2000m² 取 1 组做 7d 无侧限抗压强度",
+                       "std":  "JTG 3430-2020《公路土工试验规程》；JTG 3441-2024《公路工程无机结合料稳定材料试验规程》；CJJ 1-2008《城镇道路工程施工与质量验收规范》；GB/T 50123-2019《土工试验方法标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "2",
+        "name":  "土工合成材料",
+        "py":  "tugonghechengcailiao tghccl",
+        "varieties":  [
+                          "土工合成材料（土工布、土工膜）"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 17638-2017",
+                          "name":  "GB/T 17638-2017《土工合成材料 短纤针刺非织造土工布》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 17639-2023",
+                          "name":  "GB/T 17639-2023《土工合成材料 长丝纺粘针刺非织造土工布》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 17642-2025",
+                          "name":  "GB/T 17642-2025《土工合成材料 非织造布复合土工膜》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3460-2026",
+                          "name":  "JTG 3460-2026《公路工程土工合成材料试验规程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "拉伸强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "延伸率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "梯形撕裂强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "CBR 顶破强力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "单位面积质量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "垂直渗透系数",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "刺破强力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "拉伸强度、延伸率、梯形撕裂强度、CBR 顶破强力、厚度、单位面积质量",
+                       "opt":  "垂直渗透系数、刺破强力",
+                       "freq":  "同厂家同品种同规格每 10000m² 为一批（不足按一批），每批抽 1 组",
+                       "std":  "GB/T 17638-2017《土工合成材料 短纤针刺非织造土工布》；GB/T 17639-2023《土工合成材料 长丝纺粘针刺非织造土工布》；GB/T 17642-2025《土工合成材料 非织造布复合土工膜》；JTG 3460-2026《公路工程土工合成材料试验规程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "3",
+        "name":  "掺合料（粉煤灰、钢渣）",
+        "py":  "chanheliaofenmeihuigangzha chlfmhgz",
+        "varieties":  [
+                          "粉煤灰",
+                          "矿渣粉"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 1596-2017",
+                          "name":  "GB/T 1596-2017《用于水泥和混凝土中的粉煤灰》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 20491-2017",
+                          "name":  "GB/T 20491-2017《用于水泥和混凝土中的钢渣粉》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG/T F20-2015",
+                          "name":  "JTG/T F20-2015《公路路面基层施工技术细则》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "SiO₂ 含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "Al₂O₃ 含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "Fe₂O₃ 含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "烧失量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "细度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "比表面积",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "游离氧化钙含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "粉化率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压碎值",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "颗粒组成",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "需水量比",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "粉煤灰",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "活性指数",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "粉煤灰、钢渣粉",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "三氧化硫",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 176"
+                       },
+                       {
+                           "name":  "游离氧化钙",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "粉煤灰",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB/T 176"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "SiO₂ 含量、Al₂O₃ 含量、Fe₂O₃ 含量、烧失量、细度、比表面积",
+                       "opt":  "游离氧化钙含量、粉化率、压碎值、颗粒组成",
+                       "freq":  "同厂家同品种每 200t 为一批（不足按一批），每批抽 1 组",
+                       "std":  "GB/T 1596-2017《用于水泥和混凝土中的粉煤灰》；GB/T 20491-2017《用于水泥和混凝土中的钢渣粉》；JTG/T F20-2015《公路路面基层施工技术细则》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "4",
+        "name":  "沥青及乳化沥青",
+        "py":  "liqingjiruhualiqing lqjrhlq",
+        "varieties":  [
+                          "道路石油沥青、改性沥青"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JTG 3410-2025",
+                          "name":  "JTG 3410-2025《公路工程沥青及沥青混合料试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG F40-2004",
+                          "name":  "JTG F40-2004《公路沥青路面施工技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "针入度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "软化点",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "延度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "质量变化",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "残留针入度比",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "残留延度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "破乳速度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "标准黏度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "蒸发残留物",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弹性恢复",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "运动黏度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "布氏旋转黏度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "针入度指数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "蜡含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "闪点",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "溶解度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "粒子电荷",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "与粗集料的粘附性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "筛上剩余量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "乳化沥青",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "与矿料粘附性",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "乳化沥青",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "贮存稳定性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "乳化沥青",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "针入度、软化点、延度、质量变化、残留针入度比、残留延度、破乳速度、标准黏度、蒸发残留物、弹性恢复",
+                       "opt":  "运动黏度、布氏旋转黏度、针入度指数、蜡含量、闪点、溶解度、密度、粒子电荷、与粗集料的粘附性等",
+                       "freq":  "道路石油沥青每 100t 为一批；改性沥青、乳化沥青每 50t 为一批（不足按一批，常规口径，以 JTG F40 及现行产品标准为准）",
+                       "std":  "JTG 3410-2025《公路工程沥青及沥青混合料试验规程》；JTG F40-2004《公路沥青路面施工技术规范》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "5",
+        "name":  "沥青混合料用粗集料、细集料、矿粉、木质素纤维",
+        "py":  "liqinghunheliaoyongcujiliaoxijiliaokuangfenmuzhisuxianwei lqhhlycjlxjlkfmzsxw",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JTG 3432-2024",
+                          "name":  "JTG 3432-2024《公路工程集料试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG F40-2004",
+                          "name":  "JTG F40-2004《公路沥青路面施工技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3410-2025",
+                          "name":  "JTG 3410-2025《公路工程沥青及沥青混合料试验规程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "压碎值",
+                           "variety":  "粗集料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "洛杉矶磨耗损失",
+                           "variety":  "粗集料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表观相对密度",
+                           "variety":  "粗集料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸水率",
+                           "variety":  "粗集料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "沥青黏附性",
+                           "variety":  "粗集料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "颗粒级配",
+                           "variety":  "粗集料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表观相对密度",
+                           "variety":  "细集料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "砂当量",
+                           "variety":  "细集料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "颗粒级配",
+                           "variety":  "细集料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表观相对密度",
+                           "variety":  "矿粉",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "亲水系数",
+                           "variety":  "矿粉",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "塑性指数",
+                           "variety":  "矿粉",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "加热安定性",
+                           "variety":  "矿粉",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "筛分",
+                           "variety":  "矿粉",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含水率",
+                           "variety":  "矿粉",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "长度",
+                           "variety":  "木质素纤维",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "灰分含量",
+                           "variety":  "木质素纤维",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸油率",
+                           "variety":  "木质素纤维",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "坚固性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "软弱颗粒含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "磨光值",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "针片状",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "\u003c0.075mm 颗粒含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "细集料棱角性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含泥量",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "亚甲蓝值",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "纤维 pH 值",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含水率",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "粗集料：压碎值、洛杉矶磨耗损失、表观相对密度、吸水率、沥青黏附性、颗粒级配；细集料：表观相对密度、砂当量、颗粒级配；矿粉：表观相对密度、亲水系数、塑性指数、加热安定性、筛分、含水率；木质素纤维：长度、灰分含量、吸油率",
+                       "opt":  "坚固性、软弱颗粒含量、磨光值、针片状、\u003c0.075mm 颗粒含量；细集料棱角性、含泥量、亚甲蓝值；纤维 pH 值、含水率",
+                       "freq":  "同料源同规格每 200m³ 或每批次抽 1 组；矿粉每 100t 为一批；木质素纤维每 50t 为一批",
+                       "std":  "JTG 3432-2024《公路工程集料试验规程》；JTG F40-2004《公路沥青路面施工技术规范》；JTG 3410-2025《公路工程沥青及沥青混合料试验规程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "6",
+        "name":  "沥青混合料",
+        "py":  "liqinghunheliao lqhhl",
+        "varieties":  [
+                          "沥青混合料"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JTG 3410-2025",
+                          "name":  "JTG 3410-2025《公路工程沥青及沥青混合料试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG F40-2004",
+                          "name":  "JTG F40-2004《公路沥青路面施工技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "马歇尔稳定度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "流值",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "矿料级配",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "油石比",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "动稳定度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "残留稳定度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "冻融劈裂强度比",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "配合比设计",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "空隙率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "JTG 3410-2025"
+                       },
+                       {
+                           "name":  "矿料间隙率（VMA）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "JTG 3410-2025"
+                       },
+                       {
+                           "name":  "饱和度（VFA）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "JTG 3410-2025"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "马歇尔稳定度、流值、矿料级配、油石比、密度",
+                       "opt":  "动稳定度、残留稳定度、冻融劈裂强度比、配合比设计",
+                       "freq":  "每台班或每 200t 抽 1 组（马歇尔试验 6 个试件）；配合比验证每品种 1 次",
+                       "std":  "JTG 3410-2025《公路工程沥青及沥青混合料试验规程》；JTG F40-2004《公路沥青路面施工技术规范》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  {
+                         "total":  8,
+                         "covered":  8,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "7",
+        "name":  "路面砖及路缘石",
+        "py":  "lumianzhuanjiluyuanshi lmzjlys",
+        "varieties":  [
+                          "混凝土路面砖",
+                          "混凝土路缘石"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 28635-2012",
+                          "name":  "GB/T 28635-2012《混凝土路面砖》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JC/T 899-2016",
+                          "name":  "JC/T 899-2016《混凝土路缘石》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 12988-2009",
+                          "name":  "GB/T 12988-2009《无机地面材料耐磨性能试验方法》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗折强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "防滑性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐磨性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冻性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "透水系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗盐冻性",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗压强度、抗折强度、防滑性能、耐磨性",
+                       "opt":  "抗冻性、透水系数、吸水率、抗盐冻性",
+                       "freq":  "同厂家同品种同规格每 20000 块为一批（不足按一批），抽 10 块",
+                       "std":  "GB/T 28635-2012《混凝土路面砖》；JC/T 899-2016《混凝土路缘石》；GB/T 12988-2009《无机地面材料耐磨性能试验方法》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "8",
+        "name":  "检查井盖、水篦、混凝土模块、防撞墩、隔离墩",
+        "py":  "jianchajinggaishuibihunningtumokuaifangzhuangdungelidun jcjgsbhntmkfzdgld",
+        "varieties":  [
+                          "检查井盖、雨水篦"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 23858-2009",
+                          "name":  "GB/T 23858-2009《检查井盖》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJ/T 511-2017",
+                          "name":  "CJ/T 511-2017《铸铁检查井盖》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50268-2008",
+                          "name":  "GB 50268-2008《给水排水管道工程施工及验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "试验荷载",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "残余变形",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 23858-2009",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 23858-2009",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "承载等级",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 23858-2009",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗压强度、试验荷载、残余变形",
+                       "opt":  "—",
+                       "freq":  "同规格每 1000 套（件）为一批（不足按一批），抽 3 套（件）",
+                       "std":  "GB/T 23858-2009《检查井盖》；CJ/T 511-2017《铸铁检查井盖》；GB 50268-2008《给水排水管道工程施工及验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "9",
+        "name":  "水泥",
+        "py":  "shuini sn",
+        "varieties":  [
+                          "水泥"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 175-2023",
+                          "name":  "GB 175-2023《通用硅酸盐水泥》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 12573-2008",
+                          "name":  "GB/T 12573-2008《水泥取样方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 1346-2024",
+                          "name":  "GB/T 1346-2024《水泥标准稠度用水量、凝结时间与安定性检验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "凝结时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "安定性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "胶砂强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "保水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "仅砌筑水泥",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氧化镁含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有预防碱-骨料反应要求",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "三氧化硫含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "细度（比表面积/45μm筛余）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.3"
+                                         }
+                                     ],
+                           "method":  "GB/T 8074；GB/T 1345"
+                       },
+                       {
+                           "name":  "烧失量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         }
+                                     ],
+                           "method":  "GB/T 176"
+                       },
+                       {
+                           "name":  "不溶物",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "硅酸盐水泥",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         }
+                                     ],
+                           "method":  "GB/T 176"
+                       },
+                       {
+                           "name":  "压蒸安定性",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "氧化镁＞5.0%",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.2"
+                                         }
+                                     ],
+                           "method":  "GB/T 750-2024"
+                       },
+                       {
+                           "name":  "水溶性铬（Ⅵ）",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         }
+                                     ],
+                           "method":  "GB 31893"
+                       },
+                       {
+                           "name":  "放射性核素限量",
+                           "variety":  "",
+                           "group":  "安全环保",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 6566-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "GB 6566"
+                       },
+                       {
+                           "name":  "抗折强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "道路硅酸盐水泥",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 13693-2017",
+                                             "clause":  "6.2"
+                                         }
+                                     ],
+                           "method":  "GB/T 17671"
+                       },
+                       {
+                           "name":  "干缩率",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "道路硅酸盐水泥",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 13693-2017",
+                                             "clause":  "6.2"
+                                         }
+                                     ],
+                           "method":  "JC/T 603"
+                       },
+                       {
+                           "name":  "耐磨性（磨耗量）",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "型式检验"
+                                      ],
+                           "trigger":  "道路硅酸盐水泥",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 13693-2017",
+                                             "clause":  "6.2"
+                                         }
+                                     ],
+                           "method":  "JC/T 421"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "凝结时间、安定性、胶砂强度、氯离子含量",
+                       "opt":  "保水率、氧化镁含量、碱含量、三氧化硫含量",
+                       "freq":  "同厂家、同品种、同强度等级、同批号连续进场：袋装≤200t、散装≤500t 为一批；每批取样≥1 次，总量≥12kg",
+                       "std":  "GB 175-2023《通用硅酸盐水泥》；GB/T 12573-2008《水泥取样方法》；GB/T 1346-2024《水泥标准稠度用水量、凝结时间与安定性检验方法》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  {
+                         "total":  15,
+                         "covered":  15,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "10",
+        "name":  "骨料、集料",
+        "py":  "guliaojiliao gljl",
+        "varieties":  [
+                          "建设用砂",
+                          "建设用卵石、碎石"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 14684-2022",
+                          "name":  "GB/T 14684-2022《建设用砂》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 14685-2022",
+                          "name":  "GB/T 14685-2022《建设用卵石、碎石》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3432-2024",
+                          "name":  "JTG 3432-2024《公路工程集料试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "颗粒级配",
+                           "variety":  "细骨料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含泥量",
+                           "variety":  "细骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "泥块含量",
+                           "variety":  "细骨料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "亚甲蓝值与石粉含量",
+                           "variety":  "细骨料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压碎指标",
+                           "variety":  "细骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "细骨料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "颗粒级配",
+                           "variety":  "粗骨料",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含泥量",
+                           "variety":  "粗骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "泥块含量",
+                           "variety":  "粗骨料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压碎值",
+                           "variety":  "粗骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "针片状",
+                           "variety":  "粗骨料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表观密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "坚固性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱活性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硫化物和硫酸盐含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "堆积密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "空隙率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "轻集料筒压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "细骨料：颗粒级配、含泥量、泥块含量、亚甲蓝值与石粉含量、压碎指标、氯离子含量；粗骨料：颗粒级配、含泥量、泥块含量、压碎值、针片状",
+                       "opt":  "表观密度、吸水率、坚固性、碱活性、硫化物和硫酸盐含量、堆积密度、空隙率；轻集料筒压强度等",
+                       "freq":  "同产地、同规格按日产量组批：日产量≤4000t 时每 2000t 一批；\u003e4000t 时按每条生产线连续 8h 产量为一批",
+                       "std":  "GB/T 14684-2022《建设用砂》；GB/T 14685-2022《建设用卵石、碎石》；JTG 3432-2024《公路工程集料试验规程》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  {
+                         "total":  12,
+                         "covered":  11,
+                         "missing":  [
+                                         "细度模数"
+                                     ]
+                     }
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "11",
+        "name":  "钢筋（含焊接与机械连接）",
+        "py":  "gangjinhanhanjieyujixielianjie gjhhjyjxlj",
+        "varieties":  [
+                          "热轧钢筋",
+                          "闪光对焊、气压焊接头",
+                          "电弧焊、电渣压力焊接头",
+                          "钢筋机械连接接头"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 1499.1-2024",
+                          "name":  "GB 1499.1-2024《钢筋混凝土用钢 第1部分：热轧光圆钢筋》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 1499.2-2024",
+                          "name":  "GB 1499.2-2024《钢筋混凝土用钢 第2部分：热轧带肋钢筋》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 228.1-2021",
+                          "name":  "GB/T 228.1-2021《金属材料 拉伸试验 第1部分：室温试验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 18-2012",
+                          "name":  "JGJ 18-2012《钢筋焊接及验收规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ 107-2016",
+                          "name":  "JGJ 107-2016《钢筋机械连接技术规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "屈服强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断后伸长率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "最大力下总延伸率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "反向弯曲",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "重量偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "残余变形",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯曲性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "屈服强度、抗拉强度、断后伸长率、最大力下总延伸率、反向弯曲、重量偏差、残余变形",
+                       "opt":  "弯曲性能",
+                       "freq":  "同牌号、同炉罐号、同规格每 60t 为一批，每批取 2 拉 2 弯；焊接接头每 300 个为一批；机械连接每 500 个为一批",
+                       "std":  "GB 1499.1-2024《钢筋混凝土用钢 第1部分：热轧光圆钢筋》；GB 1499.2-2024《钢筋混凝土用钢 第2部分：热轧带肋钢筋》；GB/T 228.1-2021《金属材料 拉伸试验 第1部分：室温试验方法》；JGJ 18-2012《钢筋焊接及验收规程》；JGJ 107-2016《钢筋机械连接技术规程》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  {
+                         "total":  11,
+                         "covered":  6,
+                         "missing":  [
+                                         "化学成分",
+                                         "尺寸偏差",
+                                         "表面质量",
+                                         "强屈比",
+                                         "超强比"
+                                     ]
+                     }
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "12",
+        "name":  "外加剂",
+        "py":  "waijiaji wjj",
+        "varieties":  [
+                          "混凝土外加剂"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 8076-2025",
+                          "name":  "GB/T 8076-2025《混凝土外加剂》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 8077-2023",
+                          "name":  "GB/T 8077-2023《混凝土外加剂匀质性试验方法》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50119-2013",
+                          "name":  "GB 50119-2013《混凝土外加剂应用技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG/T F30-2014",
+                          "name":  "JTG/T F30-2014《公路水泥混凝土路面施工技术细则》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "减水率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "pH 值",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "密度（或细度）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗压强度比",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "凝结时间（差）",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含气量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "固体含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "限制膨胀率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "泌水率比",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "相对耐久性指标",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含气量 1h 经时变化量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硫酸钠含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "收缩率比",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "减水率、pH 值、密度（或细度）、抗压强度比、凝结时间（差）、含气量、固体含量、限制膨胀率、泌水率比、氯离子含量",
+                       "opt":  "相对耐久性指标、含气量 1h 经时变化量、硫酸钠含量、收缩率比、碱含量",
+                       "freq":  "组批与取样量按现行 GB/T 8076 及相应产品标准执行；「每 50t 一批、取样不少于 0.2t 水泥所需外加剂量」为旧版口径，引用前请复核现行条文",
+                       "std":  "GB/T 8076-2025《混凝土外加剂》；GB/T 8077-2023《混凝土外加剂匀质性试验方法》；GB 50119-2013《混凝土外加剂应用技术规范》；JTG/T F30-2014《公路水泥混凝土路面施工技术细则》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "13",
+        "name":  "砂浆",
+        "py":  "shajiang sj",
+        "varieties":  [
+                          "砌筑砂浆试件"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ/T 70-2009",
+                          "name":  "JGJ/T 70-2009《建筑砂浆基本性能试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JGJ/T 98-2010",
+                          "name":  "JGJ/T 98-2010《砌筑砂浆配合比设计规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "稠度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "保水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸粘接强度（抹灰、砌筑）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "分层度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "配合比设计",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "凝结时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗渗性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗压强度、稠度、保水率、拉伸粘接强度（抹灰、砌筑）",
+                       "opt":  "分层度、配合比设计、凝结时间、抗渗性能",
+                       "freq":  "同一配合比每 250m³ 砌体或每 1000m² 面层为一批；抗压试件 3 块/组（70.7mm 立方体）",
+                       "std":  "JGJ/T 70-2009《建筑砂浆基本性能试验方法标准》；JGJ/T 98-2010《砌筑砂浆配合比设计规程》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "14",
+        "name":  "混凝土",
+        "py":  "hunningtu hnt",
+        "varieties":  [
+                          "混凝土抗压试件",
+                          "混凝土抗渗试件",
+                          "混凝土配合比"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 50080-2016",
+                          "name":  "GB/T 50080-2016《普通混凝土拌合物性能试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50081-2019",
+                          "name":  "GB/T 50081-2019《混凝土物理力学性能试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3420-2020",
+                          "name":  "JTG 3420-2020《公路工程水泥及水泥混凝土试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗渗等级",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "坍落度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "限制膨胀率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冻性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "表观密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含气量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "凝结时间",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗折强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "劈裂抗拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弹性模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "配合比设计",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗压强度、抗渗等级、坍落度、氯离子含量",
+                       "opt":  "限制膨胀率、抗冻性能、表观密度、含气量、凝结时间、抗折强度、劈裂抗拉强度、弹性模量、碱含量、配合比设计",
+                       "freq":  "每拌制 100 盘且≤100m³ 同配合比取样≥1 次；每工作班≥1 次；连续浇筑\u003e1000m³ 时每 200m³≥1 次；抗压 3 块/组、抗渗 6 块/组",
+                       "std":  "GB/T 50080-2016《普通混凝土拌合物性能试验方法标准》；GB/T 50081-2019《混凝土物理力学性能试验方法标准》；JTG 3420-2020《公路工程水泥及水泥混凝土试验规程》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  {
+                         "total":  10,
+                         "covered":  9,
+                         "missing":  [
+                                         "扩展度"
+                                     ]
+                     }
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "15",
+        "name":  "防水材料及防水密封材料",
+        "py":  "fangshuicailiaojifangshuimifengcailiao fscljfsmfcl",
+        "varieties":  [
+                          "防水卷材",
+                          "防水涂料"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 18242-2025",
+                          "name":  "GB/T 18242-2025《弹性体/塑性体改性沥青防水卷材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 12952-2011",
+                          "name":  "GB 12952-2011《聚氯乙烯(PVC)防水卷材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 19250-2013",
+                          "name":  "GB/T 19250-2013《聚氨酯防水涂料》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 23445-2025",
+                          "name":  "GB/T 23445-2025《聚合物水泥防水涂料》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50268-2008",
+                          "name":  "GB 50268-2008《给水排水管道工程施工及验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "可溶物含量",
+                           "variety":  "卷材",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉力",
+                           "variety":  "卷材",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "延伸率",
+                           "variety":  "卷材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "低温柔度",
+                           "variety":  "卷材",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "热老化后低温柔度",
+                           "variety":  "卷材",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "不透水性",
+                           "variety":  "卷材",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐热度",
+                           "variety":  "卷材",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断裂拉伸强度",
+                           "variety":  "卷材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断裂伸长率",
+                           "variety":  "卷材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "撕裂强度",
+                           "variety":  "卷材",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "固体含量",
+                           "variety":  "涂料",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "拉伸强度",
+                           "variety":  "涂料",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐热性",
+                           "variety":  "涂料",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "低温柔性",
+                           "variety":  "涂料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "不透水性",
+                           "variety":  "涂料",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断裂伸长率",
+                           "variety":  "涂料",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "接缝剥离强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "搭接缝不透水性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "涂膜抗渗性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "浸水 168h 后拉伸性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "粘结强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗渗性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "卷材：可溶物含量、拉力、延伸率、低温柔度、热老化后低温柔度、不透水性、耐热度、断裂拉伸强度、断裂伸长率、撕裂强度；涂料：固体含量、拉伸强度、耐热性、低温柔性、不透水性、断裂伸长率",
+                       "opt":  "接缝剥离强度、搭接缝不透水性、涂膜抗渗性、浸水 168h 后拉伸性能、粘结强度、抗渗性",
+                       "freq":  "卷材同厂家同品种同规格每 10000m² 为一批；涂料每 10t 为一批；每批抽 1 组",
+                       "std":  "GB/T 18242-2025《弹性体/塑性体改性沥青防水卷材》；GB 12952-2011《聚氯乙烯(PVC)防水卷材》；GB/T 19250-2013《聚氨酯防水涂料》；GB/T 23445-2025《聚合物水泥防水涂料》；GB 50268-2008《给水排水管道工程施工及验收规范》"
+                   },
+        "coverage":  {
+                         "total":  10,
+                         "covered":  10,
+                         "missing":  [
+
+                                     ]
+                     }
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "16",
+        "name":  "水",
+        "py":  "shui s",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JGJ 63-2006",
+                          "name":  "JGJ 63-2006《混凝土用水标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50080-2016",
+                          "name":  "GB/T 50080-2016《普通混凝土拌合物性能试验方法标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3420-2020",
+                          "name":  "JTG 3420-2020《公路工程水泥及水泥混凝土试验规程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "所有水源",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "pH 值",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "非饮用水源",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硫酸根离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "非饮用水源",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "不溶物含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "非饮用水源",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "可溶物含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "非饮用水源",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "凝结时间差",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "非饮用水源",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗压强度比",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "非饮用水源",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "碱含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "设计有要求",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "氯离子含量",
+                       "opt":  "pH 值、硫酸根离子含量、不溶物含量、可溶物含量、凝结时间差、抗压强度比、碱含量",
+                       "freq":  "同水源每半年或每变更水源抽检 1 次；每批取样不少于 5L",
+                       "std":  "JGJ 63-2006《混凝土用水标准》；GB/T 50080-2016《普通混凝土拌合物性能试验方法标准》；JTG 3420-2020《公路工程水泥及水泥混凝土试验规程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "17",
+        "name":  "石灰＊",
+        "py":  "shihui sh",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JC/T 479-2013",
+                          "name":  "JC/T 479-2013《建筑生石灰》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3441-2024",
+                          "name":  "JTG 3441-2024《公路工程无机结合料稳定材料试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "有效氧化钙和氧化镁含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氧化镁含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "未消化残渣含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "含水率",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "细度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "产浆量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JC/T 479-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "二氧化碳含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JC/T 479-2013",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "有效氧化钙和氧化镁含量、氧化镁含量、未消化残渣含量、含水率、细度",
+                       "opt":  "—",
+                       "freq":  "同厂家同品种每 100t 为一批（不足按一批），每批抽 1 组",
+                       "std":  "JC/T 479-2013《建筑生石灰》；JTG 3441-2024《公路工程无机结合料稳定材料试验规程》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "18",
+        "name":  "石材＊",
+        "py":  "shicai sc",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 9966.1-2020",
+                          "name":  "GB/T 9966.1-2020《天然石材试验方法 第1部分：干燥、水饱和、冻融循环后压缩强度试验》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 18601-2009",
+                          "name":  "GB/T 18601-2009《天然花岗石建筑板材》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "干燥压缩强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水饱和压缩强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "干燥弯曲强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "水饱和弯曲强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "体积密度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "吸水率",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "耐磨性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 19766-2016",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗冻性",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "产品检验"
+                                      ],
+                           "trigger":  "寒冷地区",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 9966.1-2020",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "干燥压缩强度、水饱和压缩强度、干燥弯曲强度、水饱和弯曲强度、体积密度、吸水率",
+                       "opt":  "—",
+                       "freq":  "同厂家同品种同规格每 200m³ 为一批（不足按一批），每批抽 1 组（5 块）",
+                       "std":  "GB/T 9966.1-2020《天然石材试验方法 第1部分：干燥、水饱和、冻融循环后压缩强度试验》；GB/T 18601-2009《天然花岗石建筑板材》；CJJ 1-2008《城镇道路工程施工与质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  6,
+        "zn":  "市政工程材料",
+        "no":  "19",
+        "name":  "螺栓、锚具夹具及连接器＊",
+        "py":  "luoshuanmaojujiajujilianjieqi lsmjjjjljq",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 1231-2024",
+                          "name":  "GB/T 1231-2024《钢结构用高强度大六角头螺栓连接副》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 14370-2015",
+                          "name":  "GB/T 14370-2015《预应力筋用锚具、夹具和连接器》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 2-2008",
+                          "name":  "CJJ 2-2008《城市桥梁工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "抗滑移系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "静载锚固性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "疲劳荷载性能",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硬度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "紧固轴力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "扭矩系数",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "最小拉力载荷（普通紧固件）",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验",
+                                          "产品检验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "楔负载",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "高强度螺栓",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 3098.1-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "螺母保证载荷",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "条件",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "高强度螺栓",
+                           "basis":  [
+                                         {
+                                             "std":  "GB/T 3098.1-2010",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "抗滑移系数、外观质量、尺寸、静载锚固性能、疲劳荷载性能、硬度、紧固轴力、扭矩系数、最小拉力载荷（普通紧固件）",
+                       "opt":  "—",
+                       "freq":  "同厂家同规格每 3000 套为一批（不足按一批），抽 8 套；锚具每 1000 套为一批，抽 3 套",
+                       "std":  "GB/T 1231-2024《钢结构用高强度大六角头螺栓连接副》；GB/T 14370-2015《预应力筋用锚具、夹具和连接器》；CJJ 2-2008《城市桥梁工程施工与质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  7,
+        "zn":  "道路工程",
+        "no":  "1",
+        "name":  "沥青混合料路面",
+        "py":  "liqinghunheliaolumian lqhhllm",
+        "varieties":  [
+                          "沥青混合料"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3450-2019",
+                          "name":  "JTG 3450-2019《公路路基路面现场测试规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG F80/1-2017",
+                          "name":  "JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压实度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯沉值",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "平整度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "渗水系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗滑性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "原材料及混合料",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "构造深度",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3450-2019",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "摩擦系数",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "厚度、压实度、弯沉值",
+                       "opt":  "平整度、渗水系数、抗滑性能",
+                       "freq":  "压实度：城镇每 1000m² 1 点（钻芯法）、公路每 200m 1 点（核子密度仪每 200m 1 处、每处 5 点）；厚度每 1000m² 1 点；弯沉每车道每 20m 测 1 点",
+                       "std":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》；JTG 3450-2019《公路路基路面现场测试规程》；JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  7,
+        "zn":  "道路工程",
+        "no":  "2",
+        "name":  "基层及底基层",
+        "py":  "jicengjidijiceng jcjdjc",
+        "varieties":  [
+                          "水泥稳定碎石（无机结合料稳定材料）"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3450-2019",
+                          "name":  "JTG 3450-2019《公路路基路面现场测试规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3441-2024",
+                          "name":  "JTG 3441-2024《公路工程无机结合料稳定材料试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG F80/1-2017",
+                          "name":  "JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压实度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯沉值",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "平整度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "无侧限抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "原材料及混合料",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "厚度、压实度、弯沉值",
+                       "opt":  "平整度、无侧限抗压强度",
+                       "freq":  "压实度：城镇每 1000m² 每压实层 1 点、公路每 200m 每车道 2 处；厚度每 1000m² 1 点；弯沉每车道每 20m 测 1 点",
+                       "std":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》；JTG 3450-2019《公路路基路面现场测试规程》；JTG 3441-2024《公路工程无机结合料稳定材料试验规程》；JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  7,
+        "zn":  "道路工程",
+        "no":  "3",
+        "name":  "土路基",
+        "py":  "tuluji tlj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3450-2019",
+                          "name":  "JTG 3450-2019《公路路基路面现场测试规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3430-2020",
+                          "name":  "JTG 3430-2020《公路土工试验规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG F80/1-2017",
+                          "name":  "JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "弯沉值",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "压实度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "土基回弹模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "填料承载比（CBR）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "进场复验"
+                                      ],
+                           "trigger":  "路基填方材料",
+                           "basis":  [
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  "JTG 3430-2020"
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "弯沉值、压实度",
+                       "opt":  "土基回弹模量",
+                       "freq":  "压实度：城镇每 1000m² 每压实层 3 点、公路每 200m 每压实层 2 处；弯沉每车道每 20m 测 1 点",
+                       "std":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》；JTG 3450-2019《公路路基路面现场测试规程》；JTG 3430-2020《公路土工试验规程》；JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  7,
+        "zn":  "道路工程",
+        "no":  "4",
+        "name":  "排水管道工程＊",
+        "py":  "paishuiguandaogongcheng psgdgc",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50268-2008",
+                          "name":  "GB 50268-2008《给水排水管道工程施工及验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50141-2008",
+                          "name":  "GB 50141-2008《给水排水构筑物工程施工及验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "地基承载力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "回填土压实度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "背后土体密实性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "严密性试验",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "管道基础",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "GB 50268-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "地基承载力、回填土压实度、背后土体密实性、严密性试验",
+                       "opt":  "—",
+                       "freq":  "管道每 2 个检查井之间为 1 个验收段，逐段做严密性试验；回填土每层每 2 井间取 3 点",
+                       "std":  "GB 50268-2008《给水排水管道工程施工及验收规范》；CJJ 1-2008《城镇道路工程施工与质量验收规范》；GB 50141-2008《给水排水构筑物工程施工及验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  7,
+        "zn":  "道路工程",
+        "no":  "5",
+        "name":  "水泥混凝土路面＊",
+        "py":  "shuinihunningtulumian snhntlm",
+        "varieties":  [
+                          "混凝土抗压试件"
+                      ],
+        "basis":  [
+                      {
+                          "std":  "CJJ 1-2008",
+                          "name":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 3450-2019",
+                          "name":  "JTG 3450-2019《公路路基路面现场测试规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG/T F30-2014",
+                          "name":  "JTG/T F30-2014《公路水泥混凝土路面施工技术细则》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "平整度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "构造深度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "弯拉强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  "附录B"
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "平整度、构造深度、厚度",
+                       "opt":  "—",
+                       "freq":  "厚度每 1000m² 1 点；平整度、构造深度每 1000m² 各 1 处",
+                       "std":  "CJJ 1-2008《城镇道路工程施工与质量验收规范》；JTG 3450-2019《公路路基路面现场测试规程》；JTG/T F30-2014《公路水泥混凝土路面施工技术细则》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "1",
+        "name":  "桥梁结构与构件",
+        "py":  "qiaoliangjiegouyugoujian qljgygj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JTG/T J21-2011",
+                          "name":  "JTG/T J21-2011《公路桥梁承载能力检测评定规程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 2-2008",
+                          "name":  "CJJ 2-2008《城市桥梁工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50152-2012",
+                          "name":  "GB/T 50152-2012《混凝土结构试验方法标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "静态应变（应力）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "动态应变（应力）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "位移",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "模态参数（频率、振型、阻尼比）",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "索力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "承载能力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "桥梁线形",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "动态挠度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "静态挠度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "结构尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "轴线偏位",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "竖直度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "混凝土强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "混凝土碳化深度",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋位置及保护层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氯离子含量",
+                           "variety":  "",
+                           "group":  "化学指标",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "内部缺陷",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "预应力孔道摩阻损失",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "有效预应力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "孔道压浆密实性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "风速",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "温度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "加速度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "速度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "冲击性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "混凝土电阻率",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋锈蚀状况",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "支座状态",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "伸缩缝状态",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         }
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "静态应变（应力）、动态应变（应力）、位移、模态参数（频率、振型、阻尼比）、索力、承载能力、桥梁线形、动态挠度、静态挠度、结构尺寸、轴线偏位、竖直度、混凝土强度、混凝土碳化深度、钢筋位置及保护层厚度、氯离子含量",
+                       "opt":  "外观质量、内部缺陷、预应力孔道摩阻损失、有效预应力、孔道压浆密实性、风速、温度、加速度、速度、冲击性能、混凝土电阻率、钢筋锈蚀状况",
+                       "freq":  "按 JTG/T J21-2011 与设计文件确定：荷载试验按桥型选取代表跨，每座桥不少于 1 跨；混凝土强度、保护层按构件数抽检 10% 且不少于 3 个",
+                       "std":  "JTG/T J21-2011《公路桥梁承载能力检测评定规程》；CJJ 2-2008《城市桥梁工程施工与质量验收规范》；GB/T 50152-2012《混凝土结构试验方法标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "2",
+        "name":  "隧道主体结构",
+        "py":  "suidaozhutijiegou sdztjg",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB/T 50299-2018",
+                          "name":  "GB/T 50299-2018《地下铁道工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50446-2017",
+                          "name":  "GB 50446-2017《盾构法隧道施工及验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "断面尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "锚杆拉拔力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "衬砌厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "衬砌及背后密实状况",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "墙面平整度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋网格尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "锚杆长度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "锚杆锚固密实度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "管片几何尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "错台",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "椭圆度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "混凝土强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋位置及保护层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "内部缺陷",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "衬砌内钢筋间距",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "仰拱厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "渗漏水",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "条件",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋锈蚀状况",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "可选",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "断面尺寸、锚杆拉拔力、衬砌厚度、衬砌及背后密实状况、墙面平整度、钢筋网格尺寸、锚杆长度、锚杆锚固密实度、管片几何尺寸、错台、椭圆度、混凝土强度、钢筋位置及保护层厚度",
+                       "opt":  "外观质量、内部缺陷、衬砌内钢筋间距、仰拱厚度、渗漏水、钢筋锈蚀状况",
+                       "freq":  "衬砌厚度与背后密实状况按每 20m 一个断面抽检（常规）；锚杆拉拔数量按设计文件与专项标准确定（常规不少于 3 根）；管片抽检按专项标准执行（常规每 100 环抽 3 环）",
+                       "std":  "GB/T 50299-2018《地下铁道工程施工质量验收标准》；GB 50446-2017《盾构法隧道施工及验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "3",
+        "name":  "桥梁及附属物＊",
+        "py":  "qiaoliangjifushuwu qljfsw",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "CJJ 2-2008",
+                          "name":  "CJJ 2-2008《城市桥梁工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG F80/1-2017",
+                          "name":  "JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "JTG 5120-2021",
+                          "name":  "JTG 5120-2021《公路桥涵养护规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "桥面系外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "桥梁上部外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "桥梁下部外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "桥梁附属设施外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "桥面系外观质量、桥梁上部外观质量、桥梁下部外观质量、桥梁附属设施外观质量",
+                       "opt":  "—",
+                       "freq":  "全数外观检查，按跨（孔）记录缺陷",
+                       "std":  "CJJ 2-2008《城市桥梁工程施工与质量验收规范》；JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》；JTG 5120-2021《公路桥涵养护规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "4",
+        "name":  "桥梁支座＊",
+        "py":  "qiaoliangzhizuo qlzz",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JT/T 4-2019",
+                          "name":  "JT/T 4-2019《公路桥梁板式橡胶支座》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 17955-2009",
+                          "name":  "GB/T 17955-2009《桥梁球型支座》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 2-2008",
+                          "name":  "CJJ 2-2008《城市桥梁工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "内在质量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "竖向压缩变形",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗压弹性模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "极限抗压强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "盆环径向变形",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗剪弹性模量",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗剪粘结性能",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "抗剪老化",
+                           "variety":  "",
+                           "group":  "耐久性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "承载力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "摩擦系数",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "转动性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "转角试验",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "外观质量、内在质量、竖向压缩变形、抗压弹性模量、极限抗压强度、盆环径向变形、抗剪弹性模量、抗剪粘结性能、抗剪老化、承载力、摩擦系数、转动性能、尺寸偏差、转角试验",
+                       "opt":  "—",
+                       "freq":  "同型号同规格每 100 件为一批（不足按一批），每批抽 3 件（常规，以产品标准与设计文件为准）；进场 100% 外观与尺寸检查",
+                       "std":  "JT/T 4-2019《公路桥梁板式橡胶支座》；GB/T 17955-2009《桥梁球型支座》；CJJ 2-2008《城市桥梁工程施工与质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "5",
+        "name":  "桥梁伸缩装置＊",
+        "py":  "qiaoliangshensuozhuangzhi qlsszz",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JT/T 327-2016",
+                          "name":  "JT/T 327-2016《公路桥梁伸缩装置通用技术条件》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 2-2008",
+                          "name":  "CJJ 2-2008《城市桥梁工程施工与质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 11345-2023",
+                          "name":  "GB/T 11345-2023《焊缝无损检测 超声检测 技术、检测等级和评定》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸偏差",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "焊缝尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "焊缝探伤",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "涂层附着力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "涂层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "橡胶密封带夹持性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "装配公差",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "变形性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "防水性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "承载性能",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "外观质量、尺寸偏差、焊缝尺寸、焊缝探伤、涂层附着力、涂层厚度、橡胶密封带夹持性能、装配公差、变形性能、防水性能、承载性能",
+                       "opt":  "—",
+                       "freq":  "同型号同规格每 100 套为一批（不足按一批），每批抽 3 套",
+                       "std":  "JT/T 327-2016《公路桥梁伸缩装置通用技术条件》；CJJ 2-2008《城市桥梁工程施工与质量验收规范》；GB/T 11345-2023《焊缝无损检测 超声检测 技术、检测等级和评定》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "6",
+        "name":  "隧道环境＊",
+        "py":  "suidaohuanjing sdhj",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JTG/T D70/2-01-2014",
+                          "name":  "JTG/T D70/2-01-2014《公路隧道照明设计细则》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50299-2018",
+                          "name":  "GB/T 50299-2018《地下铁道工程施工质量验收标准》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GBZ 2.1-2019",
+                          "name":  "GBZ 2.1-2019《工作场所有害因素职业接触限值 第1部分：化学有害因素》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "照度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "噪声",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "风速",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "一氧化碳浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "二氧化碳浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "二氧化硫浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "氧浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "一氧化氮浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "二氧化氮浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "瓦斯浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "硫化氢浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "烟尘浓度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "照度、噪声、风速、一氧化碳浓度、二氧化碳浓度、二氧化硫浓度、氧浓度、一氧化氮浓度、二氧化氮浓度、瓦斯浓度、硫化氢浓度、烟尘浓度",
+                       "opt":  "—",
+                       "freq":  "按隧道长度每 200m 设 1 个监测断面，每断面测 3 点（常规）",
+                       "std":  "JTG/T D70/2-01-2014《公路隧道照明设计细则》；GB/T 50299-2018《地下铁道工程施工质量验收标准》；GBZ 2.1-2019《工作场所有害因素职业接触限值 第1部分：化学有害因素》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "7",
+        "name":  "人行天桥及地下通道＊",
+        "py":  "renxingtianqiaojidixiatongdao rxtqjdxtd",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "CJJ 69-95《城市人行天桥与人行地道技术规范》",
+                          "name":  "CJJ 69-95《城市人行天桥与人行地道技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 2-2008",
+                          "name":  "CJJ 2-2008《城市桥梁工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "自振频率",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "桥面线形",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "地基承载力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "变形缝质量",
+                           "variety":  "",
+                           "group":  "物理性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "防水层的缝宽和搭接长度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "栏杆水平推力",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "自振频率、桥面线形、地基承载力、变形缝质量、防水层的缝宽和搭接长度、尺寸、栏杆水平推力",
+                       "opt":  "—",
+                       "freq":  "每座（处）全数检测；栏杆水平推力按每 100m 抽 1 处",
+                       "std":  "CJJ 69-95《城市人行天桥与人行地道技术规范》；CJJ 2-2008《城市桥梁工程施工与质量验收规范》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "8",
+        "name":  "综合管廊主体结构＊",
+        "py":  "zongheguanlangzhutijiegou zhglztjg",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "GB 50838-2015",
+                          "name":  "GB 50838-2015《城市综合管廊工程技术规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB 50204-2015",
+                          "name":  "GB 50204-2015《混凝土结构工程施工质量验收规范》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "GB/T 50299-2018",
+                          "name":  "GB/T 50299-2018《地下铁道工程施工质量验收标准》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "断面尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "衬砌厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "衬砌密实性",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "墙面平整度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "衬砌内钢筋间距",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "混凝土强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋保护层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋锈蚀状况",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "断面尺寸、衬砌厚度、衬砌密实性、墙面平整度、衬砌内钢筋间距、混凝土强度、钢筋保护层厚度、钢筋锈蚀状况",
+                       "opt":  "—",
+                       "freq":  "每 20m 一个断面抽检；混凝土强度、保护层每 100m 抽 1 组",
+                       "std":  "GB 50838-2015《城市综合管廊工程技术规范》；GB 50204-2015《混凝土结构工程施工质量验收规范》；GB/T 50299-2018《地下铁道工程施工质量验收标准》"
+                   },
+        "coverage":  null
+    },
+    {
+        "z":  8,
+        "zn":  "桥梁及地下工程",
+        "no":  "9",
+        "name":  "涵洞主体结构＊",
+        "py":  "handongzhutijiegou hdztjg",
+        "varieties":  [
+
+                      ],
+        "basis":  [
+                      {
+                          "std":  "JTG F80/1-2017",
+                          "name":  "JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》",
+                          "clause":  ""
+                      },
+                      {
+                          "std":  "CJJ 2-2008",
+                          "name":  "CJJ 2-2008《城市桥梁工程施工与质量验收规范》",
+                          "clause":  ""
+                      }
+                  ],
+        "params":  [
+                       {
+                           "name":  "外观质量",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "地基承载力",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "回填土压实度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "混凝土强度",
+                           "variety":  "",
+                           "group":  "力学性能",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋保护层厚度",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "断面尺寸",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "接缝宽度",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "错台",
+                           "variety":  "",
+                           "group":  "外观与尺寸",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       },
+                       {
+                           "name":  "钢筋锈蚀状况",
+                           "variety":  "",
+                           "group":  "其他",
+                           "level":  "强制",
+                           "stages":  [
+                                          "现场检测",
+                                          "竣工验收"
+                                      ],
+                           "trigger":  "",
+                           "basis":  [
+
+                                     ],
+                           "method":  ""
+                       }
+                   ],
+        "legacy":  {
+                       "must":  "外观质量、地基承载力、回填土压实度、混凝土强度、钢筋保护层厚度、断面尺寸、接缝宽度、错台、钢筋锈蚀状况",
+                       "opt":  "—",
+                       "freq":  "每座涵洞全数外观检查；地基承载力每座不少于 3 点；回填土每层每 20m 取 1 点",
+                       "std":  "JTG F80/1-2017《公路工程质量检验评定标准 第一册 土建工程》；CJJ 2-2008《城市桥梁工程施工与质量验收规范》"
+                   },
+        "coverage":  null
+    }
+];
