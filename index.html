@@ -151,7 +151,7 @@ mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
   <header>
     <div class="kicker">工程质量检测 · 九大专项</div>
     <h1>检测项目速查</h1>
-    <div class="sub">按住建部 <b>9 个检测专项</b>、<b>93 个检测项目</b>整理　·　三源三档　·　<b>1005 条参数</b>　<span class="ver">标准版 v3.2 · 2026-11-12</span><button class="qlink" id="viewBtn">资质申请</button></div>
+    <div class="sub">按住建部 <b>9 个检测专项</b>、<b>93 个检测项目</b>整理　·　三源三档　·　<b><span id="pcount">1005</span> 条参数</b>　<span class="ver">标准版 v3.3 · 2026-11-12</span><button class="qlink" id="viewBtn">资质申请</button></div>
   </header>
 
   <details class="notice" id="notice">
@@ -181,7 +181,7 @@ mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
     <b>怎么用：</b>上方九个专项按钮平铺筛选；顶部可切换「工程验收 / 资质申请」，并可只看强制必检、条件必检或可选。点卡片展开可见逐条参数、触发条件、依据条款、方法标准与产品标准覆盖率。<br>
     <b>三源：</b>产品标准给出参数全集，验收规范给出必检子集，资质标准只作可选范围；三者不混用。<br>
     <b>口径：</b>取样组批为现行标准常规值，实际以设计文件、经批准的检测方案及当地主管部门要求为准；标准是否现行请再核国家标准信息公共服务平台。<br>
-    <b>版本：</b>标准版 v3.1 · 2026-11-12。
+    <b>版本：</b>标准版 v3.3 · 2026-11-12（已完成参数等级与触发条件复核）。
   </footer>
 </div>
 <button id="top" aria-label="回到顶部">↑</button>
@@ -195,8 +195,9 @@ mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
   var ZONES = [];
   DATA.forEach(function(p){ if(ZONES.indexOf(p.zn)<0) ZONES.push(p.zn); });
   var CN = ['一','二','三','四','五','六','七','八','九'];
-  var byKey = {};
-  DATA.forEach(function(p){ byKey[p.z+'|'+p.no]=p; });
+  var byKey = {}, totalParams=0;
+  DATA.forEach(function(p){ byKey[p.z+'|'+p.no]=p; totalParams+=p.params.length; });
+  (function(){ var e=document.getElementById('pcount'); if(e) e.textContent=totalParams; })();
 
   var view='build', level='all', zone='all', q='';
   var list=document.getElementById('list'), input=document.getElementById('q'),
@@ -306,17 +307,21 @@ mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
 
   function basisHtml(p){
     if(view==='qual') return '';
-    var prod=[], acc=[];
-    (p.basis||[]).forEach(function(b){
-      var s=b.std||'';
-      if(/^(GB 5|GB 55|CJJ|JTG|JGJ)/.test(s)) acc.push(b.name||s);
-      else prod.push(b.name||s);
+    var prod=[], acc=[], seen={};
+    function add(std,label){
+      if(!std||seen[std]) return; seen[std]=1;
+      if(/^(GB 5|GB 55|CJJ|JTG|JGJ)/.test(std)) acc.push(label||std);
+      else prod.push(label||std);
+    }
+    (p.basis||[]).forEach(function(b){ add(b.std,b.name||b.std); });
+    p.params.forEach(function(x){
+      (x.basis||[]).forEach(function(b){ add(b.std, b.std+(b.clause?' '+b.clause:'')); });
     });
     if(!prod.length&&!acc.length) return '';
     var out='<div class="basis"><div class="bs-h">三源依据</div>';
     if(prod.length) out+='<div class="bs-l"><i>产品/方法</i>'+esc(prod.join('；'))+'</div>';
     if(acc.length) out+='<div class="bs-l"><i>验收规范</i>'+esc(acc.join('；'))+'</div>';
-    out+='<div class="bs-note">产品标准给出参数全集，验收规范给出必检子集；资质口径见「资质申请」视角。</div></div>';
+    out+='<div class="bs-note">产品标准给出参数全集，验收规范给出必检子集；上位强制另有 GB 55032-2022《建筑与市政工程施工质量控制通用规范》，专业通用规范按专项适用。资质口径见「资质申请」视角。</div></div>';
     return out;
   }
 
@@ -326,7 +331,8 @@ mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
     var part=c.covered<c.total?' part':'';
     var miss=(c.missing&&c.missing.length)?'<div class="miss">缺：'+c.missing.map(esc).join('、')+'</div>':'';
     return '<div class="cover"><div>产品标准覆盖 <b>'+c.covered+'/'+c.total+'</b>（'+pct+'%）</div>'+
-      '<div class="cbar'+part+'"><i style="width:'+pct+'%"></i></div>'+miss+'</div>';
+      '<div class="cbar'+part+'"><i style="width:'+pct+'%"></i></div>'+miss+
+      '<div style="color:#8A8071;font-size:10.5px;margin-top:2px">按主要检验项目、按品种合并统计，非标准全部型式检验项目</div></div>';
   }
 
   function renderChips(){
