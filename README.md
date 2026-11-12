@@ -36,13 +36,12 @@
 | `index.html` | 页面 |
 | `data.js` | 结构化参数数据（构建产物） |
 | `qrcodegen.js` | 本地二维码库 |
-| `corrections.json` | 人工修正表：补漏项、调等级、加触发条件 |
-| `build.ps1` | 由旧版 DATA + corrections.json 生成 data.js |
-| `参数矩阵模板.csv` | 后续维护用的参数矩阵模板 |
+
+> `corrections.json`、`build.ps1`、参数矩阵模板为**本地维护文件**，不随页面发布；`data.js` 已包含修正结果。
 
 ## 更新方法
 
-1. 修改 `corrections.json`（补参数、调等级、写触发条件）；
+1. 在本地维护目录修改 `corrections.json`（补参数、调等级、写触发条件）；
 2. 在 Windows PowerShell 运行 `build.ps1` 重新生成 `data.js`；
 3. 提交 `index.html` 与 `data.js`，GitHub Pages 约 1 分钟自动更新。
 
