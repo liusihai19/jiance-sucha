@@ -21158,4 +21158,4 @@
                      }
     }
 ];
-window.DATA_MARK = {"id":"SUCHA-STD-LSH19-20261112","author":"liusihai19","version":"3.6","built":"2026-11-12 19:57"};
+window.DATA_MARK = {"id":"SUCHA-STD-LSH19-20261112","author":"刘世海","version":"3.7","built":"2026-11-12 20:00"};
