@@ -4,149 +4,187 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#F7F3EA">
-<meta name="description" content="建设工程质量检测九大专项速查（标准版）：三源三档参数、必检/条件必检/可选、产品标准覆盖率、组批取样与现行依据。">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="建设工程质量检测九大专项速查：93 个检测项目，三源三档参数（强制必检/条件必检/可选）、取样组批、产品标准覆盖率、现行依据。">
 <title>检测项目速查 · 标准版</title>
 <style>
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;padding:0}
-body{background:#F7F3EA;color:#2B2620;font-family:"Microsoft YaHei","PingFang SC","Helvetica Neue",-apple-system,sans-serif;font-size:15px;line-height:1.6;-webkit-text-size-adjust:100%}
+body{background:#F7F3EA;color:#2B2620;
+  font-family:"Microsoft YaHei","PingFang SC","Helvetica Neue",-apple-system,sans-serif;
+  font-size:16px;line-height:1.65;-webkit-text-size-adjust:100%}
 .topbar{height:4px;background:linear-gradient(90deg,#C36B2C 0 33%,#2A8279 33% 66%,#27546D 66% 100%)}
-.wrap{max-width:760px;margin:0 auto;padding:0 14px 48px}
-header{padding:16px 2px 4px}
+.wrap{max-width:680px;margin:0 auto;padding:0 14px 40px}
+header{padding:16px 2px 6px}
 .kicker{font-size:12px;letter-spacing:2px;color:#C36B2C;font-weight:700}
-h1{margin:6px 0 4px;font-size:24px;line-height:1.3;font-weight:700;letter-spacing:.5px}
-.sub{font-size:12.5px;color:#6B6154}
-.sub b{color:#27546D}
-.tabs{display:flex;gap:6px;margin:12px 0 0;background:#EFE7D8;border-radius:12px;padding:4px}
-.tabs button{flex:1;height:36px;border:none;border-radius:9px;background:transparent;color:#6B6154;font-family:inherit;font-size:13.5px;font-weight:700}
-.tabs button.on{background:#FFFDF8;color:#2B2620;box-shadow:0 1px 3px rgba(43,38,32,.12)}
-.sticky{position:-webkit-sticky;position:sticky;top:0;z-index:20;background:#F7F3EA;padding:8px 0 6px;box-shadow:0 8px 12px -10px rgba(43,38,32,.35)}
+h1{margin:6px 0 4px;font-size:25px;line-height:1.3;font-weight:700;letter-spacing:.5px}
+.sub{font-size:13px;color:#6B6154}
+.sub b{color:#27546D;font-weight:700}
+.ver{display:inline-block;margin-top:5px;font-size:11px;color:#8A8071;border:1px solid #E3D9C6;border-radius:5px;padding:1px 7px}
+.modebar{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0 0}
+.mchip{height:28px;padding:0 10px;border-radius:14px;border:1px solid #E3D9C6;background:#FFFDF8;color:#6B6154;font-size:12px;font-family:inherit;line-height:26px}
+.mchip.on{background:#2B2620;border-color:#2B2620;color:#fff;font-weight:700}
+.mchip.on[data-lv="强制"]{background:#B23A2E;border-color:#B23A2E}
+.mchip.on[data-lv="条件"]{background:#C36B2C;border-color:#C36B2C}
+.mchip.on[data-lv="可选"]{background:#6B6154;border-color:#6B6154}
+.sticky{position:-webkit-sticky;position:sticky;top:0;z-index:20;background:#F7F3EA;padding:8px 0 6px;
+  box-shadow:0 8px 12px -10px rgba(43,38,32,.35)}
 .searchbox{position:relative}
-.searchbox input{width:100%;height:44px;border:1.5px solid #E3D9C6;border-radius:12px;background:#FFFDF8;padding:0 74px 0 38px;font-size:16px;color:#2B2620;outline:none;font-family:inherit;appearance:none}
+.searchbox input{width:100%;height:46px;border:1.5px solid #E3D9C6;border-radius:12px;
+  background:#FFFDF8;padding:0 78px 0 40px;font-size:16px;color:#2B2620;outline:none;
+  font-family:inherit;appearance:none;-webkit-appearance:none}
 .searchbox input:focus{border-color:#C36B2C;background:#fff}
-.searchbox input::placeholder{color:#A69B8B;font-size:13.5px}
-.ico{position:absolute;left:12px;top:12px;width:19px;height:19px;stroke:#A69B8B;fill:none;stroke-width:2;stroke-linecap:round}
-.clr{position:absolute;right:7px;top:8px;height:28px;padding:0 10px;border:none;border-radius:8px;background:#EFE7D8;color:#6B6154;font-size:12px;font-family:inherit}
-.filters{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:8px 0 0}
-.fchip{height:30px;padding:0 11px;border-radius:15px;border:1px solid #E3D9C6;background:#FFFDF8;color:#6B6154;font-size:12.5px;font-family:inherit;line-height:28px}
-.fchip.on{background:#2B2620;border-color:#2B2620;color:#fff;font-weight:700}
-.fchip.on.lv-must{background:#B23A2E;border-color:#B23A2E}
-.fchip.on.lv-cond{background:#C36B2C;border-color:#C36B2C}
-.fchip.on.lv-opt{background:#6B6154;border-color:#6B6154}
-select.fchip{appearance:none;padding-right:22px;background-image:linear-gradient(45deg,transparent 50%,#8A8071 50%),linear-gradient(135deg,#8A8071 50%,transparent 50%);background-position:calc(100% - 12px) 12px,calc(100% - 8px) 12px;background-size:4px 4px,4px 4px;background-repeat:no-repeat}
-.zonebar{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;scrollbar-width:none}
-.zonebar::-webkit-scrollbar{display:none}
-.zchip{flex:0 0 auto;height:30px;padding:0 11px;border-radius:15px;border:1px solid #E3D9C6;background:#FFFDF8;color:#6B6154;font-size:12.5px;font-family:inherit;line-height:28px;white-space:nowrap}
-.zchip.on{background:#27546D;border-color:#27546D;color:#fff;font-weight:700}
-.count{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:#6B6154;padding:10px 2px 8px}
+.searchbox input::placeholder{color:#A69B8B;font-size:14px}
+.ico{position:absolute;left:13px;top:13px;width:20px;height:20px;stroke:#A69B8B;
+  fill:none;stroke-width:2;stroke-linecap:round}
+.clr{position:absolute;right:8px;top:9px;height:28px;padding:0 10px;border:none;border-radius:8px;
+  background:#EFE7D8;color:#6B6154;font-size:12px;font-family:inherit}
+.chips{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:10px 0 2px}
+.chip{height:34px;padding:0 6px;border-radius:17px;border:1px solid #E3D9C6;
+  background:#FFFDF8;color:#6B6154;font-size:13.5px;line-height:32px;font-family:inherit;
+  white-space:nowrap;text-align:center;overflow:hidden;text-overflow:ellipsis}
+.chip b{font-weight:700;margin-right:3px;font-size:12px;opacity:.85}
+.chip.on{background:#C36B2C;border-color:#C36B2C;color:#fff;font-weight:700}
+.chip.on b{opacity:.95}
+.count{display:flex;justify-content:space-between;align-items:center;
+  font-size:12.5px;color:#6B6154;padding:10px 2px 8px}
 .count em{font-style:normal;font-weight:700;color:#C36B2C;font-size:15px;padding:0 2px}
-.legend{margin:8px 0 2px;background:#FFF6E3;border:1px solid #F0E2C4;border-radius:10px;padding:8px 12px;font-size:12px;line-height:1.7;color:#8A6A2B}
-.legend b{color:#9C7117}
-.card{background:#FFFDF8;border:1px solid #E3D9C6;border-radius:14px;margin-bottom:11px;position:relative;overflow:hidden}
-.card::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:4px;border-radius:0 3px 3px 0;background:#C36B2C}
-.card.z1::before{background:#2A8279}.card.z2::before{background:#27546D}.card.z3::before{background:#7A5C3E}
-.card.z4::before{background:#4E8A4A}.card.z5::before{background:#8A5A7A}.card.z6::before{background:#B08A2E}
-.card.z7::before{background:#3F6F8A}.card.z8::before{background:#6B5B8A}
-.hd{display:flex;align-items:center;gap:8px;padding:13px 14px 0 18px;cursor:pointer}
-.idx{flex:0 0 auto;font-size:11px;font-weight:700;color:#fff;background:#C36B2C;border-radius:5px;padding:2px 6px;letter-spacing:.5px}
-.z1 .idx{background:#2A8279}.z2 .idx{background:#27546D}.z3 .idx{background:#7A5C3E}
-.z4 .idx{background:#4E8A4A}.z5 .idx{background:#8A5A7A}.z6 .idx{background:#B08A2E}
-.z7 .idx{background:#3F6F8A}.z8 .idx{background:#6B5B8A}
-.nm{font-size:16.5px;font-weight:700;line-height:1.35;flex:1;min-width:0}
-.zone-tag{flex:0 0 auto;font-size:10.5px;color:#8A8071;background:#F1EADD;padding:1px 6px;border-radius:4px}
+.exbtn{font-size:12px;color:#27546D;border:1px solid #DDE4EA;background:#fff;border-radius:6px;
+  padding:3px 9px;font-family:inherit;white-space:nowrap}
+.notice{margin:10px 2px 0;background:#FFF6E3;border:1px solid #F0E2C4;border-radius:10px;
+  padding:8px 12px;font-size:12.5px;line-height:1.7;color:#8A6A2B}
+.notice b{color:#9C7117}
+.card{background:#FFFDF8;border:1px solid #E3D9C6;border-radius:14px;padding:14px 14px 12px;
+  margin-bottom:11px;position:relative;overflow:hidden;cursor:pointer}
+.card::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:4px;
+  border-radius:0 3px 3px 0;background:#C36B2C}
+.card.t2::before{background:#2A8279}.card.t3::before{background:#27546D}
+.card.t2{border-color:#DCE8E4}.card.t3{border-color:#DDE4EA}
+.hd{display:flex;align-items:center;gap:8px;margin-left:6px;padding-right:2px}
+.idx{flex:0 0 auto;font-size:11.5px;font-weight:700;color:#fff;background:#C36B2C;
+  border-radius:5px;padding:2px 6px;letter-spacing:.5px}
+.card.t2 .idx{background:#2A8279}.card.t3 .idx{background:#27546D}
+.nm{font-size:17px;font-weight:700;line-height:1.4;flex:1;min-width:0}
 .cov{flex:0 0 auto;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:5px;background:#E3F0EE;color:#1F6A62}
-.cov.part{background:#FBEBDF;color:#B25A1E}.cov.none{background:#F1EADD;color:#8A8071}
-.sum{display:flex;gap:6px;flex-wrap:wrap;padding:8px 14px 0 18px}
-.b{font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px}
-.b.must{background:#F7E3E0;color:#B23A2E}
-.b.cond{background:#FBEBDF;color:#B25A1E}
-.b.opt{background:#EFEAE1;color:#6B6154}
-.b.stage{background:#E7EDF2;color:#27546D}
-.body{display:none;padding:4px 14px 14px 18px}
-.card.open .body{display:block}
-.variety{margin:10px 0 2px;font-size:12px;font-weight:700;color:#27546D;border-bottom:1px dashed #E3D9C6;padding-bottom:3px}
-.grp{margin:9px 0 2px;font-size:11px;font-weight:700;color:#8A8071;letter-spacing:.5px}
-.row{padding:8px 0;border-top:1px dashed #EEE5D6}
-.row:first-of-type{border-top:none}
-.pn{font-size:14px;color:#2B2620;line-height:1.5;display:flex;gap:6px;align-items:baseline;flex-wrap:wrap}
-.lv{flex:0 0 auto;font-size:10px;font-weight:700;padding:1px 5px;border-radius:3px;line-height:16px}
+.cov.part{background:#FBEBDF;color:#B25A1E}
+.cov.no{background:#F1EADD;color:#8A8071}
+.ln{display:flex;gap:7px;margin:8px 0 0 6px;align-items:flex-start}
+.lab{flex:0 0 auto;font-size:11px;font-weight:700;line-height:17px;padding:1px 6px;border-radius:4px;
+  margin-top:2px;letter-spacing:.3px}
+.lab.m{background:#FBEBDF;color:#B25A1E}
+.lab.f{background:#FFF3D9;color:#97701A}
+.lab.s{background:#E7EDF2;color:#27546D}
+.tx{flex:1;min-width:0;width:0;font-size:14px;line-height:1.62;color:#3C352C;
+  display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.optline{display:block;margin-top:3px;color:#8A8071;font-size:12.5px;line-height:1.55}
+.card:not(.open) .optline{display:none}
+.card.open .tx{display:block;overflow:visible;-webkit-line-clamp:none}
+.card:not(.open) .dtwrap,.card:not(.open) .basis,.card:not(.open) .ln.std{display:none}
+.dt{display:block}
+.detail{margin:10px 0 0 6px;padding:10px 12px;background:#FFFDF8;border:1px solid #E3D9C6;
+  border-left:3px solid #C36B2C;border-radius:8px}
+.dt-title{font-size:12px;font-weight:700;color:#B25A1E;margin-bottom:6px}
+.dt-row+.dt-row{border-top:1px dashed #E3D9C6;margin-top:8px;padding-top:8px}
+.dt-h{font-size:13px;color:#2B2620;margin-bottom:3px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.dt-tag{font-size:10px;font-weight:400;color:#8A8071;background:#F1EADD;padding:1px 5px;border-radius:3px}
+.dt-l{font-size:12.5px;line-height:1.6;color:#3C352C;margin-top:2px}
+.dt-l i{font-style:normal;display:inline-block;min-width:64px;padding-right:6px;color:#8A8071;vertical-align:top}
+.dt-l.b{color:#27546D;font-size:12px;line-height:1.62}
+.grp{font-size:11px;font-weight:700;color:#8A8071;letter-spacing:.5px;margin:9px 0 3px}
+.lv{font-size:10px;font-weight:700;padding:1px 5px;border-radius:3px;line-height:16px}
 .lv.must{background:#B23A2E;color:#fff}.lv.cond{background:#C36B2C;color:#fff}.lv.opt{background:#E5DED2;color:#6B6154}
-.meta{display:flex;gap:5px;flex-wrap:wrap;margin-top:3px}
-.st{font-size:10px;color:#27546D;background:#E7EDF2;padding:0 5px;border-radius:3px;line-height:16px}
-.tg{font-size:10.5px;color:#B25A1E;background:#FFF3D9;padding:0 5px;border-radius:3px;line-height:16px}
-.bs{font-size:11.5px;color:#8A8071;margin-top:3px;line-height:1.55}
-.bs b{color:#3C352C;font-weight:700}
-.method{color:#1F6A62}
-.foot{margin-top:12px;padding:9px 11px;background:#FBF6EC;border:1px solid #EEE2CC;border-radius:9px;font-size:11.5px;line-height:1.65;color:#6B6154}
-.foot b{color:#3C352C}
-.coverage{margin-top:8px;font-size:11.5px;color:#6B6154}
-.bar{height:5px;background:#EFE7D8;border-radius:3px;overflow:hidden;margin:4px 0 3px}
-.bar i{display:block;height:100%;background:#2A8279;border-radius:3px}
-.bar.part i{background:#C36B2C}
+.trg{font-size:10px;color:#B25A1E;background:#FFF3D9;padding:1px 5px;border-radius:3px}
+.basis{margin:10px 0 0 6px;padding:10px 12px;background:#F6F9FA;border:1px solid #DDE4EA;
+  border-left:3px solid #27546D;border-radius:8px}
+.bs-h{font-size:11.5px;font-weight:700;color:#27546D;letter-spacing:.5px;margin-bottom:5px}
+.bs-l{font-size:12px;line-height:1.72;color:#3C352C;margin-top:3px;word-break:break-word}
+.bs-l i{font-style:normal;display:inline-block;min-width:78px;padding-right:6px;color:#8A8071;vertical-align:top}
+.bs-note{font-size:11.5px;line-height:1.65;color:#8A8071;margin-top:8px;padding-top:7px;
+  border-top:1px dashed #DDE4EA}
+.cover{margin:10px 0 0 6px;padding:8px 11px;background:#F3F7F5;border:1px solid #CFE0DA;border-radius:8px;font-size:11.5px;color:#1F4F4A}
+.cbar{height:5px;background:#DCE8E4;border-radius:3px;overflow:hidden;margin:4px 0 3px}
+.cbar i{display:block;height:100%;background:#2A8279;border-radius:3px}
+.cbar.part i{background:#C36B2C}
 .miss{color:#B25A1E}
-.qual{padding:10px 0 0}
-.qblock{margin-bottom:10px}
-.qh{font-size:12px;font-weight:700;color:#B25A1E;margin-bottom:4px}
-.qt{font-size:13px;line-height:1.7;color:#3C352C;background:#FFFDF8;border:1px solid #E3D9C6;border-radius:9px;padding:8px 11px}
-.note{margin-top:8px;font-size:11.5px;color:#8A8071}
-.empty{text-align:center;color:#8A8071;font-size:13px;padding:30px 0}
+.foot{margin:11px 0 0 6px;display:flex;gap:10px;align-items:center}
+.tg{font-size:12.5px;color:#C36B2C;border:none;background:none;padding:2px 0;font-family:inherit;min-height:32px}
+.tg::after{content:"  ▾";font-size:10px}
+.card.open .tg::after{content:"  ▴"}
+.cp{font-size:12px;color:#27546D;border:1px solid #DDE4EA;background:#fff;border-radius:7px;
+  padding:3px 9px;display:none;font-family:inherit;min-height:32px}
+.card.open .cp{display:inline-block}
+.empty{text-align:center;padding:52px 20px;color:#8D8271;font-size:14px}
+.empty b{display:block;font-size:16px;color:#6B6154;margin-bottom:8px}
 .qrbox{display:flex;gap:14px;align-items:center;margin:18px 0 0;padding:12px;background:#FFFDF8;border:1px solid #E3D9C6;border-radius:12px}
 #qr{width:132px;height:132px;border-radius:6px;flex:0 0 auto}
 .qrt{font-size:11.5px;color:#6B6154;line-height:1.7;word-break:break-all}
 .qrt b{color:#2B2620;font-size:13px}
-footer{margin-top:18px;font-size:11px;color:#8A8071;line-height:1.7;border-top:1px solid #E3D9C6;padding-top:10px}
+footer{margin-top:20px;padding:16px 14px;border-top:1px dashed #DCCFB8;font-size:11.5px;
+  line-height:1.85;color:#8D8271}
 footer b{color:#6B6154}
-@media(max-width:420px){.zone-tag{display:none}.nm{font-size:15.5px}}
+#top{position:fixed;right:16px;bottom:calc(26px + env(safe-area-inset-bottom));width:42px;height:42px;
+  border:none;border-radius:50%;background:#C36B2C;color:#fff;font-size:17px;
+  box-shadow:0 6px 16px rgba(195,107,44,.4);opacity:0;pointer-events:none;transition:opacity .25s}
+#top.on{opacity:1;pointer-events:auto}
+.toast{position:fixed;left:50%;bottom:calc(78px + env(safe-area-inset-bottom));transform:translateX(-50%);
+  background:rgba(43,38,32,.9);color:#fff;font-size:13px;padding:8px 16px;border-radius:20px;
+  opacity:0;transition:opacity .3s;pointer-events:none;z-index:60}
+.toast.on{opacity:1}
+mark{background:#FFE7A8;color:inherit;border-radius:2px;padding:0 1px}
+@media print{.sticky{position:static;box-shadow:none}
+ .card .dtwrap,.card .basis,.card .optline,.card .ln.std{display:block!important}
+ .tg,.cp,#top,.toast,.chips,.modebar{display:none!important}
+ .card{break-inside:avoid;page-break-inside:avoid}}
 </style>
 </head>
 <body>
 <div class="topbar"></div>
 <div class="wrap">
-<header>
-  <div class="kicker">建设工程质量检测 · 九大专项</div>
-  <h1>检测项目速查 · 标准版</h1>
-  <div class="sub">三源三档 · <b>强制必检 / 条件必检 / 可选</b> · 产品标准覆盖率 · 现行依据</div>
-  <div class="tabs" id="tabs">
-    <button data-view="build" class="on">工程验收</button>
-    <button data-view="qual">资质申请</button>
+  <header>
+    <div class="kicker">工程质量检测 · 九大专项</div>
+    <h1>检测项目速查</h1>
+    <div class="sub">按住建部 <b>9 个检测专项</b>、<b>93 个检测项目</b>整理　·　三源三档　·　<b>1005 条参数</b>　<span class="ver">标准版 v3.1 · 2026-11-12</span></div>
+    <div class="modebar" id="modebar">
+      <button class="mchip on" data-view="build">工程验收</button>
+      <button class="mchip" data-view="qual">资质申请</button>
+      <button class="mchip on" data-lv="all">全部等级</button>
+      <button class="mchip" data-lv="强制">强制必检</button>
+      <button class="mchip" data-lv="条件">条件必检</button>
+      <button class="mchip" data-lv="可选">可选</button>
+    </div>
+  </header>
+
+  <div class="notice" id="notice">
+    <b>三档口径：</b>强制必检 = 验收规范主控项目 / 结构实体检验 / 强制性条文 / 进场复验；条件必检 = 满足触发条件时必须检（气候区、设计有要求、材料品种等）；可选 = 规范未要求，按委托或资质需要。项目名后带 <b>＊</b> 者为资质标准的可选检测项目，不等于规范免检。
   </div>
-</header>
 
-<div class="sticky">
-  <div class="searchbox">
-    <svg class="ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
-    <input id="q" type="search" placeholder="搜项目、参数、标准号、拼音，如 水泥 / 氯离子 / GB 50204 / sn">
-    <button class="clr" id="clr">清除</button>
+  <div class="sticky">
+    <div class="searchbox">
+      <svg class="ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="M16.5 16.5L21 21"></path></svg>
+      <input id="q" type="search" autocomplete="off" enterkeyhint="search" aria-label="搜索检测项目、参数或标准号" placeholder="搜项目 / 参数 / 标准号 / 拼音，如 水泥、氯离子、GB 50204">
+      <button class="clr" id="clr">清空</button>
+    </div>
   </div>
-  <div class="filters" id="filters">
-    <button class="fchip on" data-level="all">全部</button>
-    <button class="fchip lv-must" data-level="强制">强制必检</button>
-    <button class="fchip lv-cond" data-level="条件">条件必检</button>
-    <button class="fchip lv-opt" data-level="可选">可选</button>
-    <select class="fchip" id="stage"><option value="all">全部阶段</option></select>
+
+  <div class="chips" id="chips"></div>
+  <div class="count" id="cnt"></div>
+  <div id="list"></div>
+  <div class="empty" id="empty" style="display:none"><b>没找到匹配项</b>换个词试试：水泥 / 钢筋 / 桩 / 保温 / 压实<br>也可以直接输入标准号，如 GB 50204</div>
+
+  <div class="qrbox">
+    <canvas id="qr" width="168" height="168"></canvas>
+    <div class="qrt"><b>手机扫码查看</b><br><span id="qru"></span><br>同一页面，手机直接打开。</div>
   </div>
-  <div class="zonebar" id="zones"></div>
-</div>
 
-<div class="count"><span>共 <em id="pc">0</em> 个项目 · <em id="kc">0</em> 条参数</span><span id="hint">点击卡片展开参数</span></div>
-<div class="legend" id="legend">
-  <b>三档口径：</b>强制必检 = 验收规范主控项目/结构实体检验/强制性条文/进场复验；条件必检 = 满足触发条件时必须检（如气候区、设计有要求、材料品种）；可选 = 规范未要求、按委托或资质需要。
+  <footer>
+    <b>怎么用：</b>上方九个专项按钮平铺筛选；顶部可切换「工程验收 / 资质申请」，并可只看强制必检、条件必检或可选。点卡片展开可见逐条参数、触发条件、依据条款、方法标准与产品标准覆盖率。<br>
+    <b>三源：</b>产品标准给出参数全集，验收规范给出必检子集，资质标准只作可选范围；三者不混用。<br>
+    <b>口径：</b>取样组批为现行标准常规值，实际以设计文件、经批准的检测方案及当地主管部门要求为准；标准是否现行请再核国家标准信息公共服务平台。<br>
+    <b>版本：</b>标准版 v3.1 · 2026-11-12。
+  </footer>
 </div>
-
-<div id="list"></div>
-<div class="empty" id="empty" style="display:none">没有匹配的项目或参数</div>
-
-<div class="qrbox">
-  <canvas id="qr" width="168" height="168"></canvas>
-  <div class="qrt"><b>手机扫码查看</b><br><span id="qru"></span><br>同一页面，手机直接打开。</div>
-</div>
-
-<footer>
-  <b>数据说明：</b>项目与参数以现行验收规范、产品标准为准；「资质申请」视角保留建质规〔2023〕1号附件2 的必备/可选口径，仅供资质对照。<br>
-  <b>免责：</b>取样组批、检验数量为常规值，实际以设计文件、经批准的检测方案及当地主管部门要求为准。标准是否现行请再核国家标准信息公共服务平台。<br>
-  版本 v3.0 · 2026-11-12
-</footer>
-</div>
+<button id="top" aria-label="回到顶部">↑</button>
+<div class="toast" id="toast"></div>
 
 <script src="qrcodegen.js"></script>
 <script src="data.js"></script>
@@ -155,184 +193,278 @@ footer b{color:#6B6154}
   var DATA = window.DATA_V3 || [];
   var ZONES = [];
   DATA.forEach(function(p){ if(ZONES.indexOf(p.zn)<0) ZONES.push(p.zn); });
-  var STAGES = [];
-  DATA.forEach(function(p){ p.params.forEach(function(x){ (x.stages||[]).forEach(function(s){ if(STAGES.indexOf(s)<0) STAGES.push(s); }); }); });
+  var CN = ['一','二','三','四','五','六','七','八','九'];
+  var byKey = {};
+  DATA.forEach(function(p){ byKey[p.z+'|'+p.no]=p; });
 
-  var view='build', zone=-1, level='all', stage='all', q='';
+  var view='build', level='all', zone='all', q='';
+  var list=document.getElementById('list'), input=document.getElementById('q'),
+      cnt=document.getElementById('cnt'), chips=document.getElementById('chips'),
+      empty=document.getElementById('empty'), toast=document.getElementById('toast');
 
-  var elQ=document.getElementById('q'), elList=document.getElementById('list'),
-      elEmpty=document.getElementById('empty'), elPc=document.getElementById('pc'),
-      elKc=document.getElementById('kc'), elHint=document.getElementById('hint'),
-      elZones=document.getElementById('zones'), elStage=document.getElementById('stage'),
-      elLegend=document.getElementById('legend');
-
-  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
-
-  // zones
-  var zh='<button class="zchip on" data-z="-1">全部专项</button>';
-  ZONES.forEach(function(z,i){ zh+='<button class="zchip" data-z="'+i+'">'+esc(z)+'</button>'; });
-  elZones.innerHTML=zh;
-
-  // stages
-  STAGES.forEach(function(s){ var o=document.createElement('option'); o.value=s; o.textContent=s; elStage.appendChild(o); });
-
-  elZones.addEventListener('click',function(e){
-    var b=e.target.closest('.zchip'); if(!b) return;
-    zone=parseInt(b.dataset.z,10);
-    Array.prototype.forEach.call(elZones.querySelectorAll('.zchip'),function(x){x.classList.toggle('on',x===b);});
-    render();
-  });
-
-  document.getElementById('filters').addEventListener('click',function(e){
-    var b=e.target.closest('[data-level]'); if(!b) return;
-    level=b.dataset.level;
-    Array.prototype.forEach.call(document.querySelectorAll('[data-level]'),function(x){x.classList.toggle('on',x===b);});
-    render();
-  });
-
-  elStage.addEventListener('change',function(){ stage=elStage.value; render(); });
-
-  document.getElementById('tabs').addEventListener('click',function(e){
-    var b=e.target.closest('[data-view]'); if(!b) return;
-    view=b.dataset.view;
-    Array.prototype.forEach.call(document.querySelectorAll('[data-view]'),function(x){x.classList.toggle('on',x===b);});
-    document.getElementById('filters').style.display = (view==='qual')?'none':'flex';
-    elStage.style.display = (view==='qual')?'none':'';
-    elLegend.style.display = (view==='qual')?'none':'';
-    elHint.textContent = (view==='qual')?'资质口径：必备 / 可选检测参数':'点击卡片展开参数';
-    elQ.placeholder = (view==='qual')?'搜项目、标准号、拼音，如 水泥 / GB 50204 / sn':'搜项目、参数、标准号、拼音，如 水泥 / 氯离子 / GB 50204 / sn';
-    render();
-  });
-
-  var t=null;
-  elQ.addEventListener('input',function(){ clearTimeout(t); t=setTimeout(function(){ q=elQ.value.trim().toLowerCase(); render(); },120); });
-  document.getElementById('clr').addEventListener('click',function(){ elQ.value=''; q=''; render(); elQ.focus(); });
-
-  function projHay(p){
-    var s=p.name+' '+p.zn+' '+(p.py||'');
+  function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function cls(zi){ return zi===1?'t2':(zi>=6?'t3':''); }
+  function lvClass(l){ return l==='强制'?'must':(l==='条件'?'cond':'opt'); }
+  function paramsOf(p){
+    if(level==='all') return p.params;
+    return p.params.filter(function(x){ return x.level===level; });
+  }
+  function matched(p){
+    if(!q) return p.params;
+    var nameHit = hayProject(p).indexOf(q)>-1;
+    if(nameHit) return p.params;
+    return p.params.filter(function(x){ return hayParam(x).indexOf(q)>-1; });
+  }
+  function hayProject(p){
+    var s=(p.name+' '+p.zn+' '+(p.py||''));
     (p.basis||[]).forEach(function(b){ s+=' '+b.std+' '+(b.name||''); });
     return s.toLowerCase();
   }
-  function paramHay(x){ return (x.name+' '+(x.trigger||'')+' '+(x.method||'')+' '+(x.group||'')).toLowerCase(); }
+  function hayParam(x){ return (x.name+' '+(x.trigger||'')+' '+(x.method||'')+' '+(x.group||'')).toLowerCase(); }
+  function joinNames(arr){ return arr.length?arr.map(function(x){return x.name;}).join('、'):'—'; }
 
-  function levels(p){
+  function counts(p){
     var c={must:0,cond:0,opt:0};
     p.params.forEach(function(x){ if(x.level==='强制')c.must++; else if(x.level==='条件')c.cond++; else c.opt++; });
     return c;
   }
 
-  function visibleParams(p){
-    var nameHit = q && projHay(p).indexOf(q)>-1;
-    return p.params.filter(function(x){
-      if(level!=='all' && x.level!==level) return false;
-      if(stage!=='all' && (x.stages||[]).indexOf(stage)<0) return false;
-      if(q && !nameHit && paramHay(x).indexOf(q)<0) return false;
-      return true;
-    });
-  }
-
-  function rowHtml(x){
-    var lv = x.level==='强制'?'must':(x.level==='条件'?'cond':'opt');
-    var bs='';
-    if(x.basis && x.basis.length){
-      bs = x.basis.map(function(b){ return '<b>'+esc(b.std)+'</b>'+(b.clause?' '+esc(b.clause):''); }).join('；');
+  function cardHtml(p){
+    var zi=p.z, c=cls(zi), vp=paramsOf(p), mp=matched(p);
+    var mustN=vp.filter(function(x){return x.level==='强制';});
+    var condN=vp.filter(function(x){return x.level==='条件';});
+    var optN=vp.filter(function(x){return x.level==='可选';});
+    var head, optline='';
+    if(view==='qual'){
+      head=p.legacy.must||'—';
+      optline=p.legacy.opt&&p.legacy.opt!=='—'?'<span class="optline">可选：'+esc(p.legacy.opt)+'</span>':'';
+    } else {
+      var show=vp;
+      if(q){
+        var mq=mp.filter(function(x){return level==='all'||x.level===level;});
+        if(mq.length) show=mq;
+      }
+      head=joinNames(show);
+      if(condN.length) optline+='<span class="optline">条件：'+esc(joinNames(condN))+'</span>';
+      if(optN.length) optline+='<span class="optline">可选：'+esc(joinNames(optN))+'</span>';
     }
-    var m = x.method?'<span class="method">方法：'+esc(x.method)+'</span>':'';
-    var st=(x.stages||[]).map(function(s){return '<span class="st">'+esc(s)+'</span>';}).join('');
-    var tg=x.trigger?'<span class="tg">'+esc(x.trigger)+'</span>':'';
-    return '<div class="row"><div class="pn"><span>'+esc(x.name)+'</span><span class="lv '+lv+'">'+esc(x.level)+'</span></div>'+
-      '<div class="meta">'+st+tg+'</div>'+
-      (bs||m?'<div class="bs">'+bs+(bs&&m?' · ':'')+m+'</div>':'')+'</div>';
+    var cov='';
+    if(view!=='qual'&&p.coverage){
+      var cc=p.coverage, part=cc.covered<cc.total?' part':'';
+      cov='<span class="cov'+part+'">覆盖 '+cc.covered+'/'+cc.total+'</span>';
+    }
+    var freq=view==='qual'?(p.legacy.freq||''):(p.legacy.freq||'');
+    var std=view==='qual'?(p.legacy.std||''):(p.basis||[]).map(function(b){return b.name||b.std;}).join('；');
+    return '<div class="card '+c+'" data-k="'+p.z+'|'+p.no+'">'+
+      '<div class="hd"><span class="idx">'+esc(CN[zi]||'')+'·'+esc(p.no)+'</span>'+
+      '<span class="nm">'+esc(p.name)+'</span>'+cov+'</div>'+
+      '<div class="ln"><b class="lab m">'+(view==='qual'?'必备':'参数')+'</b><span class="tx">'+esc(head)+optline+'</span></div>'+
+      (freq?'<div class="ln"><b class="lab f">取样</b><span class="tx">'+esc(freq)+'</span></div>':'')+
+      '<div class="dtwrap"></div>'+
+      '<div class="ln std"><b class="lab s">依据</b><span class="tx">'+esc(std||'—')+'</span></div>'+
+      '<div class="foot"><button class="tg" aria-expanded="false">展开全部</button>'+
+      '<button class="cp">复制本项</button></div></div>';
   }
 
-  function bodyHtml(p, params){
-    var out='', lastVar='__', lastGrp='__';
-    params.forEach(function(x){
+  function detailHtml(p){
+    if(view==='qual'){
+      return '<div class="detail"><div class="dt-title">资质口径 · 建质规〔2023〕1号附件2</div>'+
+        '<div class="dt-l"><i>必备参数</i>'+esc(p.legacy.must||'—')+'</div>'+
+        '<div class="dt-l"><i>可选参数</i>'+esc(p.legacy.opt||'—')+'</div>'+
+        (p.legacy.freq?'<div class="dt-l"><i>组批/取样</i>'+esc(p.legacy.freq)+'</div>':'')+
+        '<div class="bs-note">仅供资质申请对照；工程验收请切换到「工程验收」视角。</div></div>';
+    }
+    var vp=paramsOf(p), mp=matched(p);
+    if(q){
+      var mq=mp.filter(function(x){return level==='all'||x.level===level;});
+      if(mq.length) vp=mq;
+    }
+    if(!vp.length) vp=p.params;
+    var html='<div class="detail"><div class="dt-title">检测参数 · 强制 '+
+      vp.filter(function(x){return x.level==='强制';}).length+' / 条件 '+
+      vp.filter(function(x){return x.level==='条件';}).length+' / 可选 '+
+      vp.filter(function(x){return x.level==='可选';}).length+'</div>';
+    var lastV='__', lastG='__', out='';
+    vp.forEach(function(x){
       var v=x.variety||'';
-      if(v!==lastVar){ if(v){ out+='<div class="variety">'+esc(v)+'</div>'; lastVar=v; lastGrp='__'; } }
-      if(x.group!==lastGrp){ out+='<div class="grp">'+esc(x.group||'其他')+'</div>'; lastGrp=x.group; }
-      out+=rowHtml(x);
+      if(v!==lastV){ if(v){ out+='<div class="grp">品种：'+esc(v)+'</div>'; } lastV=v; lastG='__'; }
+      if(x.group!==lastG){ out+='<div class="grp">'+esc(x.group||'其他')+'</div>'; lastG=x.group; }
+      var st=(x.stages||[]).map(function(s){return '<span class="dt-tag">'+esc(s)+'</span>';}).join('');
+      var bs='';
+      if(x.basis&&x.basis.length){ bs=x.basis.map(function(b){return esc(b.std)+(b.clause?' '+esc(b.clause):'');}).join('；'); }
+      out+='<div class="dt-row"><div class="dt-h"><b>'+esc(x.name)+'</b>'+
+        '<span class="lv '+lvClass(x.level)+'">'+esc(x.level)+'</span>'+st+
+        (x.trigger?'<span class="trg">'+esc(x.trigger)+'</span>':'')+'</div>'+
+        (bs?'<div class="dt-l b"><i>依据</i>'+bs+'</div>':'')+
+        (x.method?'<div class="dt-l"><i>方法</i>'+esc(x.method)+'</div>':'')+
+        '</div>';
     });
-    var foot='';
-    if(p.legacy && p.legacy.freq) foot+='<div><b>组批/取样：</b>'+esc(p.legacy.freq)+'</div>';
-    if(p.legacy && p.legacy.std) foot+='<div style="margin-top:4px"><b>依据：</b>'+esc(p.legacy.std)+'</div>';
-    if(foot) out+='<div class="foot">'+foot+'</div>';
+    html+=out+'</div>';
+    return html;
+  }
+
+  function basisHtml(p){
+    if(view==='qual') return '';
+    var prod=[], acc=[];
+    (p.basis||[]).forEach(function(b){
+      var s=b.std||'';
+      if(/^(GB 5|GB 55|CJJ|JTG|JGJ)/.test(s)) acc.push(b.name||s);
+      else prod.push(b.name||s);
+    });
+    if(!prod.length&&!acc.length) return '';
+    var out='<div class="basis"><div class="bs-h">三源依据</div>';
+    if(prod.length) out+='<div class="bs-l"><i>产品/方法</i>'+esc(prod.join('；'))+'</div>';
+    if(acc.length) out+='<div class="bs-l"><i>验收规范</i>'+esc(acc.join('；'))+'</div>';
+    out+='<div class="bs-note">产品标准给出参数全集，验收规范给出必检子集；资质口径见「资质申请」视角。</div></div>';
     return out;
   }
 
-  function qualHtml(p){
-    var out='<div class="qual">';
-    out+='<div class="qblock"><div class="qh">必备检测参数</div><div class="qt">'+esc(p.legacy.must||'—')+'</div></div>';
-    out+='<div class="qblock"><div class="qh">可选检测参数</div><div class="qt">'+esc(p.legacy.opt||'—')+'</div></div>';
-    if(p.legacy.freq) out+='<div class="note"><b>组批/取样：</b>'+esc(p.legacy.freq)+'</div>';
-    if(p.legacy.std) out+='<div class="note"><b>依据：</b>'+esc(p.legacy.std)+'</div>';
-    out+='<div class="note">— 以上为《建设工程质量检测机构资质标准》（建质规〔2023〕1号）附件2 口径，仅供资质申请对照。</div></div>';
-    return out;
-  }
-
-  function covHtml(p){
-    if(!p.coverage) return '';
+  function coverHtml(p){
+    if(view==='qual'||!p.coverage) return '';
     var c=p.coverage, pct=c.total?Math.round(c.covered/c.total*100):0;
-    var cls=c.covered>=c.total?'':'part';
+    var part=c.covered<c.total?' part':'';
     var miss=(c.missing&&c.missing.length)?'<div class="miss">缺：'+c.missing.map(esc).join('、')+'</div>':'';
-    return '<div class="coverage"><div>产品标准覆盖 <b>'+c.covered+'/'+c.total+'</b>（'+pct+'%）</div><div class="bar '+cls+'"><i style="width:'+pct+'%"></i></div>'+miss+'</div>';
+    return '<div class="cover"><div>产品标准覆盖 <b>'+c.covered+'/'+c.total+'</b>（'+pct+'%）</div>'+
+      '<div class="cbar'+part+'"><i style="width:'+pct+'%"></i></div>'+miss+'</div>';
   }
 
-  function cardHtml(p, params){
-    var lv=levels(p);
-    var cov='', sum='';
-    if(view!=='qual'){
-      if(p.coverage){ var cc=p.coverage, cls=cc.covered>=cc.total?'':'part'; cov='<span class="cov '+cls+'">覆盖 '+cc.covered+'/'+cc.total+'</span>'; }
-      else { cov='<span class="cov none">覆盖未配置</span>'; }
-      sum='<div class="sum"><span class="b must">强制 '+lv.must+'</span><span class="b cond">条件 '+lv.cond+'</span><span class="b opt">可选 '+lv.opt+'</span></div>';
+  function renderChips(){
+    var total=DATA.length, h='<button class="chip on" data-z="all">全部 '+total+'</button>';
+    ZONES.forEach(function(z,i){
+      var n=DATA.filter(function(p){return p.z===i;}).length;
+      h+='<button class="chip" data-z="'+i+'"><b>'+CN[i]+'</b>'+esc(z)+'</button>';
+    });
+    chips.innerHTML=h;
+  }
+
+  function visible(p){
+    if(zone!=='all' && String(p.z)!==zone) return false;
+    if(view==='qual'){
+      if(!q) return true;
+      return (p.name+' '+(p.py||'')+' '+p.zn+' '+(p.legacy.must||'')+' '+(p.legacy.opt||'')+' '+(p.legacy.std||'')).toLowerCase().indexOf(q)>-1;
     }
-    return '<div class="card z'+p.z+'" data-k="'+p.z+'|'+p.no+'"><div class="hd">'+
-      '<span class="idx">'+esc(p.no)+'</span><span class="nm">'+esc(p.name)+'</span>'+
-      '<span class="zone-tag">'+esc(p.zn)+'</span>'+cov+'</div>'+
-      sum+
-      '<div class="body"></div></div>';
+    var mp=matched(p);
+    if(q && mp.length===0 && hayProject(p).indexOf(q)<0) return false;
+    if(level!=='all'){
+      if(mp.length===0) return false;
+      var lv=mp.filter(function(x){return x.level===level;});
+      if(lv.length===0) return false;
+    }
+    return true;
   }
 
   function render(){
-    var html='', pc=0, kc=0, covCfg=0;
+    var out=[], hit=0, kc=0, lastZ=-1;
     DATA.forEach(function(p){
-      if(zone>=0 && ZONES[zone]!==p.zn) return;
-      var vp = p.params;
-      if(view==='qual'){
-        if(q){ var hay=(p.name+' '+(p.py||'')+' '+p.zn+' '+(p.legacy.must||'')+' '+(p.legacy.opt||'')+' '+(p.legacy.std||'')).toLowerCase(); if(hay.indexOf(q)<0) return; }
-      } else {
-        vp=visibleParams(p);
-        if(vp.length===0 && (q || level!=='all' || stage!=='all')) return;
+      if(!visible(p)) return;
+      if(p.z!==lastZ){
+        lastZ=p.z;
+        out.push('<div class="sect" style="font-size:12px;color:#8D8271;letter-spacing:1px;margin:14px 2px 8px;font-weight:700">'+
+          esc(CN[p.z])+' · '+esc(p.zn)+'<span style="color:#fff;background:'+(p.z>=6?'#27546D':'#C36B2C')+
+          ';border-radius:4px;padding:1px 6px;font-size:10.5px;letter-spacing:.5px;margin-left:8px;vertical-align:1px">'+
+          (p.z>=6?'市政工程':'建筑工程')+'</span></div>');
       }
-      pc++;
-      if(p.coverage) covCfg++;
-      kc += vp.length;
-      html += cardHtml(p);
+      hit++;
+      kc+=(view==='qual')?p.params.length:paramsOf(p).length;
+      out.push(cardHtml(p));
     });
-    elList.innerHTML=html;
-    elPc.textContent=pc; elKc.textContent=kc;
-    elEmpty.style.display=pc?'none':'block';
-    if(view==='qual') elHint.textContent='资质口径：必备 / 可选检测参数';
-    else elHint.textContent='覆盖 '+covCfg+'/'+pc+' · 点击展开';
+    list.innerHTML=out.join('');
+    empty.style.display=hit?'none':'block';
+    cnt.innerHTML='<span>共 <em>'+DATA.length+'</em> 项'+(hit!==DATA.length?'，匹配 <em>'+hit+'</em> 项':'')+
+      ' · <em>'+kc+'</em> 条参数</span><button class="exbtn" id="exAll">全部展开</button>';
+    bind();
+  }
 
-    // lazy bodies
-    Array.prototype.forEach.call(elList.querySelectorAll('.card'),function(card){
-      var k=card.dataset.k.split('|'), z=parseInt(k[0],10), no=k[1];
-      var p=DATA.filter(function(x){return x.z===z && x.no===no;})[0];
-      if(!p) return;
-      card.querySelector('.hd').addEventListener('click',function(){
-        var body=card.querySelector('.body');
+  function bind(){
+    Array.prototype.forEach.call(list.querySelectorAll('.card'),function(card){
+      card.addEventListener('click',function(e){
+        if(e.target.closest('.cp')){ copyCard(card); return; }
+        var p=byKey[card.dataset.k];
         if(!card.classList.contains('open')){
-          if(view==='qual'){ body.innerHTML=qualHtml(p); }
-          else {
-            var vp=visibleParams(p);
-            body.innerHTML=(vp.length?bodyHtml(p,vp):'<div class="note">当前筛选下没有匹配参数</div>')+covHtml(p);
-          }
+          var w=card.querySelector('.dtwrap');
+          w.innerHTML=detailHtml(p)+basisHtml(p)+coverHtml(p);
           card.classList.add('open');
-        } else { card.classList.remove('open'); }
+          card.querySelector('.tg').textContent='收起';
+          card.querySelector('.tg').setAttribute('aria-expanded','true');
+        } else {
+          card.classList.remove('open');
+          card.querySelector('.tg').textContent='展开全部';
+          card.querySelector('.tg').setAttribute('aria-expanded','false');
+        }
       });
     });
+    var ex=document.getElementById('exAll');
+    if(ex) ex.addEventListener('click',function(e){
+      e.stopPropagation();
+      var cards=list.querySelectorAll('.card');
+      var allOpen=cards.length && Array.prototype.every.call(cards,function(c){return c.classList.contains('open');});
+      Array.prototype.forEach.call(cards,function(c){
+        var p=byKey[c.dataset.k];
+        if(!allOpen && !c.classList.contains('open')){
+          c.querySelector('.dtwrap').innerHTML=detailHtml(p)+basisHtml(p)+coverHtml(p);
+          c.classList.add('open'); c.querySelector('.tg').textContent='收起';
+        } else if(allOpen){
+          c.classList.remove('open'); c.querySelector('.tg').textContent='展开全部';
+        }
+      });
+      ex.textContent=allOpen?'全部展开':'全部收起';
+    });
   }
+
+  function copyCard(card){
+    var p=byKey[card.dataset.k];
+    var lines=[p.zn+' · '+p.name];
+    if(view==='qual'){
+      lines.push('必备：'+(p.legacy.must||'—'));
+      lines.push('可选：'+(p.legacy.opt||'—'));
+    } else {
+      ['强制','条件','可选'].forEach(function(l){
+        var a=p.params.filter(function(x){return x.level===l;}).map(function(x){return x.name;});
+        if(a.length) lines.push(l+'：'+a.join('、'));
+      });
+    }
+    if(p.legacy.freq) lines.push('组批/取样：'+p.legacy.freq);
+    if(p.legacy.std) lines.push('依据：'+p.legacy.std);
+    var txt=lines.join('\n');
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ showToast('已复制'); },function(){ fallbackCopy(txt); });
+    } else fallbackCopy(txt);
+  }
+  function fallbackCopy(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta);
+    ta.select(); try{document.execCommand('copy'); showToast('已复制');}catch(e){showToast('复制失败');}
+    document.body.removeChild(ta);
+  }
+  var tt=null;
+  function showToast(s){ toast.textContent=s; toast.classList.add('on'); clearTimeout(tt); tt=setTimeout(function(){toast.classList.remove('on');},1500); }
+
+  chips.addEventListener('click',function(e){
+    var b=e.target.closest('.chip'); if(!b) return;
+    zone=b.dataset.z;
+    Array.prototype.forEach.call(chips.querySelectorAll('.chip'),function(x){x.classList.toggle('on',x===b);});
+    render();
+  });
+  document.getElementById('modebar').addEventListener('click',function(e){
+    var b=e.target.closest('.mchip'); if(!b) return;
+    if(b.dataset.view){
+      view=b.dataset.view;
+      Array.prototype.forEach.call(document.querySelectorAll('[data-view]'),function(x){x.classList.toggle('on',x===b);});
+      Array.prototype.forEach.call(document.querySelectorAll('[data-lv]'),function(x){x.style.display=(view==='qual')?'none':'';});
+      document.getElementById('notice').style.display=(view==='qual')?'none':'';
+      document.getElementById('q').placeholder=(view==='qual')?'搜项目、标准号、拼音，如 水泥 / GB 50204':'搜项目 / 参数 / 标准号 / 拼音，如 水泥、氯离子、GB 50204';
+    } else if(b.dataset.lv){
+      level=b.dataset.lv;
+      Array.prototype.forEach.call(document.querySelectorAll('[data-lv]'),function(x){x.classList.toggle('on',x===b);});
+    }
+    render();
+  });
+  var t=null;
+  input.addEventListener('input',function(){ clearTimeout(t); t=setTimeout(function(){ q=input.value.trim().toLowerCase(); render(); },120); });
+  document.getElementById('clr').addEventListener('click',function(){ input.value=''; q=''; render(); input.focus(); });
+
+  var topBtn=document.getElementById('top');
+  window.addEventListener('scroll',function(){ topBtn.classList.toggle('on', window.scrollY>400); });
+  topBtn.addEventListener('click',function(){ window.scrollTo({top:0,behavior:'smooth'}); });
 
   function drawQR(){
     var SITE='https://liusihai19.github.io/jiance-sucha/';
@@ -340,16 +472,17 @@ footer b{color:#6B6154}
     var u=document.getElementById('qru'); if(u){ u.textContent=target; }
     try{
       var qr=qrcode(0,'M'); qr.addData(target); qr.make();
-      var n=qr.getModuleCount(), quiet=4, scale=5;
-      var size=(n+quiet*2)*scale;
+      var n=qr.getModuleCount(), quiet=4, scale=5, size=(n+quiet*2)*scale;
       var cv=document.getElementById('qr'); cv.width=size; cv.height=size;
       var ctx=cv.getContext('2d');
       ctx.fillStyle='#FFFDF8'; ctx.fillRect(0,0,size,size);
       ctx.fillStyle='#2B2620';
       for(var r=0;r<n;r++){ for(var c=0;c<n;c++){ if(qr.isDark(r,c)){ ctx.fillRect((c+quiet)*scale,(r+quiet)*scale,scale,scale); } } }
       window.__qrDataUrl=cv.toDataURL('image/png');
-    }catch(e){ var box=document.querySelector('.qrbox'); if(box){ box.style.display='none'; } }
+    }catch(err){ var box=document.querySelector('.qrbox'); if(box){box.style.display='none';} }
   }
+
+  renderChips();
   render();
   drawQR();
 })();
