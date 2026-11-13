@@ -22342,7 +22342,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22358,7 +22369,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22374,7 +22396,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22390,7 +22423,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22406,7 +22450,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22422,7 +22477,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22438,7 +22504,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22454,7 +22531,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22470,7 +22558,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22486,7 +22585,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22502,7 +22612,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22518,7 +22639,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22534,7 +22666,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及设计，每构件按标准布置测区"
@@ -22550,7 +22693,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每构件不少于3处"
@@ -22566,7 +22720,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每构件不少于3处"
@@ -22582,7 +22747,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每构件取1组"
@@ -22598,7 +22774,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22614,7 +22801,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22630,7 +22828,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22646,7 +22855,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22662,7 +22882,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22678,7 +22909,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22694,7 +22936,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22710,7 +22963,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22726,7 +22990,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22742,7 +23017,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22758,7 +23044,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22774,7 +23071,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T J21-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50152-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JTG/T J21及经批准检测方案"
@@ -22868,7 +23176,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -22884,7 +23199,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每300根1组"
@@ -22900,7 +23222,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m 1个断面"
@@ -22916,7 +23245,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -22932,7 +23268,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -22948,7 +23291,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -22964,7 +23314,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每300根抽检1组"
@@ -22980,7 +23337,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -22996,7 +23360,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23012,7 +23383,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23028,7 +23406,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23044,7 +23429,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m 1个断面"
@@ -23060,7 +23452,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23076,7 +23475,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23092,7 +23498,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23108,7 +23521,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23124,7 +23544,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23140,7 +23567,14 @@
                                       ],
                            "trigger":  "隧道验收外观检查发现渗漏时",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23156,7 +23590,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50446-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面；专项检测按方案"
@@ -23218,7 +23659,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 5120-2021",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "全数检查"
@@ -23234,7 +23686,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 5120-2021",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "全数检查"
@@ -23250,7 +23713,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 5120-2021",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "全数检查"
@@ -23266,7 +23740,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 5120-2021",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "全数检查"
@@ -23328,7 +23813,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23344,7 +23840,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23360,7 +23867,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23376,7 +23894,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23392,7 +23921,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23408,7 +23948,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23424,7 +23975,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23440,7 +24002,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23456,7 +24029,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23472,7 +24056,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23488,7 +24083,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23504,7 +24110,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23520,7 +24137,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23536,7 +24164,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 4-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17955-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家、同规格、同原料、同工艺每200块为一批（不足按一批）；外观逐块检查，力学性能每批抽3块（成对试验项目抽3对共6块）"
@@ -23598,7 +24237,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23614,7 +24264,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23630,7 +24291,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23646,7 +24318,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23662,7 +24345,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23678,7 +24372,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23694,7 +24399,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23710,7 +24426,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23726,7 +24453,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23742,7 +24480,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23758,7 +24507,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JT/T 327-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 11345-2023",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JT/T 327-2016 6.2组批：型式检验抽1～2个样品单元；出厂检验≤500m抽1个、\u003e500m抽2个"
@@ -23821,7 +24581,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23837,7 +24608,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23853,7 +24635,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23869,7 +24662,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23885,7 +24689,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23901,7 +24716,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23917,7 +24743,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23933,7 +24770,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23949,7 +24797,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23965,7 +24824,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23981,7 +24851,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -23997,7 +24878,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG/T D70/2-01-2014",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GBZ 2.1-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "竣工验收每隧道每断面1次；运营期监测按设计/规范要求"
@@ -24054,7 +24946,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 69-95",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24070,7 +24969,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 69-95",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24086,7 +24992,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50202-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24102,7 +25015,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 69-95",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24118,7 +25038,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 69-95",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24134,7 +25061,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 69-95",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24150,7 +25084,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 69-95",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24212,7 +25153,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 50838-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m 1个断面"
@@ -24228,7 +25180,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 50838-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m 1个断面"
@@ -24244,7 +25207,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 50838-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面"
@@ -24260,7 +25234,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 50838-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面"
@@ -24276,7 +25261,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 50838-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面"
@@ -24292,7 +25288,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 50838-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面"
@@ -24308,7 +25315,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 50838-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面"
@@ -24324,7 +25342,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 50838-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50299-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每20m1个断面"
@@ -24382,7 +25411,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24398,7 +25434,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50202-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24414,7 +25461,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50202-2018",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数，每层不少于3点"
@@ -24430,7 +25488,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24446,7 +25515,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24462,7 +25542,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24478,7 +25565,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24494,7 +25588,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24510,7 +25611,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F80/1-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每座全数"
@@ -24531,4 +25639,4 @@
                      }
     }
 ];
-window.DATA_MARK = {"id":"SUCHA-STD-LSH19-20261112","author":"刘世海","version":"3.7.4","built":"2026-11-13 10:29"};
+window.DATA_MARK = {"id":"SUCHA-STD-LSH19-20261112","author":"刘世海","version":"3.7.5","built":"2026-11-13 10:31"};
