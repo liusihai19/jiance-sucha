@@ -14601,7 +14601,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14617,7 +14624,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14633,7 +14647,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14649,7 +14670,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每种土1组击实试验"
@@ -14665,7 +14693,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每种土1组击实试验"
@@ -14681,7 +14716,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每种土样3个试件"
@@ -14697,7 +14739,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3441-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每2000m²或每工作班1组；小试件6个、中试件9个、大试件13个"
@@ -14713,7 +14762,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3441-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每2000m²或每工作班1组"
@@ -14729,7 +14785,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14745,7 +14808,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14761,7 +14831,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14777,7 +14854,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14793,7 +14877,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14809,7 +14900,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3430-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50123-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每取样点1组"
@@ -14876,7 +14974,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17638-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17639-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17642-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3460-2026",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17638/17639组批"
@@ -14892,7 +15005,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17638-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17639-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17642-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3460-2026",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17638/17639组批"
@@ -14908,7 +15036,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17638-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17639-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17642-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3460-2026",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17638/17639组批"
@@ -14924,7 +15067,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17638-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17639-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17642-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3460-2026",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17638/17639组批"
@@ -14940,7 +15098,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17638-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17639-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17642-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3460-2026",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17638/17639组批"
@@ -14956,7 +15129,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17638-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17639-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17642-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3460-2026",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17638/17639组批"
@@ -14972,7 +15160,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17638-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17639-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17642-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3460-2026",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17638/17639组批"
@@ -14988,7 +15191,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17638-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17639-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17642-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3460-2026",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17638/17639组批"
@@ -15051,7 +15269,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15067,7 +15296,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15083,7 +15323,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15099,7 +15350,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15115,7 +15373,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15131,7 +15396,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15147,7 +15419,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15163,7 +15446,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15179,7 +15473,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15195,7 +15500,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1596-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 20491-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F20-2015",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每200t为一批"
@@ -15333,7 +15649,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15349,7 +15672,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15365,7 +15695,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15381,7 +15718,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15397,7 +15741,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15413,7 +15764,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15429,7 +15787,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批（不足50t按一批）"
@@ -15445,7 +15810,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批（不足50t按一批）"
@@ -15461,7 +15833,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批（不足50t按一批）"
@@ -15477,7 +15856,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15493,7 +15879,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15509,7 +15902,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15525,7 +15925,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15541,7 +15948,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15557,7 +15971,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15573,7 +15994,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15589,7 +16017,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15605,7 +16040,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批（不足50t按一批）"
@@ -15621,7 +16063,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -15737,7 +16186,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15753,7 +16209,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15769,7 +16232,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15785,7 +16255,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15801,7 +16278,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15817,7 +16301,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15833,7 +16324,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15849,7 +16347,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15865,7 +16370,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -15881,7 +16393,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同料源同规格每100t为一批，不足按一批"
@@ -15897,7 +16416,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同料源同规格每100t为一批，不足按一批"
@@ -15913,7 +16439,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同料源同规格每100t为一批，不足按一批"
@@ -15929,7 +16462,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同料源同规格每100t为一批，不足按一批"
@@ -15945,7 +16485,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同料源同规格每100t为一批，不足按一批"
@@ -15961,7 +16508,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同料源同规格每100t为一批，不足按一批"
@@ -15977,7 +16531,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "木质素纤维同厂家同品种每50t为一批"
@@ -15993,7 +16550,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "木质素纤维同厂家同品种每50t为一批"
@@ -16009,7 +16569,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "木质素纤维同厂家同品种每50t为一批"
@@ -16025,7 +16588,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16041,7 +16611,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16057,7 +16634,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16073,7 +16657,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16089,7 +16680,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16105,7 +16703,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16121,7 +16726,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16137,7 +16749,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16153,7 +16772,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "木质素纤维同厂家同品种每50t为一批"
@@ -16169,7 +16791,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同产地同规格每400m³或600t为一批"
@@ -16231,7 +16860,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每台拌和机每日1次"
@@ -16247,7 +16887,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每台拌和机每日1次"
@@ -16263,7 +16914,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每台拌和机每日1次"
@@ -16279,7 +16941,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每台拌和机每日1次"
@@ -16295,7 +16968,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每台拌和机每日1次"
@@ -16311,7 +16995,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每配合比验证1次；材料或级配变化时重做"
@@ -16327,7 +17022,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每配合比验证1次；材料或级配变化时重做"
@@ -16343,7 +17049,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每配合比验证1次；材料或级配变化时重做"
@@ -16359,7 +17076,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JTG F40-2004",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3410-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每标段/每配合比1组"
@@ -16476,7 +17204,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JC/T 899-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 12988-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混凝土路面砖每3000m²为一批（不足按一批）；混凝土路缘石每20000块为一批（不足按一批）"
@@ -16492,7 +17231,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JC/T 899-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 12988-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混凝土路面砖每3000m²为一批（不足按一批）；混凝土路缘石每20000块为一批（不足按一批）"
@@ -16508,7 +17258,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JC/T 899-2016",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混凝土路面砖每3000m²为一批（不足按一批）；混凝土路缘石每20000块为一批（不足按一批）"
@@ -16524,7 +17281,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JC/T 899-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 12988-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混凝土路面砖每3000m²为一批（不足按一批）；混凝土路缘石每20000块为一批（不足按一批）"
@@ -16540,7 +17308,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JC/T 899-2016",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混凝土路面砖每3000m²为一批（不足按一批）；混凝土路缘石每20000块为一批（不足按一批）"
@@ -16556,7 +17331,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混凝土路面砖每3000m²为一批（不足按一批）；混凝土路缘石每20000块为一批（不足按一批）"
@@ -16572,7 +17350,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JC/T 899-2016",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混凝土路面砖每3000m²为一批（不足按一批）；混凝土路缘石每20000块为一批（不足按一批）"
@@ -16588,7 +17373,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 28635-2012",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JC/T 899-2016",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混凝土路面砖每3000m²为一批（不足按一批）；混凝土路缘石每20000块为一批（不足按一批）"
@@ -16686,7 +17478,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 23858-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJ/T 511-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同规格每500套为一批（不足按一批），抽2套做承载能力试验"
@@ -16702,7 +17501,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 23858-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJ/T 511-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同规格每500套为一批（不足按一批），抽2套做承载能力试验"
@@ -16828,7 +17634,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 1346-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混合样≥12kg：20个以上部位等量取样，缩分为检验样与备用样各约6kg"
@@ -16844,7 +17661,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.4.2"
+                                         },
+                                         {
+                                             "std":  "GB/T 1346-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混合样≥12kg：20个以上部位等量取样，缩分为检验样与备用样各约6kg"
@@ -16860,7 +17688,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 17671-2021",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混合样≥12kg：20个以上部位等量取样，缩分为检验样与备用样各约6kg"
@@ -16876,7 +17715,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         },
+                                         {
+                                             "std":  "GB/T 176-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混合样≥12kg：20个以上部位等量取样，缩分为检验样与备用样各约6kg"
@@ -16911,7 +17761,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         },
+                                         {
+                                             "std":  "GB/T 176-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混合样≥12kg，缩分后取检验样"
@@ -16927,7 +17784,14 @@
                                       ],
                            "trigger":  "设计有预防碱-骨料反应要求",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.3"
+                                         },
+                                         {
+                                             "std":  "GB/T 176-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混合样≥12kg，缩分后取检验样"
@@ -16943,7 +17807,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 175-2023",
+                                             "clause":  "7.1"
+                                         },
+                                         {
+                                             "std":  "GB/T 176-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "混合样≥12kg，缩分后取检验样"
@@ -17177,7 +18048,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量；砂8份、石16份组成一组"
@@ -17193,7 +18075,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17209,7 +18102,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17225,7 +18129,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684表9取单项最少质量"
@@ -17241,7 +18156,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17257,7 +18183,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684表9取单项最少质量"
@@ -17273,7 +18210,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量；砂8份、石16份组成一组"
@@ -17289,7 +18237,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17305,7 +18264,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17321,7 +18291,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14685表9取单项最少质量"
@@ -17337,7 +18318,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14685表9取单项最少质量"
@@ -17353,7 +18345,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17369,7 +18376,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17385,7 +18407,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17401,7 +18434,18 @@
                                       ],
                            "trigger":  "长期处于潮湿环境的重要结构",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685取样"
@@ -17417,7 +18461,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685取样"
@@ -17433,7 +18488,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17449,7 +18515,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14684-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 14685-2022",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3432-2024",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14684/14685表9取单项最少质量"
@@ -17465,7 +18542,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 17431.1-2010",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 17431.1取样"
@@ -17567,7 +18647,26 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 1499.1-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.1"
+                                         },
+                                         {
+                                             "std":  "GB/T 228.1-2021",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批2拉2弯；超60t部分每增40t增1拉1弯"
@@ -17583,7 +18682,26 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 1499.1-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.1"
+                                         },
+                                         {
+                                             "std":  "GB/T 228.1-2021",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批2拉2弯；超60t部分每增40t增1拉1弯"
@@ -17599,7 +18717,26 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 1499.1-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.1"
+                                         },
+                                         {
+                                             "std":  "GB/T 228.1-2021",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批2拉2弯；超60t部分每增40t增1拉1弯"
@@ -17615,7 +18752,18 @@
                                       ],
                            "trigger":  "抗震钢筋（牌号带E）",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.3"
+                                         },
+                                         {
+                                             "std":  "GB/T 228.1-2021",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "与拉伸同组（每批2拉）"
@@ -17631,7 +18779,14 @@
                                       ],
                            "trigger":  "抗震钢筋（牌号带E）",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  "6.4.2.1"
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.3"
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批2个弯曲试件"
@@ -17647,7 +18802,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 1499.1-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.1"
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批5支"
@@ -17662,7 +18832,10 @@
                                       ],
                            "trigger":  "机械连接接头",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 107-2016",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每种类型、级别、规格、材料、工艺不少于3个试件（工艺检验）；型式检验不少于12个试件（3组）"
@@ -17678,7 +18851,22 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 1499.1-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 1499.2-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 50204-2015",
+                                             "clause":  "5.2.1"
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批2个弯曲试件"
@@ -17839,7 +19027,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F30-2014",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17855,7 +19050,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8077-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17871,7 +19073,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8077-2023",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17887,7 +19096,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F30-2014",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17903,7 +19119,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F30-2014",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17919,7 +19142,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17935,7 +19161,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17951,7 +19180,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23439-2017",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17967,7 +19203,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17983,7 +19222,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -17999,7 +19241,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -18015,7 +19260,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -18031,7 +19279,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -18047,7 +19298,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -18063,7 +19317,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 8076-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每50t为一批，不足50t按一批"
@@ -18197,7 +19454,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ/T 70-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每250m³砌体或每检验批1组（6块），每层不少于1组"
@@ -18213,7 +19477,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ/T 70-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "预拌砂浆每车/每批抽检"
@@ -18229,7 +19496,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ/T 70-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "预拌砂浆每车/每批抽检"
@@ -18245,7 +19515,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ/T 70-2009",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每5000m²或每批1组"
@@ -18261,7 +19538,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ/T 70-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "预拌砂浆每车/每批抽检"
@@ -18277,7 +19557,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ/T 98-2010",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每种砂浆配合比1组"
@@ -18293,7 +19576,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ/T 70-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "预拌砂浆每车/每批抽检"
@@ -18309,7 +19595,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ/T 70-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按产品标准/设计要求取样"
@@ -18432,7 +19721,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50081-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每拌制100盘且不超过100m³同配合比1组（3块）；连续浇筑\u003e1000m³时每200m³1组；每工作班不足100盘也取1组；每一楼层取样不得少于一次"
@@ -18448,7 +19748,18 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50082-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每500m³留置1组（6块），且每项工程不少于2组"
@@ -18464,7 +19775,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每工作班或每100m³至少1次"
@@ -18480,7 +19798,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同一配合比按原材料复试执行"
@@ -18496,7 +19821,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 23439-2017",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每500m³或每工作班1组（膨胀混凝土）"
@@ -18512,7 +19844,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50082-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每500m³或每工作班1组（设计有抗冻要求时）"
@@ -18528,7 +19867,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同一配合比每工作班1次"
@@ -18544,7 +19890,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每工作班至少1次"
@@ -18560,7 +19913,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同一配合比每工作班1次（掺外加剂或大体积混凝土按需要增加）"
@@ -18576,7 +19936,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50081-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每100m³或每工作班1组，与抗压同批留置"
@@ -18592,7 +19959,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50081-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每100m³或每工作班1组，与抗压同批留置"
@@ -18608,7 +19982,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 50081-2019",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每100m³或每工作班1组，与抗压同批留置"
@@ -18624,7 +20005,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "CJJ 1-2008",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每一配合比按原材料检测结果核算1次"
@@ -18640,7 +20028,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 55-2011",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG/T F30-2014",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每种配合比1组（试配）"
@@ -18785,7 +20180,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批，不足按一批"
@@ -18801,7 +20203,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批，不足按一批"
@@ -18817,7 +20226,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批，不足按一批"
@@ -18833,7 +20249,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批，不足按一批"
@@ -18849,7 +20272,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批"
@@ -18865,7 +20295,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批，不足按一批"
@@ -18881,7 +20318,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批，不足按一批"
@@ -18897,7 +20341,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批"
@@ -18913,7 +20360,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批，不足按一批"
@@ -18929,7 +20379,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批"
@@ -18945,7 +20398,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批"
@@ -18961,7 +20421,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批"
@@ -18977,7 +20444,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批"
@@ -18993,7 +20467,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批"
@@ -19009,7 +20490,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批，不足按一批"
@@ -19025,7 +20513,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批，不足按一批"
@@ -19041,7 +20536,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批"
@@ -19057,7 +20559,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 18242-2025",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB 12952-2011",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10000m²为一批"
@@ -19073,7 +20582,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批"
@@ -19089,7 +20605,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批"
@@ -19105,7 +20628,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批"
@@ -19121,7 +20651,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 19250-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 23445-2025",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每10t为一批"
@@ -19183,7 +20720,10 @@
                                       ],
                            "trigger":  "非饮用水源或水质有怀疑",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 63-2006",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JGJ 63取水样"
@@ -19199,7 +20739,14 @@
                                       ],
                            "trigger":  "非饮用水源",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 63-2006",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JGJ 63取水样"
@@ -19215,7 +20762,14 @@
                                       ],
                            "trigger":  "非饮用水源",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 63-2006",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3420-2020",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JGJ 63取水样"
@@ -19231,7 +20785,10 @@
                                       ],
                            "trigger":  "非饮用水源",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 63-2006",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JGJ 63取水样"
@@ -19247,7 +20804,10 @@
                                       ],
                            "trigger":  "非饮用水源",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 63-2006",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JGJ 63取水样"
@@ -19263,7 +20823,14 @@
                                       ],
                            "trigger":  "非饮用水源",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 63-2006",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50080-2016",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JGJ 63取水样"
@@ -19279,7 +20846,14 @@
                                       ],
                            "trigger":  "非饮用水源",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 63-2006",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 50081-2019",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JGJ 63取水样"
@@ -19295,7 +20869,10 @@
                                       ],
                            "trigger":  "设计有要求",
                            "basis":  [
-
+                                         {
+                                             "std":  "JGJ 63-2006",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按JGJ 63取水样"
@@ -19357,7 +20934,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JC/T 479-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3441-2024",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -19373,7 +20957,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JC/T 479-2013",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "JTG 3441-2024",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -19389,7 +20980,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JC/T 479-2013",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -19405,7 +20999,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JC/T 479-2013",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -19421,7 +21018,10 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "JC/T 479-2013",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "同厂家同品种每100t为一批"
@@ -19519,7 +21119,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 9966.1-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 18601-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽1组"
@@ -19535,7 +21142,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 9966.1-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 18601-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽1组"
@@ -19551,7 +21165,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 9966.1-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 18601-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽1组"
@@ -19567,7 +21188,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 9966.1-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 18601-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽1组"
@@ -19583,7 +21211,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 9966.1-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 18601-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽1组"
@@ -19599,7 +21234,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 9966.1-2020",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 18601-2009",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽1组"
@@ -19698,7 +21340,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1231-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每2000t钢结构为一批（不足按一批），每批3组试件"
@@ -19714,7 +21363,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14370-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽5%且不少于5套"
@@ -19730,7 +21386,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14370-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽5%且不少于5套"
@@ -19746,7 +21409,14 @@
                                       ],
                            "trigger":  "重要工程、无有效锚固性能证明",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14370-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批3套"
@@ -19762,7 +21432,14 @@
                                       ],
                            "trigger":  "承受疲劳荷载 / 设计有要求",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14370-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "按GB/T 14370取样"
@@ -19778,7 +21455,14 @@
                                       ],
                            "trigger":  "",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 14370-2015",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽5%且不少于5套"
@@ -19794,7 +21478,14 @@
                                       ],
                            "trigger":  "扭剪型高强度螺栓",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1231-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽8套"
@@ -19810,7 +21501,14 @@
                                       ],
                            "trigger":  "大六角头高强度螺栓",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 1231-2024",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "CJJ 2-2008",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽8套"
@@ -19826,7 +21524,14 @@
                                       ],
                            "trigger":  "普通紧固件",
                            "basis":  [
-
+                                         {
+                                             "std":  "GB/T 3098.1-2010",
+                                             "clause":  ""
+                                         },
+                                         {
+                                             "std":  "GB/T 1231-2024",
+                                             "clause":  ""
+                                         }
                                      ],
                            "method":  "",
                            "sample":  "每批抽8套"
@@ -22826,4 +24531,4 @@
                      }
     }
 ];
-window.DATA_MARK = {"id":"SUCHA-STD-LSH19-20261112","author":"刘世海","version":"3.7.3","built":"2026-11-13 10:25"};
+window.DATA_MARK = {"id":"SUCHA-STD-LSH19-20261112","author":"刘世海","version":"3.7.4","built":"2026-11-13 10:29"};
