@@ -19355,10 +19355,10 @@
                        "std":  "GB/T 23858-2009《检查井盖》；CJ/T 511-2017《铸铁检查井盖》；GB 50268-2008《给水排水管道工程施工及验收规范》"
                    },
         "coverage":  {
-                         "total":  6,
+                         "total":  5,
                          "covered":  5,
                          "missing":  [
-                                         "抗压强度"
+
                                      ]
                      }
     },
@@ -27658,4 +27658,4 @@
                      }
     }
 ];
-window.DATA_MARK = {"id":"SUCHA-STD-LSH19-20261112","author":"刘世海","version":"3.7.9","built":"2026-11-13 10:42"};
+window.DATA_MARK = {"id":"SUCHA-STD-LSH19-20261112","author":"刘世海","version":"3.7.9","built":"2026-11-25 13:18"};
